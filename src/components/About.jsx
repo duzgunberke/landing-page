@@ -30,7 +30,7 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Konrul Racing Team Page
+          Welcome to Next Goat
         </p>
 
         <AnimatedTitle
@@ -39,9 +39,9 @@ const About = () => {
         />
 
         <div className="about-subtext">
-          <p>Hızımız Tutkumuz, Teknoloji Geleceğimiz!</p>
+          <p>Test datası burada!</p>
           <p className="text-gray-500">
-          Konya Teknik Üniversitesi Racing Takımı, mühendislik öğrencilerinin bilgilerini uygulamalı projelerle geliştirdiği, hız ve inovasyon tutkusu ile bir araya gelmiş bir ekiptir.
+            test test test test test test
           </p>
         </div>
       </div>

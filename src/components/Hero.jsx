@@ -141,7 +141,7 @@ const Hero = () => {
         </div>
 
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-        <b>Racing</b>Team
+        <b>Next</b>Goat
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
@@ -151,7 +151,7 @@ const Hero = () => {
             </h1>
 
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-            Hız ve inovasyonun buluştuğu nokta! <br /> Thunderbolt: Güç ve dayanıklılık
+            Hız ve inovasyonun buluştuğu nokta! <br /> TestData: Güç ve dayanıklılık
             </p>
 
             <Button
