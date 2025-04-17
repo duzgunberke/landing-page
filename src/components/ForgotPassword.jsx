@@ -61,17 +61,17 @@ const ForgotPassword = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-blue-50">
       <div className="w-full max-w-md rounded-lg bg-black p-8 shadow-lg text-blue-50">
-        <h1 className="mb-6 text-center text-2xl font-bold font-zentry">{t('forgotPassword.resetTitle')}</h1>
+        <h1 className="mb-6 text-center text-2xl font-bold font-zentry">{t('forgotPassword.title')}</h1>
         
         {success ? (
           <div className="text-center text-yellow-300 font-circular-web">
-            {t('forgotPassword.successMessage')}
+            {t('forgotPassword.success')}
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="block text-sm font-medium font-circular-web">
-                {t('forgotPassword.newPasswordLabel')}
+                {t('forgotPassword.newPassword')}
               </label>
               <input
                 type="password"
@@ -84,7 +84,7 @@ const ForgotPassword = () => {
 
             <div>
               <label className="block text-sm font-medium font-circular-web">
-                {t('forgotPassword.confirmPasswordLabel')}
+                {t('forgotPassword.confirmPassword')}
               </label>
               <input
                 type="password"
