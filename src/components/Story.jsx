@@ -48,13 +48,13 @@ const FloatingImage = () => {
   return (
     <div id="story" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
-      <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-  Join a global community of aspiring football talents. Showcase your skills through weekly challenges, get discovered by scouts, and take your game to the next level.
-</p>
+        <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
+          Join a global community of aspiring football talents. Showcase your skills through weekly challenges, get discovered by scouts, and take your game to the next level.
+        </p>
 
         <div className="relative size-full">
           <AnimatedTitle
-            title="the st<b>o</b>ry of <br /> a hidden real<b>m</b>"
+            title="the st<b>o</b>ry of <br /> next g<b>o</b>at" // Changed theme text
             containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
           />
 
@@ -106,14 +106,15 @@ const FloatingImage = () => {
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis .
+              Join a global community of aspiring football talents. Take on weekly challenges,
+              showcase your skills, and get discovered by professional scouts worldwide.
             </p>
 
             <Button
-  id="realm-btn"
-  title="Explore"
-  containerClass="mt-5"
-/>
+              id="realm-btn"
+              title="Explore"
+              containerClass="mt-5"
+            />
           </div>
         </div>
       </div>

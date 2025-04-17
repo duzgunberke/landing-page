@@ -90,7 +90,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">yakında gelecek</p>
+            <p className="relative z-20">coming soon</p>
           </div>
         )}
       </div>
@@ -150,7 +150,7 @@ const Features = () => (
         <BentoTilt className="bento-tilt_2">
           <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
             <h1 className="bento-title special-font max-w-64 text-black">
-              T<b>e</b>st<b>m</b>Da<b>t</b>a.
+              Next<b>G</b>oat
             </h1>
 
             <TiLocationArrow className="m-5 scale-[5] self-end" />

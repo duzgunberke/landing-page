@@ -43,8 +43,10 @@ const Contact = () => {
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
 
-          <Button title="İletişime Geçin" containerClass="mt-10 cursor-pointer" />
-        </div>
+          <Button
+            title="Get in Touch"
+            containerClass="mt-10 cursor-pointer"
+          />        </div>
       </div>
     </div>
   );
