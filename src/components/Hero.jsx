@@ -150,16 +150,7 @@ const Hero = () => {
               <b>Next 🐐</b>
             </h1>
 
-            <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-            Hız ve inovasyonun buluştuğu nokta! <br /> TestData: Güç ve dayanıklılık
-            </p>
-
-            <Button
-              id="watch-trailer"
-              title="Tanıtımı İzle"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
-            />
+         dropdown-slide
           </div>
         </div>
       </div>

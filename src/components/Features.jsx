@@ -103,22 +103,18 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          BURADA OZELLIKLERINIZI TANITIN
+          DISCOVER YOUR POTENTIAL
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolorlorem lorem ipsum dolor
+          Take on weekly challenges, showcase your skills, and get discovered by scouts worldwide
         </p>
       </div>
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
           src="videos/feature-1.mp4"
-          title={
-            <>
-              TEST<b>DATA</b>
-            </>
-          }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          title={<>WEEKLY<b>CHALLENGES</b></>}
+          description="New football challenges every week. Show off your skills and compete with players worldwide."
           isComingSoon
         />
       </BentoTilt>
@@ -127,12 +123,8 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/feature-2.mp4"
-            title={
-              <>
-                TEST DATA<b>2</b>
-              </>
-            }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            title={<>TALENT<b>SCOUT</b></>}
+            description="Get discovered by professional scouts and clubs through your challenge performances."
             isComingSoon
           />
         </BentoTilt>
@@ -140,12 +132,8 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
             src="videos/feature-3.mp4"
-            title={
-              <>
-                <b>TEST DATA</b>
-              </>
-            }
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            title={<><b>LEADERBOARDS</b></>}
+            description="Compete for the top spots in weekly, monthly and all-time rankings."
             isComingSoon
           />
         </BentoTilt>
@@ -153,12 +141,8 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="videos/feature-4.mp4"
-            title={
-              <>
-                <b>TEST DATA 2</b>
-              </>
-            }
-            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+            title={<><b>COMMUNITY</b></>}
+            description="Join a global community of football talents, share tips and get inspired."
             isComingSoon
           />
         </BentoTilt>

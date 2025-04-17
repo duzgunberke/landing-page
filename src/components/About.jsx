@@ -34,14 +34,14 @@ const About = () => {
         </p>
 
         <AnimatedTitle
-          title="TEST VERİLERİ BURAYA BAŞLIK GELECEK"
+          title="DISCOVER THE NEXT FOOTBALL STARS"
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
-          <p>Test datası burada!</p>
+          <p>Join the future of football talent discovery</p>
           <p className="text-gray-500">
-            test test test test test test
+            Share your skills, take on challenges, and become the next football star
           </p>
         </div>
       </div>

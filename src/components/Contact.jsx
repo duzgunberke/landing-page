@@ -35,11 +35,11 @@ const Contact = () => {
 
         <div className="flex flex-col items-center text-center">
           <p className="mb-10 font-general text-[10px] uppercase">
-            İletişime Geçin
+            JOIN THE COMMUNITY
           </p>
 
           <AnimatedTitle
-            title="İLETİŞİME GEÇİN TEST METNİ"
+            title="BECOME THE NEXT FOOTBALL STAR"
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
 
