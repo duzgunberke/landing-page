@@ -3,11 +3,15 @@ import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
+import { useLanguage } from "../context/LanguageContext";
+import LanguageSelector from "./LanguageSelector";
 
 import Button from "./Button";
 
-const navItems = ["Home", "Leaderboard", "Contact"];
+const navItems = ["home", "leaderboard", "contact"];
 const NavBar = () => {
+  const { t } = useLanguage();
+
   // State for toggling audio and visual indicator
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
@@ -74,25 +78,27 @@ const NavBar = () => {
 
             <Button
               id="product-button"
-              title="Get Started"
+              title={t("nav.getStarted")}
               rightIcon={<TiLocationArrow />}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
             />
           </div>
 
-          {/* Navigation Links and Audio Button */}
+          {/* Navigation Links, Language Selector, and Audio Button */}
           <div className="flex h-full items-center">
             <div className="hidden md:block">
               {navItems.map((item, index) => (
                 <a
                   key={index}
-                  href={`#${item.toLowerCase()}`}
+                  href={`#${item}`}
                   className="nav-hover-btn"
                 >
-                  {item}
+                  {t(`nav.${item}`)}
                 </a>
               ))}
             </div>
+
+            <LanguageSelector />
 
             <button
               onClick={toggleAudioIndicator}

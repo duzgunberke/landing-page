@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import { useLanguage } from '../context/LanguageContext';
 
 const ForgotPassword = () => {
+  const { t } = useLanguage();
   const [searchParams] = useSearchParams();
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -15,7 +17,7 @@ const ForgotPassword = () => {
     setError("");
 
     if (password !== confirmPassword) {
-      setError("Passwords do not match");
+      setError(t('forgotPassword.error.mismatch'));
       return;
     }
 
@@ -32,7 +34,7 @@ const ForgotPassword = () => {
       });
 
       if (!response.ok) {
-        throw new Error("Password reset failed");
+        throw new Error(t('forgotPassword.error.failed'));
       }
 
       setSuccess(true);
@@ -45,9 +47,11 @@ const ForgotPassword = () => {
     return (
       <div className="flex min-h-screen items-center justify-center bg-blue-50">
         <div className="w-full max-w-md rounded-lg bg-black p-8 shadow-lg text-blue-50">
-          <h1 className="mb-6 text-center text-2xl font-bold font-zentry">Invalid Reset Link</h1>
+          <h1 className="mb-6 text-center text-2xl font-bold font-zentry">
+            {t('forgotPassword.invalidTitle')}
+          </h1>
           <p className="text-center text-blue-50/70 font-circular-web">
-            The password reset link is invalid or has expired.
+            {t('forgotPassword.invalidMessage')}
           </p>
         </div>
       </div>
@@ -57,17 +61,17 @@ const ForgotPassword = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-blue-50">
       <div className="w-full max-w-md rounded-lg bg-black p-8 shadow-lg text-blue-50">
-        <h1 className="mb-6 text-center text-2xl font-bold font-zentry">Reset Password</h1>
+        <h1 className="mb-6 text-center text-2xl font-bold font-zentry">{t('forgotPassword.resetTitle')}</h1>
         
         {success ? (
           <div className="text-center text-yellow-300 font-circular-web">
-            Password has been successfully reset!
+            {t('forgotPassword.successMessage')}
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="block text-sm font-medium font-circular-web">
-                New Password
+                {t('forgotPassword.newPasswordLabel')}
               </label>
               <input
                 type="password"
@@ -80,7 +84,7 @@ const ForgotPassword = () => {
 
             <div>
               <label className="block text-sm font-medium font-circular-web">
-                Confirm Password
+                {t('forgotPassword.confirmPasswordLabel')}
               </label>
               <input
                 type="password"
@@ -101,7 +105,7 @@ const ForgotPassword = () => {
               type="submit"
               className="w-full rounded-md bg-violet-300 px-4 py-2 text-black hover:bg-violet-300/80 font-circular-web transition-colors duration-300"
             >
-              Reset Password
+              {t('forgotPassword.resetButton')}
             </button>
           </form>
         )}

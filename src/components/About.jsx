@@ -1,12 +1,15 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import { useLanguage } from "../context/LanguageContext";
 
 import AnimatedTitle from "./AnimatedTitle";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
+  const { t } = useLanguage();
+
   useGSAP(() => {
     const clipAnimation = gsap.timeline({
       scrollTrigger: {
@@ -30,19 +33,17 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Next Goat
+          {t("about.welcome")}
         </p>
 
         <AnimatedTitle
-          title="DISCOVER THE NEXT FOOTBALL STARS"
+          title={t("about.title")}
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
-          <p>Join the future of football talent discovery</p>
-          <p className="text-gray-500">
-            Share your skills, take on challenges, and become the next football star
-          </p>
+          <p>{t("about.subtitle")}</p>
+          <p className="text-gray-500">{t("about.description")}</p>
         </div>
       </div>
 
