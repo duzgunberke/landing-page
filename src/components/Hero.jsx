@@ -141,16 +141,18 @@ const Hero = () => {
         </div>
 
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-        <b>Next</b>Goat
+          <b>Next</b>Goat
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
-              <b>Next 🐐</b>
+              <b>DISCOVER</b>
+              <br />
+              THE NEXT
+              <br />
+              FOOTBALL STAR
             </h1>
-
-         dropdown-slide
           </div>
         </div>
       </div>

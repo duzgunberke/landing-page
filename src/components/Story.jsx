@@ -48,9 +48,9 @@ const FloatingImage = () => {
   return (
     <div id="story" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
-        <p className="font-general text-sm uppercase md:text-[10px]">
-          the multiversal ip world
-        </p>
+      <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
+  Join a global community of aspiring football talents. Showcase your skills through weekly challenges, get discovered by scouts, and take your game to the next level.
+</p>
 
         <div className="relative size-full">
           <AnimatedTitle
@@ -110,10 +110,10 @@ const FloatingImage = () => {
             </p>
 
             <Button
-              id="realm-btn"
-              title="Keşfet"
-              containerClass="mt-5"
-            />
+  id="realm-btn"
+  title="Explore"
+  containerClass="mt-5"
+/>
           </div>
         </div>
       </div>
