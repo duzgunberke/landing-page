@@ -8,7 +8,7 @@ import LanguageSelector from "./LanguageSelector";
 
 import Button from "./Button";
 
-const navItems = ["home", "leaderboard", "contact"];
+const navItems = ["home", "contact"];
 const NavBar = () => {
   const { t } = useLanguage();
 
