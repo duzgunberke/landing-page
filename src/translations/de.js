@@ -14,7 +14,6 @@ export default {
   },
   nav: {
     home: "Startseite",
-    leaderboard: "Rangliste",
     contact: "Kontakt",
     getStarted: "Loslegen"
   },

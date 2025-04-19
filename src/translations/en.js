@@ -14,7 +14,6 @@ export default {
   },
   nav: {
     home: "Home",
-    leaderboard: "Leaderboard",
     contact: "Contact",
     getStarted: "Get Started"
   },

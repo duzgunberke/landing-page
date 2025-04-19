@@ -14,7 +14,6 @@ export default {
   },
   nav: {
     home: "Ana Sayfa",
-    leaderboard: "Sıralama",
     contact: "İletişim",
     getStarted: "Başla"
   },
