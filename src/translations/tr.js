@@ -33,7 +33,7 @@ export default {
     subtitle: "Haftalık meydan okumalara katıl, yeteneklerini göster ve dünya çapında scoutlar tarafından keşfedil"
   },
   story: {
-    title: "YENİ GOAT'IN HİKAYESİ",
+    title: "NEXT GOAT'IN HİKAYESİ",
     description: "Gelecek vadeden futbol yeteneklerinin global topluluğuna katılın. Haftalık mücadelelerde yeteneklerinizi gösterin, scoutlar tarafından keşfedilin ve oyununuzu bir üst seviyeye taşıyın."
   },
   contact: {
