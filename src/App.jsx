@@ -7,12 +7,16 @@ import Story from "./components/Story";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ForgotPassword from "./components/ForgotPassword";
+import TermsOfService from "./components/TermsOfService";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route
           path="/"
           element={

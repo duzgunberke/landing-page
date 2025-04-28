@@ -1,5 +1,6 @@
 import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
 import { useLanguage } from "../context/LanguageContext";
+import { Link } from "react-router-dom";
 
 const socialLinks = [
   { href: "https://discord.com", icon: <FaDiscord /> },
@@ -33,8 +34,8 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-4">
-          <a href="#privacy" className="text-sm hover:underline">{t('footer.privacyPolicy')}</a>
-          <a href="#terms" className="text-sm hover:underline">{t('footer.terms')}</a>
+          <Link to="/privacy-policy" className="text-sm hover:underline">{t('footer.privacyPolicy')}</Link>
+          <Link to="/terms-of-service" className="text-sm hover:underline">{t('footer.terms')}</Link>
         </div>
       </div>
     </footer>

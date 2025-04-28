@@ -63,5 +63,83 @@ export default {
     rights: "Alle Rechte vorbehalten",
     privacyPolicy: "Datenschutzrichtlinie",
     terms: "Nutzungsbedingungen"
+  },
+  privacy: {
+    title: "Datenschutzrichtlinie",
+    intro: {
+      title: "Einleitung",
+      content: "Diese Datenschutzrichtlinie erklärt, wie NextGoat Ihre persönlichen Daten sammelt, verwendet und schützt, wenn Sie unsere Plattform nutzen. Wir verpflichten uns, Ihre Privatsphäre zu schützen."
+    },
+    collection: {
+      title: "Informationen, die wir sammeln",
+      content: "Wir sammeln verschiedene Arten von Informationen, um Ihnen unsere Dienste anzubieten und zu verbessern. Dies kann Folgendes umfassen:",
+      items: {
+        personal: "Persönliche Daten wie Name, E-Mail-Adresse und Telefonnummer",
+        usage: "Nutzungsdaten einschließlich Ihrer Interaktion mit unserer Plattform",
+        device: "Geräteinformationen wie IP-Adresse, Browsertyp und Betriebssystem"
+      }
+    },
+    usage: {
+      title: "Wie wir Ihre Informationen verwenden",
+      content: "Wir verwenden die gesammelten Informationen für verschiedene Zwecke, darunter:",
+      items: {
+        service: "Um unseren Service bereitzustellen und zu unterhalten",
+        improve: "Um die Nutzung zu analysieren und unsere Plattform zu verbessern",
+        communicate: "Um mit Ihnen über Updates und Funktionen zu kommunizieren"
+      }
+    },
+    sharing: {
+      title: "Informationsaustausch",
+      content: "Wir verkaufen Ihre persönlichen Daten nicht. Wir können Ihre Informationen mit vertrauenswürdigen Dritten teilen, die uns bei der Betreibung unserer Plattform, der Durchführung unseres Geschäfts oder dem Service für Sie unterstützen."
+    },
+    security: {
+      title: "Datensicherheit",
+      content: "Wir implementieren geeignete Sicherheitsmaßnahmen, um Ihre persönlichen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Zerstörung zu schützen. Keine Methode der Übertragung über das Internet ist jedoch zu 100% sicher."
+    },
+    contact: {
+      title: "Kontaktieren Sie uns",
+      content: "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter privacy@nextgoat.com."
+    }
+  },
+  terms: {
+    title: "Nutzungsbedingungen",
+    intro: {
+      title: "Einleitung",
+      content: "Diese Nutzungsbedingungen regeln Ihre Nutzung der NextGoat-Plattform. Durch den Zugriff auf oder die Nutzung unseres Dienstes erklären Sie sich mit diesen Bedingungen einverstanden."
+    },
+    accounts: {
+      title: "Benutzerkonten",
+      content: "Wenn Sie ein Konto bei uns erstellen, müssen Sie genaue und vollständige Informationen angeben. Sie sind für die Aufrechterhaltung der Sicherheit Ihres Kontos und für alle Aktivitäten, die unter Ihrem Konto stattfinden, verantwortlich."
+    },
+    conduct: {
+      title: "Benutzerverhalten",
+      content: "Sie stimmen zu, sich nicht an den folgenden verbotenen Aktivitäten zu beteiligen:",
+      items: {
+        illegal: "Nutzung unseres Dienstes für illegale Zwecke",
+        harassment: "Belästigung, Einschüchterung oder Einschüchterung anderer Benutzer",
+        infringement: "Verletzung der geistigen Eigentumsrechte anderer",
+        impersonation: "Nachahmung anderer Personen oder Organisationen"
+      }
+    },
+    content: {
+      title: "Benutzerinhalte",
+      content: "Durch das Posten von Inhalten auf unserer Plattform gewähren Sie uns eine nicht-exklusive, weltweite, lizenzfreie Lizenz zur Nutzung, Änderung, Reproduktion und Verbreitung dieser Inhalte zum Zwecke der Bereitstellung unseres Dienstes."
+    },
+    termination: {
+      title: "Kündigung",
+      content: "Wir können Ihr Konto und den Zugriff auf unseren Dienst sofort kündigen oder aussetzen, ohne vorherige Ankündigung, für Verhaltensweisen, von denen wir glauben, dass sie gegen diese Bedingungen verstoßen oder für andere Benutzer, uns oder Dritte schädlich sind."
+    },
+    liability: {
+      title: "Haftungsbeschränkung",
+      content: "NextGoat und seine verbundenen Unternehmen haften nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich Verlust von Gewinnen, Daten oder Goodwill."
+    },
+    changes: {
+      title: "Änderungen der Bedingungen",
+      content: "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern oder zu ersetzen. Es liegt in Ihrer Verantwortung, unsere Bedingungen regelmäßig auf Änderungen zu überprüfen."
+    },
+    contact: {
+      title: "Kontaktieren Sie uns",
+      content: "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter terms@nextgoat.com."
+    }
   }
 };
