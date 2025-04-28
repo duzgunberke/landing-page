@@ -29,7 +29,26 @@ export default {
   },
   features: {
     title: "ENTDECKE DEIN POTENZIAL",
-    subtitle: "Nimm an wöchentlichen Challenges teil, zeige deine Fähigkeiten und werde von Scouts weltweit entdeckt"
+    subtitle: "Nimm an wöchentlichen Challenges teil, zeige deine Fähigkeiten und werde von Scouts weltweit entdeckt",
+    featureCards: {
+      challenges: {
+        title: "WÖCHENTLICHE<b>CHALLENGES</b>",
+        description: "Neue Fußball-Challenges jede Woche. Zeige deine Fähigkeiten und trete gegen Spieler weltweit an."
+      },
+      scout: {
+        title: "TALENT<b>SCOUT</b>",
+        description: "Werde durch deine Challenge-Leistungen von professionellen Scouts und Vereinen entdeckt."
+      },
+      leaderboards: {
+        title: "<b>RANGLISTEN</b>",
+        description: "Kämpfe um die Spitzenplätze in wöchentlichen, monatlichen und ewigen Ranglisten."
+      },
+      community: {
+        title: "<b>COMMUNITY</b>",
+        description: "Werde Teil einer globalen Community von Fußballtalenten, teile Tipps und lasse dich inspirieren."
+      },
+      explore: "Erkunden"
+    }
   },
   story: {
     title: "DIE GESCHICHTE VON NEXT GOAT",

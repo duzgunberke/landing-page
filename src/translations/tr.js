@@ -29,7 +29,26 @@ export default {
   },
   features: {
     title: "POTANSİYELİNİ KEŞFET",
-    subtitle: "Haftalık meydan okumalara katıl, yeteneklerini göster ve dünya çapında scoutlar tarafından keşfedil"
+    subtitle: "Haftalık meydan okumalara katıl, yeteneklerini göster ve dünya çapında scoutlar tarafından keşfedil",
+    featureCards: {
+      challenges: {
+        title: "HAFTALIK<b>MEYDAN OKUMALAR</b>",
+        description: "Her hafta yeni futbol meydan okumaları. Yeteneklerini göster ve dünya çapında oyuncularla yarış."
+      },
+      scout: {
+        title: "YETENEK<b>AVCISI</b>",
+        description: "Meydan okuma performansların sayesinde profesyonel scoutlar ve kulüpler tarafından keşfedil."
+      },
+      leaderboards: {
+        title: "<b>SIRALAMALAR</b>",
+        description: "Haftalık, aylık ve tüm zamanların en iyi sıralamaları için mücadele et."
+      },
+      community: {
+        title: "<b>TOPLULUK</b>",
+        description: "Futbol yeteneklerinin global topluluğuna katıl, ipuçları paylaş ve ilham al."
+      },
+      explore: "Keşfet"
+    }
   },
   story: {
     title: "NEXT GOAT'IN HİKAYESİ",

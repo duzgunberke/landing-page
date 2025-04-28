@@ -40,6 +40,7 @@ export const BentoTilt = ({ children, className = "" }) => {
 };
 
 export const BentoCard = ({ src, title, description, isComingSoon }) => {
+  const { t } = useLanguage();
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [hoverOpacity, setHoverOpacity] = useState(0);
   const hoverButtonRef = useRef(null);
@@ -68,7 +69,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
       />
       <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
         <div>
-          <h1 className="bento-title special-font">{title}</h1>
+          <h1 className="bento-title special-font" dangerouslySetInnerHTML={{ __html: title }}></h1>
           {description && (
             <p className="mt-3 max-w-64 text-xs md:text-base">{description}</p>
           )}
@@ -117,8 +118,8 @@ const Features = () => {
         <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
           <BentoCard
             src="videos/feature-1.mp4"
-            title={<>WEEKLY<b>CHALLENGES</b></>}
-            description="New football challenges every week. Show off your skills and compete with players worldwide."
+            title={t('features.featureCards.challenges.title')}
+            description={t('features.featureCards.challenges.description')}
             isComingSoon
           />
         </BentoTilt>
@@ -127,8 +128,8 @@ const Features = () => {
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
             <BentoCard
               src="videos/feature-2.mp4"
-              title={<>TALENT<b>SCOUT</b></>}
-              description="Get discovered by professional scouts and clubs through your challenge performances."
+              title={t('features.featureCards.scout.title')}
+              description={t('features.featureCards.scout.description')}
               isComingSoon
             />
           </BentoTilt>
@@ -136,8 +137,8 @@ const Features = () => {
           <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
             <BentoCard
               src="videos/feature-3.mp4"
-              title={<><b>LEADERBOARDS</b></>}
-              description="Compete for the top spots in weekly, monthly and all-time rankings."
+              title={t('features.featureCards.leaderboards.title')}
+              description={t('features.featureCards.leaderboards.description')}
               isComingSoon
             />
           </BentoTilt>
@@ -145,8 +146,8 @@ const Features = () => {
           <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
             <BentoCard
               src="videos/feature-4.mp4"
-              title={<><b>COMMUNITY</b></>}
-              description="Join a global community of football talents, share tips and get inspired."
+              title={t('features.featureCards.community.title')}
+              description={t('features.featureCards.community.description')}
               isComingSoon
             />
           </BentoTilt>

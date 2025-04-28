@@ -29,7 +29,26 @@ export default {
   },
   features: {
     title: "DISCOVER YOUR POTENTIAL",
-    subtitle: "Take on weekly challenges, showcase your skills, and get discovered by scouts worldwide"
+    subtitle: "Take on weekly challenges, showcase your skills, and get discovered by scouts worldwide",
+    featureCards: {
+      challenges: {
+        title: "WEEKLY<b>CHALLENGES</b>",
+        description: "New football challenges every week. Show off your skills and compete with players worldwide."
+      },
+      scout: {
+        title: "TALENT<b>SCOUT</b>",
+        description: "Get discovered by professional scouts and clubs through your challenge performances."
+      },
+      leaderboards: {
+        title: "<b>LEADERBOARDS</b>",
+        description: "Compete for the top spots in weekly, monthly and all-time rankings."
+      },
+      community: {
+        title: "<b>COMMUNITY</b>",
+        description: "Join a global community of football talents, share tips and get inspired."
+      },
+      explore: "Explore"
+    }
   },
   story: {
     title: "THE STORY OF NEXT GOAT",

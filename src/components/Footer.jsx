@@ -1,4 +1,5 @@
 import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import { useLanguage } from "../context/LanguageContext";
 
 const socialLinks = [
   { href: "https://discord.com", icon: <FaDiscord /> },
@@ -8,11 +9,13 @@ const socialLinks = [
 ];
 
 const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className="w-screen bg-[#5542ff] py-4 text-black">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-center text-sm font-light md:text-left">
-          © NextGoat {new Date().getFullYear()}. All rights reserved
+          © NextGoat {new Date().getFullYear()}. {t('footer.rights')}
         </p>
 
         <div className="flex justify-center gap-4 md:justify-start">
@@ -30,8 +33,8 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-4">
-          <a href="#privacy" className="text-sm hover:underline">Privacy Policy</a>
-          <a href="#terms" className="text-sm hover:underline">Terms of Service</a>
+          <a href="#privacy" className="text-sm hover:underline">{t('footer.privacyPolicy')}</a>
+          <a href="#terms" className="text-sm hover:underline">{t('footer.terms')}</a>
         </div>
       </div>
     </footer>
