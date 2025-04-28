@@ -32,7 +32,7 @@ export default {
     subtitle: "Haftalık meydan okumalara katıl, yeteneklerini göster ve dünya çapında scoutlar tarafından keşfedil",
     featureCards: {
       challenges: {
-        title: "HAFTALIK<b>MEYDAN OKUMALAR</b>",
+        title: "<b>MEYDAN OKUMALAR</b>",
         description: "Her hafta yeni futbol meydan okumaları. Yeteneklerini göster ve dünya çapında oyuncularla yarış."
       },
       scout: {
