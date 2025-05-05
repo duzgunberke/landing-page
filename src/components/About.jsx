@@ -30,20 +30,21 @@ const About = () => {
   });
 
   return (
-    <div id="about" className="min-h-screen w-screen">
+    <section id="about" className="min-h-screen w-screen" aria-label="About NextGoat">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
           {t("about.welcome")}
         </p>
 
+        <h2 className="sr-only">About Us</h2>
         <AnimatedTitle
           title={t("about.title")}
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
-          <p>{t("about.subtitle")}</p>
-          <p className="text-gray-500">{t("about.description")}</p>
+          <p className="font-bold text-lg">{t("about.subtitle")}</p>
+          <p className="text-gray-500 mt-2">{t("about.description")}</p>
         </div>
       </div>
 
@@ -51,12 +52,12 @@ const About = () => {
         <div className="mask-clip-path about-image">
           <img
             src="img/about.png"
-            alt="Background"
+            alt="Football talent discovery platform"
             className="absolute left-0 top-0 size-full object-cover"
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

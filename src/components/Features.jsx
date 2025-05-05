@@ -59,17 +59,18 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
   const handleMouseLeave = () => setHoverOpacity(0);
 
   return (
-    <div className="relative size-full">
+    <article className="relative size-full">
       <video
         src={src}
         loop
         muted
         autoPlay
         className="absolute left-0 top-0 size-full object-cover object-center"
+        aria-hidden="true"
       />
       <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
         <div>
-          <h1 className="bento-title special-font" dangerouslySetInnerHTML={{ __html: title }}></h1>
+          <h3 className="bento-title special-font" dangerouslySetInnerHTML={{ __html: title }}></h3>
           {description && (
             <p className="mt-3 max-w-64 text-xs md:text-base">{description}</p>
           )}
@@ -82,6 +83,8 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-black px-5 py-2 text-xs uppercase text-white/20"
+            role="button"
+            aria-label="Coming soon feature"
           >
             {/* Radial gradient hover effect */}
             <div
@@ -90,13 +93,14 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
                 opacity: hoverOpacity,
                 background: `radial-gradient(100px circle at ${cursorPosition.x}px ${cursorPosition.y}px, #656fe288, #00000026)`,
               }}
+              aria-hidden="true"
             />
             <TiLocationArrow className="relative z-20" />
             <p className="relative z-20">coming soon</p>
           </div>
         )}
       </div>
-    </div>
+    </article>
   );
 };
 
@@ -104,12 +108,12 @@ const Features = () => {
   const { t } = useLanguage();
   
   return (
-    <section className="bg-black pb-52">
+    <section id="features" className="bg-black pb-52">
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
-          <p className="font-circular-web text-lg text-blue-50">
+          <h2 className="font-circular-web text-lg text-blue-50 font-bold">
             {t('features.title')}
-          </p>
+          </h2>
           <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
             {t('features.subtitle')}
           </p>
@@ -154,11 +158,11 @@ const Features = () => {
 
           <BentoTilt className="bento-tilt_2">
             <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
-              <h1 className="bento-title special-font max-w-64 text-black">
+              <h3 className="bento-title special-font max-w-64 text-black">
                 Next<b>G</b>oat
-              </h1>
+              </h3>
 
-              <TiLocationArrow className="m-5 scale-[5] self-end" />
+              <TiLocationArrow className="m-5 scale-[5] self-end" aria-hidden="true" />
             </div>
           </BentoTilt>
 
@@ -169,6 +173,7 @@ const Features = () => {
               muted
               autoPlay
               className="size-full object-cover object-center"
+              aria-label="NextGoat feature preview"
             />
           </BentoTilt>
         </div>

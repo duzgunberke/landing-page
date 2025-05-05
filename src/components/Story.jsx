@@ -48,13 +48,14 @@ const FloatingImage = () => {
   };
 
   return (
-    <div id="story" className="min-h-dvh w-screen bg-black text-blue-50">
+    <section id="story" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
         <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
           {t('story.description')}
         </p>
 
         <div className="relative size-full">
+          <h2 className="sr-only">Our Story</h2>
           <AnimatedTitle
             title={t('story.title')}
             containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
@@ -70,7 +71,7 @@ const FloatingImage = () => {
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
                   src="/img/entrance.png"
-                  alt="entrance.png"
+                  alt="NextGoat football talent discovery entrance"
                   className="object-contain"
                 />
               </div>
@@ -80,6 +81,7 @@ const FloatingImage = () => {
             <svg
               className="invisible absolute size-0"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <defs>
                 <filter id="flt_tag">
@@ -119,7 +121,7 @@ const FloatingImage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

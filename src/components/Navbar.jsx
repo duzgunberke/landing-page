@@ -66,15 +66,18 @@ const NavBar = () => {
   }, [isNavVisible]);
 
   return (
-    <div
+    <nav
       ref={navContainerRef}
       className="fixed inset-x-0 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6"
+      aria-label="Main navigation"
     >
       <header className="absolute top-1/2 w-full -translate-y-1/2">
-        <nav className="flex size-full items-center justify-between p-4">
+        <div className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            <a href="#home" aria-label="NextGoat Home">
+              <img src="/img/logo.png" alt="NextGoat logo" className="w-10" />
+            </a>
 
             <Button
               id="product-button"
@@ -86,7 +89,7 @@ const NavBar = () => {
 
           {/* Navigation Links, Language Selector, and Audio Button */}
           <div className="flex h-full items-center">
-            <div className="hidden md:block">
+            <div className="hidden md:block" role="navigation" aria-label="Main menu">
               {navItems.map((item, index) => (
                 <a
                   key={index}
@@ -103,12 +106,15 @@ const NavBar = () => {
             <button
               onClick={toggleAudioIndicator}
               className="ml-10 flex items-center space-x-0.5"
+              aria-label={isAudioPlaying ? "Pause audio" : "Play audio"}
+              aria-pressed={isAudioPlaying}
             >
               <audio
                 ref={audioElementRef}
                 className="hidden"
                 src="/audio/loop.mp3"
                 loop
+                preload="metadata"
               />
               {[1, 2, 3, 4].map((bar) => (
                 <div
@@ -119,13 +125,14 @@ const NavBar = () => {
                   style={{
                     animationDelay: `${bar * 0.1}s`,
                   }}
+                  aria-hidden="true"
                 />
               ))}
             </button>
           </div>
-        </nav>
+        </div>
       </header>
-    </div>
+    </nav>
   );
 };
 

@@ -3,6 +3,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 import { TiLocationArrow } from "react-icons/ti";
 import { useEffect, useRef, useState } from "react";
+import { useLanguage } from "../context/LanguageContext";
 
 import Button from "./Button";
 import VideoPreview from "./VideoPreview";
@@ -10,6 +11,7 @@ import VideoPreview from "./VideoPreview";
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
+  const { t } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(1);
   const [hasClicked, setHasClicked] = useState(false);
 
@@ -83,7 +85,7 @@ const Hero = () => {
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
 
   return (
-    <div className="relative h-dvh w-screen overflow-x-hidden">
+    <section id="home" className="relative h-dvh w-screen overflow-x-hidden">
       {loading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
           {/* https://uiverse.io/G4b413l/tidy-walrus-92 */}
@@ -114,6 +116,10 @@ const Hero = () => {
                   id="current-video"
                   className="size-64 origin-center scale-150 object-cover object-center"
                   onLoadedData={handleVideoLoad}
+                  aria-label="Interactive football talent video preview"
+                  preload="metadata"
+                  fetchpriority="low"
+                  loading="lazy"
                 />
               </div>
             </VideoPreview>
@@ -127,6 +133,10 @@ const Hero = () => {
             id="next-video"
             className="absolute-center invisible absolute z-20 size-64 object-cover object-center"
             onLoadedData={handleVideoLoad}
+            aria-label="Football talent showcase"
+            preload="metadata"
+            fetchpriority="low"
+            loading="lazy"
           />
           <video
             src={getVideoSrc(
@@ -137,27 +147,31 @@ const Hero = () => {
             muted
             className="absolute left-0 top-0 size-full object-cover object-center"
             onLoadedData={handleVideoLoad}
+            aria-label="Main football talent showcase video"
+            preload="auto"
+            fetchpriority="high"
           />
         </div>
 
-        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
+        <h2 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
           <b>LIVE</b>
-        </h1>
+        </h2>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
-              <b>NEXT</b>
+              <b>{t('hero.title')}</b>
               <br />
-              GOAT
+              {/* <span className="text-sm md:text-lg">{t('hero.subtitle')}</span> */}
             </h1>
           </div>
         </div>
       </div>
 
-      <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        NEXTGOAT      </h1>
-    </div>
+      <h2 className="special-font hero-heading absolute bottom-5 right-5 text-black">
+        NEXTGOAT      
+      </h2>
+    </section>
   );
 };
 

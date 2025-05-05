@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /forgot-password
+
+Sitemap: https://nextgoat.com/sitemap.xml
