@@ -36,7 +36,7 @@ export default {
         description: "Her hafta yeni futbol meydan okumaları. Yeteneklerini göster ve dünya çapında oyuncularla yarış."
       },
       scout: {
-        title: "YETENEK<b>AVCISI</b>",
+        title: "<b>YETENEK AVCISI</b>",
         description: "Meydan okuma performansların sayesinde profesyonel scoutlar ve kulüpler tarafından keşfedil."
       },
       leaderboards: {
