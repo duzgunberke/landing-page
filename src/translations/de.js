@@ -25,7 +25,7 @@ export default {
     welcome: "Willkommen bei Next Goat",
     title: "ENTDECKE DIE NÄCHSTEN FUßBALLSTARS",
     subtitle: "Sei Teil der Zukunft der Fußballtalententdeckung",
-    description: "Zeige deine Fähigkeiten, nimm an Challenges teil und werde der nächste Fußballstar"
+    description: "Zeige deine Fähigkeiten, nimm an Challenges teil und werde der nächste nextGOAT"
   },
   features: {
     title: "ENTDECKE DEIN POTENZIAL",

@@ -23,9 +23,9 @@ export default {
   },
   about: {
     welcome: "Welcome to Next Goat",
-    title: "DISCOVER THE NEXT FOOTBALL STARS",
+    title: "DISCOVER THE NEXT GOAT",
     subtitle: "Join the future of football talent discovery",
-    description: "Share your skills, take on challenges, and become the next football star"
+    description: "Share your skills, take on challenges, and become the next GOAT"
   },
   features: {
     title: "DISCOVER YOUR POTENTIAL",
@@ -56,7 +56,7 @@ export default {
   },
   contact: {
     joinCommunity: "JOIN THE COMMUNITY",
-    title: "BECOME THE NEXT FOOTBALL STAR",
+    title: "BECOME THE NEXT GOAT",
     getInTouch: "Get in Touch"
   },
   footer: {
