@@ -80,6 +80,15 @@ const Hero = () => {
         scrub: true,
       },
     });
+    
+    // Animate the badge
+    gsap.from("#uefa-badge", {
+      opacity: 0,
+      y: 20,
+      duration: 1,
+      delay: 0.5,
+      ease: "power2.out"
+    });
   });
 
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
@@ -151,6 +160,14 @@ const Hero = () => {
             preload="auto"
             fetchpriority="high"
           />
+          
+          {/* UEFA Vision Badge */}
+          <div 
+            id="uefa-badge"
+            className="absolute bottom-4 left-4 z-30 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-bold"
+          >
+            #UEFAVision
+          </div>
         </div>
 
         <h2 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
