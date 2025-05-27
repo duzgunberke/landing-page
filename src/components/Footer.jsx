@@ -10,7 +10,12 @@ const socialLinks = [
 ];
 
 const Footer = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  
+  // Create paths with language prefix if not English
+  const getLocalizedPath = (path) => {
+    return language !== 'en' ? `/${language}${path}` : path;
+  };
   
   return (
     <footer className="w-screen bg-[#5542ff] py-4 text-black">
@@ -33,9 +38,12 @@ const Footer = () => {
           ))}
         </div>
 
-        <div className="flex gap-4">
-          <Link to="/privacy-policy" className="text-sm hover:underline">{t('footer.privacyPolicy')}</Link>
-          <Link to="/terms-of-service" className="text-sm hover:underline">{t('footer.terms')}</Link>
+        <div className="flex flex-wrap gap-4 justify-center md:justify-end">
+          <Link to={getLocalizedPath("/privacy-policy")} className="text-sm hover:underline">{t('footer.privacyPolicy')}</Link>
+          <Link to={getLocalizedPath("/terms-of-service")} className="text-sm hover:underline">{t('footer.terms')}</Link>
+          <Link to={getLocalizedPath("/data-protection")} className="text-sm hover:underline">{t('footer.dataProtection')}</Link>
+          <Link to={getLocalizedPath("/cookies")} className="text-sm hover:underline">{t('footer.cookies')}</Link>
+          <Link to={getLocalizedPath("/about-us")} className="text-sm hover:underline">{t('footer.aboutUs')}</Link>
           <a href="mailto:info@nextgoat.io" className="text-sm hover:underline">info@nextgoat.io</a>
         </div>
       </div>

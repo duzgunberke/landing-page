@@ -62,7 +62,10 @@ export default {
   footer: {
     rights: "Alle Rechte vorbehalten",
     privacyPolicy: "Datenschutzrichtlinie",
-    terms: "Nutzungsbedingungen"
+    terms: "Nutzungsbedingungen",
+    dataProtection: "Datenschutz",
+    aboutUs: "Über uns",
+    cookies: "Cookies"
   },
   privacy: {
     pageTitle: "Datenschutzrichtlinie",
@@ -200,6 +203,70 @@ export default {
     contact: {
       title: "Kontaktieren Sie uns",
       content: "Wir würden gerne von Ihnen hören! Ob Sie ein aufstrebender Fußballer, ein Scout oder jemand sind, der unsere Leidenschaft teilt, kontaktieren Sie uns unter info@nextgoat.com."
+    }
+  },
+  dataProtection: {
+    pageTitle: "Datenschutz",
+    title: "Informationen zum Schutz personenbezogener Daten",
+    identity: {
+      title: "Identität des Datenverantwortlichen",
+      content: "Als NextGoat ('Unternehmen') werden entsprechend der Bedeutung, die wir der Sicherheit Ihrer personenbezogenen Daten beimessen, alle personenbezogenen Daten in unserer Organisation gemäß dem Gesetz zum Schutz personenbezogener Daten Nr. 6698 ('Gesetz') verarbeitet, gespeichert und übertragen. Diese Informationen wurden gemäß Artikel 10 des Gesetzes mit dem Titel 'Informationspflicht des Datenverantwortlichen' bezüglich Ihrer personenbezogenen Daten erstellt, die als 'Datenverantwortlicher' gesammelt, gespeichert und verarbeitet werden."
+    },
+    collection: {
+      title: "Erhebungsmethode Ihrer personenbezogenen Daten",
+      content: "Ihre personenbezogenen Daten werden mündlich, schriftlich oder elektronisch über unsere Website, mobile Anwendung, Geschäftspartner, Benachrichtigungen von Verwaltungs- und Justizbehörden, Social-Media-Plattformen und Cookies gesammelt."
+    },
+    data: {
+      title: "Verarbeitete personenbezogene Daten",
+      content: "Die unten aufgeführten personenbezogenen Daten werden im Rahmen der Mitteilung über die Verfahren und Grundsätze, die bei der Erfüllung der Informationspflicht zum Schutz personenbezogener Daten anzuwenden sind, und anderer sekundärer Rechtsvorschriften verarbeitet.",
+      items: {
+        identity: "Identitätsdaten: Name, Nachname, Ausweisnummer, Geburtsdatum",
+        contact: "Kontaktdaten: Adresse, E-Mail, Mobiltelefonnummer",
+        location: "Standortdaten: Standortinformationen",
+        marketing: "Marketingdaten: Cookie-Aufzeichnungen, frühere Transaktionen der Benutzer, Targeting, Aufzeichnungen von Gewohnheiten und Vorlieben, Benutzerinformationen in anderen sozialen Medienkonten",
+        legal: "Rechtliche Transaktionsdaten: Anforderungs- und Beschwerdeaufzeichnungen, Erlaubnis für kommerzielle elektronische Nachrichten, rechtliche Transaktionsdateiaufzeichnungen, Mitteilungen, Informationen in der Korrespondenz mit Justiz- und Verwaltungsbehörden",
+        security: "Transaktionssicherheitsdaten: IP-Adresse, Passwortinformationen, Verkehrsdaten, Website/Mobil-App-Login- und Logout-Informationen, Benutzernameninformationen",
+        risk: "Risikomanagementdaten: IP-Adresse, Passwort- und Benutzernameninformationen"
+      }
+    },
+    purposes: {
+      title: "Zwecke der Verarbeitung Ihrer personenbezogenen Daten",
+      content: "Ihre personenbezogenen Daten werden verarbeitet, um die Identitätsinformationen unserer Benutzer zu bestätigen, die Transaktionen über die Website/mobile Anwendung durchführen, um unseren Benutzern zu ermöglichen, Dienste über die Website und/oder mobile Anwendungen zu erhalten, um mit unseren Benutzern bezüglich der Dienste, die sie erhalten werden, und ihrer Anfragen/Beschwerden zu kommunizieren, um mit unseren Benutzern bezüglich der Bedingungen und des aktuellen Status der von uns abgeschlossenen Verträge zu kommunizieren, um die Verpflichtungen und Dienstleistungen zu erfüllen, die gemäß den von uns abgeschlossenen Verträgen übernommen wurden, um Mitgliedschaftstransaktionen durchzuführen, um die unseren Benutzern angebotenen Dienste zu verbessern und zu entwickeln, um auf Informationsanfragen von autorisierten Behörden zu antworten, um Informationen über Dienste bereitzustellen, die für unsere Benutzer von Interesse sein könnten, um Werbe-, Marketing- und Werbeaktivitäten durchzuführen, um die Erfahrung unserer Benutzer zu verbessern, um Anfragen, Vorschläge und Beschwerden zu bewerten, um Informations- und Transaktionssicherheit zu gewährleisten und um unsere gesetzlichen Verpflichtungen zu erfüllen."
+    },
+    legal: {
+      title: "Rechtliche Gründe für die Verarbeitung Ihrer personenbezogenen Daten",
+      content: "Ihre personenbezogenen Daten werden auf der Grundlage der folgenden rechtlichen Gründe verarbeitet: (i) Es ist in den Gesetzen eindeutig festgelegt, (ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Begründung oder Ausführung eines Vertrags, (iii) Es ist für den Datenverantwortlichen obligatorisch, seine gesetzlichen Verpflichtungen zu erfüllen, (iv) Die Datenverarbeitung ist für die Begründung, Ausübung oder den Schutz eines Rechts obligatorisch und (v) Die Datenverarbeitung ist für die berechtigten Interessen des Datenverantwortlichen obligatorisch, vorausgesetzt, es schadet nicht den Grundrechten und -freiheiten der betreffenden Person."
+    },
+    transfer: {
+      title: "Parteien, an die Ihre personenbezogenen Daten übermittelt werden",
+      content: "Ihre personenbezogenen Daten können gemäß dem Gesetz an die folgenden inländischen und ausländischen Empfänger übermittelt werden, um die angegebenen Zwecke zu erreichen:",
+      items: {
+        services: "An Unternehmen, Werbetreibende, andere Benutzer und Lieferanten zum Zweck der Bereitstellung von Dienstleistungen für unsere Benutzer, der Werbung und der Organisation von Kampagnen",
+        marketing: "An Agenturen, Werbeunternehmen, Marktforschungsunternehmen und Umfrageunternehmen in der Türkei und im Ausland, um die Benutzererfahrung zu verbessern und die Benutzerzufriedenheit im Rahmen von Marketingaktivitäten zu gewährleisten",
+        technical: "An Dienstleisterunternehmen zur Bereitstellung statistischer und technischer Dienste",
+        cloud: "An unsere Geschäftspartner im In- und Ausland, von denen wir Cloud-Speicherdienste für personenbezogene Daten erhalten",
+        legal: "An Wirtschaftsprüfungsgesellschaften, Anwälte, autorisierte Institutionen und Organisationen zur Erfüllung unserer gesetzlichen Verpflichtungen"
+      }
+    },
+    rights: {
+      title: "Rechte der betroffenen Person",
+      content: "Als Inhaber personenbezogener Daten können Sie sich gemäß Artikel 11 des Gesetzes an das Unternehmen wenden, um folgende Rechte auszuüben:",
+      items: {
+        learn: "Zu erfahren, ob Ihre personenbezogenen Daten verarbeitet werden",
+        purpose: "Den Zweck der Verarbeitung Ihrer personenbezogenen Daten zu erfahren und ob sie gemäß ihrem Zweck verwendet werden",
+        thirdParties: "Die Dritten zu kennen, an die personenbezogene Daten im In- oder Ausland übermittelt werden",
+        correction: "Die Berichtigung unvollständiger oder falscher Daten zu verlangen oder die Löschung oder Vernichtung solcher Daten im Rahmen der in Artikel 7 des Gesetzes dargelegten Bedingungen zu verlangen",
+        object: "Gegen ein Ergebnis Einspruch zu erheben, das für Sie nachteilig ist, weil Ihre personenbezogenen Daten ausschließlich durch automatisierte Systeme analysiert werden",
+        compensation: "Entschädigung für Schäden zu verlangen, wenn Sie aufgrund der unrechtmäßigen Verarbeitung Ihrer personenbezogenen Daten Schaden erleiden"
+      }
+    },
+    contact: {
+      title: "Kontaktieren Sie uns",
+      content: "Wenn Sie uns kontaktieren, Feedback geben oder Ihre Fragen im Rahmen des Gesetzes Nr. 6698 stellen möchten, können Sie Ihre Petition mit Ihren identitätsunterstützenden Dokumenten und Ihrer Anfrage persönlich an NextGoat übergeben, per Notar senden oder mit einer sicheren elektronischen Signatur an info@nextgoat.io senden. In diesem Zusammenhang werden schriftliche Anträge zu diesem Thema nach einer Identitätsprüfung akzeptiert, und die betreffenden Parteien werden innerhalb der gesetzlichen Fristen kontaktiert."
+    },
+    changes: {
+      title: "Änderungen der Datenschutzinformationen",
+      content: "Das Unternehmen behält sich das Recht vor, diesen Informationstext jederzeit zu aktualisieren. Von dem Unternehmen vorgenommene Änderungen werden unmittelbar nach der Veröffentlichung auf der Website wirksam."
     }
   }
 };

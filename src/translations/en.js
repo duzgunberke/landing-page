@@ -62,7 +62,10 @@ export default {
   footer: {
     rights: "All rights reserved",
     privacyPolicy: "Privacy Policy",
-    terms: "Terms of Service"
+    terms: "Terms of Service",
+    dataProtection: "Data Protection",
+    aboutUs: "About Us",
+    cookies: "Cookies"
   },
   privacy: {
     pageTitle: "Privacy Policy",
@@ -200,6 +203,70 @@ export default {
     contact: {
       title: "Get In Touch",
       content: "We'd love to hear from you! Whether you're an aspiring footballer, a scout, or someone who shares our passion, reach out to us at info@nextgoat.com."
+    }
+  },
+  dataProtection: {
+    pageTitle: "Data Protection",
+    title: "Personal Data Protection Information",
+    identity: {
+      title: "Identity of the Data Controller",
+      content: "As NextGoat ('Company'), in line with the importance we attach to the security of your personal data, all personal data we hold in our organization is processed, stored and transferred under the Personal Data Protection Law No. 6698 ('Law'). This information has been prepared under Article 10 of the Law titled 'Data Controller's Obligation to Disclose' regarding your personal data collected, stored and processed as the 'Data Controller'."
+    },
+    collection: {
+      title: "Collection Method of Your Personal Data",
+      content: "Your personal data is collected verbally, in writing or electronically through our website, mobile application, business partners, notifications from administrative and judicial authorities, social media platforms and cookies."
+    },
+    data: {
+      title: "Personal Data Processed",
+      content: "Your personal data listed below are processed within the framework of the Communiqué on the Procedures and Principles to be Applied in Fulfilling the Information Obligation for the Protection of Personal Data and other secondary legislation.",
+      items: {
+        identity: "Identity Data: Name, surname, ID number, date of birth",
+        contact: "Contact Data: Address, email, mobile phone number",
+        location: "Location Data: Location information",
+        marketing: "Marketing Data: Cookie records, past transactions of users, targeting, records of habits and likes, user information on other social media accounts",
+        legal: "Legal Transaction Data: Request and complaint records, commercial electronic message permission, legal transaction file records, notices, information in correspondence with judicial and administrative authorities",
+        security: "Transaction Security Data: IP Address, password information, traffic data, website/mobile application login and logout information, username information",
+        risk: "Risk Management Data: IP address, password and username information"
+      }
+    },
+    purposes: {
+      title: "Purposes of Processing Your Personal Data",
+      content: "Your personal data is processed for the purposes of confirming the identity information of our users who perform transactions through the website/mobile application, enabling our users to receive services through the website and/or mobile applications, communicating with our users regarding the services they will receive and their requests/complaints, communicating with our users regarding the terms and current status of the contracts we have concluded, fulfilling the obligations and services undertaken pursuant to the contracts we have concluded, carrying out membership transactions, improving and developing the services offered to our users, responding to information requests from authorized authorities, providing information about services that may be of interest to our users, carrying out advertising, marketing and promotional activities, improving the experience of our users, evaluating requests, suggestions and complaints, ensuring information and transaction security, and fulfilling our legal obligations."
+    },
+    legal: {
+      title: "Legal Reasons for Processing Your Personal Data",
+      content: "Your personal data is processed based on the following legal grounds: (i) It is clearly stated in the laws, (ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, (iii) It is mandatory for the data controller to fulfill its legal obligations, (iv) Data processing is mandatory for the establishment, exercise or protection of a right and (v) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person."
+    },
+    transfer: {
+      title: "Parties to Which Your Personal Data is Transferred",
+      content: "Your personal data may be transferred to the following domestic and foreign recipients in accordance with the Law in order to achieve the specified purposes:",
+      items: {
+        services: "To companies, advertisers, other users and suppliers for the purpose of providing services to our users, advertising and organizing campaigns",
+        marketing: "To agencies, advertising companies, market research companies and survey companies located in Turkey and abroad to improve user experience and ensure user satisfaction within the scope of marketing activities",
+        technical: "To service provider companies to provide statistical and technical services",
+        cloud: "To our business partners, both domestic and abroad, from whom we receive cloud storage services for personal data",
+        legal: "To auditing companies, lawyers, authorized institutions and organizations to fulfill our legal obligations"
+      }
+    },
+    rights: {
+      title: "Rights of the Related Person",
+      content: "As a personal data owner, you may apply to the Company in accordance with Article 11 of the Law for the following rights:",
+      items: {
+        learn: "To learn whether your personal data is being processed",
+        purpose: "To learn the purpose of processing your personal data and whether it is used in accordance with its purpose",
+        thirdParties: "To know the third parties to whom personal data is transferred domestically or abroad",
+        correction: "To request correction of incomplete or incorrect data, or request deletion or destruction of such data within the framework of the conditions outlined in Article 7 of the Law",
+        object: "To object to a result that is detrimental to you due to the analysis of your personal data exclusively by automated systems",
+        compensation: "To demand compensation for damages if you suffer damage due to the unlawful processing of your personal data"
+      }
+    },
+    contact: {
+      title: "Contact Us",
+      content: "If you want to contact us, give feedback or ask your questions within the scope of Law No. 6698, you can personally deliver your petition including your identity supporting documents and your request to NextGoat, send it via notary or send it to info@nextgoat.io with a secure electronic signature. In this context, written applications on the subject will be accepted following identity verification, and the relevant parties will be contacted within the legal periods."
+    },
+    changes: {
+      title: "Changes to the Data Protection Information",
+      content: "The Company reserves the right to update this Information Text at any time. Changes made by the Company become effective immediately upon publication on the website."
     }
   }
 };

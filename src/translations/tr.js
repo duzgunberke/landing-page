@@ -62,7 +62,10 @@ export default {
   footer: {
     rights: "Tüm hakları saklıdır",
     privacyPolicy: "Gizlilik Politikası",
-    terms: "Kullanım Şartları"
+    terms: "Kullanım Şartları",
+    dataProtection: "Kişisel Verilerin Korunması",
+    aboutUs: "Hakkımızda",
+    cookies: "Çerezler"
   },
   privacy: {
     pageTitle: "Gizlilik Politikası",
@@ -200,6 +203,70 @@ export default {
     contact: {
       title: "İletişime Geçin",
       content: "Sizden haber almak isteriz! İster gelecek vadeden bir futbolcu, ister bir scout, ister tutkumuzu paylaşan biri olun, info@nextgoat.com adresinden bize ulaşın."
+    }
+  },
+  dataProtection: {
+    pageTitle: "Kişisel Verilerin Korunması",
+    title: "Kişisel Verilerin Korunması Hakkında Bilgilendirme",
+    identity: {
+      title: "Veri Sorumlusunun Kimliği",
+      content: "NextGoat (\"Şirket\") olarak, kişisel verilerinizin güvenliğine verdiğimiz önem doğrultusunda, kuruluşumuz bünyesinde tutulan tüm kişisel veriler 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"Kanun\") kapsamında işlenmekte, saklanmakta ve aktarılmaktadır. Bu bilgilendirme 'Veri Sorumlusu' sıfatıyla toplanan, saklanan ve işlenen kişisel verilerinize ilişkin Kanun'un 10. maddesi uyarınca 'Veri Sorumlusunun Aydınlatma Yükümlülüğü' kapsamında hazırlanmıştır."
+    },
+    collection: {
+      title: "Kişisel Verilerinizin Toplanma Yöntemi",
+      content: "Kişisel verileriniz web sitemiz, mobil uygulamamız, iş ortaklarımız, idari ve adli makamlardan gelen bildirimler, sosyal medya platformları ve çerezler aracılığıyla sözlü, yazılı veya elektronik ortamda toplanmaktadır."
+    },
+    data: {
+      title: "İşlenen Kişisel Veriler",
+      content: "Aşağıda listelenen kişisel verileriniz Kişisel Verilerin Korunması için Bilgilendirme Yükümlülüğünün Yerine Getirilmesinde Uygulanacak Usul ve Esaslar Hakkında Tebliğ ve diğer ikincil mevzuat çerçevesinde işlenmektedir.",
+      items: {
+        identity: "Kimlik Verileri: Ad, soyad, T.C. kimlik numarası, doğum tarihi",
+        contact: "İletişim Verileri: Adres, e-posta, cep telefonu numarası",
+        location: "Lokasyon Verileri: Konum bilgisi",
+        marketing: "Pazarlama Verileri: Çerez kayıtları, kullanıcıların geçmiş işlemleri, hedefleme, alışkanlık ve beğeni kayıtları, diğer sosyal medya hesaplarındaki kullanıcı bilgileri",
+        legal: "Hukuki İşlem Verileri: Talep ve şikayet kayıtları, ticari elektronik ileti izni, hukuki işlem dosya kayıtları, tebligatlar, adli ve idari makamlarla yazışmalardaki bilgiler",
+        security: "İşlem Güvenliği Verileri: IP Adresi, şifre bilgileri, trafik verileri, website/mobil uygulama giriş çıkış bilgileri, kullanıcı adı bilgileri, diğer sosyal medya hesaplarındaki kullanıcı bilgileri",
+        risk: "Risk Yönetimi Verileri: IP adresi, şifre ve kullanıcı adı bilgileri"
+      }
+    },
+    purposes: {
+      title: "Kişisel Verilerinizin İşlenme Amaçları",
+      content: "Kişisel verileriniz, website/mobil uygulama üzerinden işlem yapan kullanıcılarımızın kimlik bilgilerinin teyit edilmesi, kullanıcılarımızın website ve/veya mobil uygulamalar üzerinden hizmet alabilmelerinin sağlanması ve kullanıcılarımız ile alacakları hizmetler ve talepleri/şikayetleri konusunda iletişime geçilmesi, kullanıcılarımız ile akdettiğimiz sözleşmelerin koşulları ve güncel durumu hakkında kullanıcılarımızla iletişime geçilmesi ve gerekli bilgilendirmelerin yapılması, akdettiğimiz sözleşmeler kapsamında üstlenilen yükümlülüklerin ve hizmetlerin yerine getirilmesi ve hakların kullanılması, üyelik işlemlerinin gerçekleştirilmesi ve kullanıcılarımızın akdettiğimiz sözleşmelerin koşulları hakkında bilgilendirilmesi ve üyelik haklarından faydalanmasının sağlanması, işleme dayanak olacak tüm kayıt ve belgelerin elektronik (internet/mobil vb) ortamda ya da kağıt ortamında düzenlenmesi, kullanıcılarımıza sunulan hizmetlerin iyileştirilmesi ve geliştirilmesi, iş geliştirme süreçlerinin yürütülmesi, yetkili kuruluşlardan bilgi taleplerinin yanıtlanması, kullanıcılarımızın ilgi alanları dikkate alınarak ilgilenebilecekleri hizmetler hakkında bilgi verilmesi ve kampanyaların aktarılması, kullanıcılarımızın özel tercih, profil ve ilgi alanlarına göre pazar analizi, hedefleme, profilleme ve analiz çalışmaları yapılarak reklam, pazarlama ve tanıtım faaliyetlerinin yürütülmesi, website ve/veya mobil uygulamayı kullanan kullanıcılarımızın deneyiminin iyileştirilmesi, hizmet sadakat süreçlerinin yürütülmesi, kullanıcı memnuniyetini sağlamaya yönelik aktivitelerin yürütülmesi ve anlaşmalı kuruluşlar aracılığı ile elektronik ve/veya fiziki ortamda anket düzenlenmesi, kullanıcılarımıza tanıtım, pazarlama, reklam, kampanya ve kutlama amaçlı ticari elektronik ileti gönderilmesi, kullanıcılarımızın talep, öneri ve şikayetlerinin değerlendirilmesi, hizmetlerimizi kullanırken bilgi ve işlem güvenliğinin sağlanması, hukuki işlerin takibi ve yürütülmesi, iş faaliyetlerimizin yürütülmesi ve denetimi, hizmetlerimizin iyileştirilmesi ve geliştirilmesi, yasal yükümlülüklerimizin yerine getirilmesi ve mevcut mevzuattan doğan haklarımızın kullanılması amaçlarıyla işlenmektedir."
+    },
+    legal: {
+      title: "Kişisel Verilerinizin İşlenmesinin Hukuki Sebepleri",
+      content: "Kişisel verilerinizi hangi amaçlarla ve hangi hukuki gerekçelere dayanarak işlediğimize ilişkin bilgileri aşağıda bulabilirsiniz: Kişisel verileriniz, (i) Kanunlarda açıkça öngörülmesi, (ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, (iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, (iv) Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu olması ve (v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması hukuki sebeplerine dayanılarak işlenmektedir."
+    },
+    transfer: {
+      title: "Kişisel Verilerinizin Aktarıldığı Taraflar ve Aktarım Amaçları",
+      content: "Kişisel verileriniz, aşağıda belirtilen amaçları gerçekleştirmek için Kanun'a uygun olarak yurtiçi ve yurtdışındaki alıcılara aktarılabilmektedir:",
+      items: {
+        services: "Kullanıcılarımıza hizmet sunmak, reklam vermek ve kampanya düzenlemek amacıyla şirketlere, reklamverenlere, diğer kullanıcılara ve tedarikçilere.",
+        marketing: "Pazarlama faaliyetleri kapsamında kullanıcı deneyimini iyileştirmek ve kullanıcı memnuniyetini sağlamak amacıyla, Türkiye'de ve yurtdışında bulunan çeşitli ajanslar, reklam şirketleri, pazar araştırma şirketleri ve anket şirketleri ile çalışıyoruz.",
+        technical: "İstatistiksel ve teknik hizmetleri sağlamak için hizmet veren şirketlere.",
+        cloud: "Kişisel veriler için bulut depolama hizmeti aldığımız yurtiçi ve yurtdışındaki iş ortaklarımıza.",
+        legal: "Yasal yükümlülüklerimizi yerine getirmek amacıyla denetim şirketlerine, avukatlara, yetkili kurum ve kuruluşlara danışmanlık hizmeti vermekteyiz."
+      }
+    },
+    rights: {
+      title: "İlgili Kişinin Hakları",
+      content: "Kişisel veri sahibi olarak Kanun'un 11. maddesi uyarınca Şirket'e başvurarak;",
+      items: {
+        learn: "Kişisel verilerinizin işlenip işlenmediğini öğrenme,",
+        purpose: "Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,",
+        thirdParties: "Kişisel verilerin yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,",
+        correction: "Kişisel veriler eksik veya yanlış işlenmişse, bunların düzeltilmesini isteme, veya KVKK'nın 7. maddesinde öngörülen şartlar çerçevesinde bu verilerin silinmesini veya yok edilmesini isteme,",
+        object: "Kişisel verilerinizin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme,",
+        compensation: "Kişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme haklarına sahipsiniz."
+      }
+    },
+    contact: {
+      title: "Bize Ulaşın",
+      content: "Eğer bizimle iletişime geçmek, geri bildirimde bulunmak veya 6698 sayılı Kanun kapsamında sorularınızı sormak isterseniz, kimlik destekleyici belgelerinizi ve talebinizi içeren dilekçenizi 'NextGoat' adresine şahsen teslim edebilir, noter kanalıyla gönderebilir veya güvenli elektronik imza ile info@nextgoat.io adresine iletebilirsiniz. Bu kapsamda konu ile ilgili yapılacak yazılı başvurular, tarafımızca yapılacak kimlik doğrulaması sonrasında kabul edilecek ve ilgili kişilere yasal süreler içerisinde geri dönüş yapılacaktır."
+    },
+    changes: {
+      title: "Kişisel Verilerinizin Korunması Hakkında Bilgilendirme Metninde Yapılabilecek Değişiklikler",
+      content: "Şirket, işbu Bilgilendirme Metnini dilediği zaman güncelleyebilir. Şirket tarafından yapılacak değişiklikler web sitesinde yayınlandığı anda derhal yürürlük kazanır."
     }
   }
 };
