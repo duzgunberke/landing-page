@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import ForgotPassword from "./components/ForgotPassword";
 import TermsOfService from "./components/TermsOfService";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import CookiesPage from "./app/cookies/page";
+import AboutUsPage from "./app/about-us/page";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/cookies" element={<CookiesPage />} />
+        <Route path="/about-us" element={<AboutUsPage />} />
         <Route
           path="/"
           element={

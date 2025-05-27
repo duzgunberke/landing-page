@@ -65,6 +65,7 @@ export default {
     terms: "Terms of Service"
   },
   privacy: {
+    pageTitle: "Privacy Policy",
     title: "Privacy Policy",
     intro: {
       title: "Introduction",
@@ -102,6 +103,7 @@ export default {
     }
   },
   terms: {
+    pageTitle: "Terms of Service",
     title: "Terms of Service",
     intro: {
       title: "Introduction",
@@ -140,6 +142,64 @@ export default {
     contact: {
       title: "Contact Us",
       content: "If you have any questions about these Terms, please contact us at terms@nextgoat.com."
+    }
+  },
+  cookies: {
+    pageTitle: "Cookie Policy",
+    title: "Cookie Policy",
+    intro: {
+      title: "Introduction",
+      content: "This Cookie Policy explains how NextGoat uses cookies and similar technologies to recognize you when you visit our website. It explains what these technologies are and why we use them, as well as your rights to control our use of them."
+    },
+    what: {
+      title: "What Are Cookies",
+      content: "Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners to make their websites work, or to work more efficiently, as well as to provide reporting information."
+    },
+    types: {
+      title: "Types of Cookies We Use",
+      content: "We use different types of cookies for various reasons:",
+      items: {
+        essential: "Essential cookies: These are necessary for the website to function properly",
+        performance: "Performance cookies: These help us understand how visitors interact with our website",
+        functional: "Functional cookies: These enable the website to provide enhanced functionality and personalization",
+        targeting: "Targeting cookies: These are used to deliver advertisements more relevant to you and your interests"
+      }
+    },
+    manage: {
+      title: "How to Manage Cookies",
+      content: "Most web browsers allow you to control cookies through their settings preferences. However, if you limit the ability of websites to set cookies, you may worsen your overall user experience."
+    },
+    thirdParty: {
+      title: "Third-Party Cookies",
+      content: "Some cookies are placed by third parties on our website. These third parties may include analytics providers, advertising networks, and social media platforms."
+    },
+    contact: {
+      title: "Contact Us",
+      content: "If you have any questions about our use of cookies, please contact us at cookies@nextgoat.com."
+    }
+  },
+  aboutus: {
+    pageTitle: "About Us",
+    title: "About NextGoat",
+    mission: {
+      title: "Our Mission",
+      content: "At NextGoat, our mission is to revolutionize football talent discovery and development. We aim to create a global platform where aspiring footballers can showcase their skills, connect with scouts, and take their game to the next level."
+    },
+    team: {
+      title: "Our Team",
+      content: "We are a diverse team of football enthusiasts, technology experts, and industry professionals united by our passion for the beautiful game. Our team brings together experience from professional football, sports technology, and talent development."
+    },
+    story: {
+      title: "Our Story",
+      content: "NextGoat was founded in 2023 with a simple idea: create a platform that democratizes football talent discovery. We recognized that traditional scouting methods often miss incredible talents, especially those in underrepresented regions, so we built a solution to bridge this gap."
+    },
+    vision: {
+      title: "Our Vision",
+      content: "We envision a world where every talented footballer has the opportunity to be discovered, regardless of their location or resources. Through our innovative challenge-based platform, we're making football talent discovery more accessible, fair, and effective."
+    },
+    contact: {
+      title: "Get In Touch",
+      content: "We'd love to hear from you! Whether you're an aspiring footballer, a scout, or someone who shares our passion, reach out to us at info@nextgoat.com."
     }
   }
 };

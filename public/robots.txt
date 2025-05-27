@@ -1,5 +1,17 @@
 User-agent: *
 Allow: /
 Disallow: /forgot-password
+Disallow: /api/
+Disallow: /admin/
+Disallow: /cdn-cgi/
+Disallow: /*?*
+
+User-agent: Googlebot
+Allow: /
+Disallow: /forgot-password
+
+User-agent: Googlebot-Image
+Allow: /img/
 
 Sitemap: https://nextgoat.com/sitemap.xml
+Sitemap: https://nextgoat.com/sitemap-images.xml

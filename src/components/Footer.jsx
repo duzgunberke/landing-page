@@ -36,6 +36,7 @@ const Footer = () => {
         <div className="flex gap-4">
           <Link to="/privacy-policy" className="text-sm hover:underline">{t('footer.privacyPolicy')}</Link>
           <Link to="/terms-of-service" className="text-sm hover:underline">{t('footer.terms')}</Link>
+          <a href="mailto:info@nextgoat.io" className="text-sm hover:underline">info@nextgoat.io</a>
         </div>
       </div>
     </footer>

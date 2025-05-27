@@ -65,6 +65,7 @@ export default {
     terms: "Nutzungsbedingungen"
   },
   privacy: {
+    pageTitle: "Datenschutzrichtlinie",
     title: "Datenschutzrichtlinie",
     intro: {
       title: "Einleitung",
@@ -102,6 +103,7 @@ export default {
     }
   },
   terms: {
+    pageTitle: "Nutzungsbedingungen",
     title: "Nutzungsbedingungen",
     intro: {
       title: "Einleitung",
@@ -140,6 +142,64 @@ export default {
     contact: {
       title: "Kontaktieren Sie uns",
       content: "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter terms@nextgoat.com."
+    }
+  },
+  cookies: {
+    pageTitle: "Cookie-Richtlinie",
+    title: "Cookie-Richtlinie",
+    intro: {
+      title: "Einleitung",
+      content: "Diese Cookie-Richtlinie erklärt, wie NextGoat Cookies und ähnliche Technologien verwendet, um Sie zu erkennen, wenn Sie unsere Website besuchen. Sie erklärt, was diese Technologien sind und warum wir sie verwenden, sowie Ihre Rechte zur Kontrolle unserer Verwendung."
+    },
+    what: {
+      title: "Was sind Cookies",
+      content: "Cookies sind kleine Datendateien, die auf Ihrem Computer oder Mobilgerät platziert werden, wenn Sie eine Website besuchen. Cookies werden von Website-Betreibern häufig verwendet, um ihre Websites funktionsfähig zu machen oder effizienter zu arbeiten, sowie um Berichtsinformationen bereitzustellen."
+    },
+    types: {
+      title: "Arten von Cookies, die wir verwenden",
+      content: "Wir verwenden verschiedene Arten von Cookies aus verschiedenen Gründen:",
+      items: {
+        essential: "Wesentliche Cookies: Diese sind für das ordnungsgemäße Funktionieren der Website notwendig",
+        performance: "Performance-Cookies: Diese helfen uns zu verstehen, wie Besucher mit unserer Website interagieren",
+        functional: "Funktionale Cookies: Diese ermöglichen es der Website, erweiterte Funktionalität und Personalisierung zu bieten",
+        targeting: "Targeting-Cookies: Diese werden verwendet, um Werbung zu liefern, die für Sie und Ihre Interessen relevanter ist"
+      }
+    },
+    manage: {
+      title: "Wie Sie Cookies verwalten können",
+      content: "Die meisten Webbrowser ermöglichen es Ihnen, Cookies über ihre Einstellungspräferenzen zu kontrollieren. Wenn Sie jedoch die Fähigkeit von Websites, Cookies zu setzen, einschränken, können Sie Ihr allgemeines Benutzererlebnis verschlechtern."
+    },
+    thirdParty: {
+      title: "Cookies von Drittanbietern",
+      content: "Einige Cookies werden von Drittanbietern auf unserer Website platziert. Zu diesen Drittanbietern können Analyseanbieter, Werbenetzwerke und Social-Media-Plattformen gehören."
+    },
+    contact: {
+      title: "Kontaktieren Sie uns",
+      content: "Wenn Sie Fragen zu unserer Verwendung von Cookies haben, kontaktieren Sie uns bitte unter cookies@nextgoat.com."
+    }
+  },
+  aboutus: {
+    pageTitle: "Über uns",
+    title: "Über NextGoat",
+    mission: {
+      title: "Unsere Mission",
+      content: "Bei NextGoat ist es unsere Mission, die Entdeckung und Entwicklung von Fußballtalenten zu revolutionieren. Unser Ziel ist es, eine globale Plattform zu schaffen, auf der aufstrebende Fußballer ihre Fähigkeiten präsentieren, mit Scouts in Kontakt treten und ihr Spiel auf die nächste Stufe bringen können."
+    },
+    team: {
+      title: "Unser Team",
+      content: "Wir sind ein vielfältiges Team aus Fußballbegeisterten, Technologieexperten und Branchenprofis, die durch unsere Leidenschaft für das schöne Spiel vereint sind. Unser Team bringt Erfahrungen aus dem Profifußball, der Sporttechnologie und der Talententwicklung zusammen."
+    },
+    story: {
+      title: "Unsere Geschichte",
+      content: "NextGoat wurde 2023 mit einer einfachen Idee gegründet: eine Plattform zu schaffen, die die Entdeckung von Fußballtalenten demokratisiert. Wir haben erkannt, dass traditionelle Scoutingmethoden oft unglaubliche Talente übersehen, besonders in unterrepräsentierten Regionen, also haben wir eine Lösung entwickelt, um diese Lücke zu schließen."
+    },
+    vision: {
+      title: "Unsere Vision",
+      content: "Wir stellen uns eine Welt vor, in der jedes talentierte Fußballspieler die Chance hat, entdeckt zu werden, unabhängig von seinem Standort oder seinen Ressourcen. Durch unsere innovative challenge-basierte Plattform machen wir die Entdeckung von Fußballtalenten zugänglicher, fairer und effektiver."
+    },
+    contact: {
+      title: "Kontaktieren Sie uns",
+      content: "Wir würden gerne von Ihnen hören! Ob Sie ein aufstrebender Fußballer, ein Scout oder jemand sind, der unsere Leidenschaft teilt, kontaktieren Sie uns unter info@nextgoat.com."
     }
   }
 };

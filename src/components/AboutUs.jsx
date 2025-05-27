@@ -1,12 +1,12 @@
 import { useLanguage } from '../context/LanguageContext';
 import { useEffect } from 'react';
 
-const PrivacyPolicy = () => {
+const AboutUs = () => {
   const { t, language } = useLanguage();
   
   // Set page title based on language
   useEffect(() => {
-    document.title = `${t('privacy.pageTitle')} | NextGoat`;
+    document.title = `${t('aboutus.pageTitle')} | NextGoat`;
   }, [language, t]);
   
   return (
@@ -14,71 +14,52 @@ const PrivacyPolicy = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="mx-auto max-w-4xl rounded-lg bg-[#001C30] p-6 md:p-8 shadow-lg text-white">
           <h1 className="mb-6 text-center text-3xl font-bold font-zentry text-[#64CCC5]">
-            {t('privacy.title')}
+            {t('aboutus.title')}
           </h1>
           
           <div className="space-y-6 font-circular-web">
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('privacy.intro.title')}
+                {t('aboutus.mission.title')}
               </h2>
               <p className="text-white/80">
-                {t('privacy.intro.content')}
+                {t('aboutus.mission.content')}
               </p>
             </section>
             
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('privacy.collection.title')}
+                {t('aboutus.team.title')}
               </h2>
               <p className="text-white/80">
-                {t('privacy.collection.content')}
+                {t('aboutus.team.content')}
               </p>
-              <ul className="mt-2 list-disc pl-5 text-white/80">
-                <li>{t('privacy.collection.items.personal')}</li>
-                <li>{t('privacy.collection.items.usage')}</li>
-                <li>{t('privacy.collection.items.device')}</li>
-              </ul>
             </section>
-
+            
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('privacy.usage.title')}
+                {t('aboutus.story.title')}
               </h2>
               <p className="text-white/80">
-                {t('privacy.usage.content')}
-              </p>
-              <ul className="mt-2 list-disc pl-5 text-white/80">
-                <li>{t('privacy.usage.items.service')}</li>
-                <li>{t('privacy.usage.items.improve')}</li>
-                <li>{t('privacy.usage.items.communicate')}</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('privacy.sharing.title')}
-              </h2>
-              <p className="text-white/80">
-                {t('privacy.sharing.content')}
+                {t('aboutus.story.content')}
               </p>
             </section>
 
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('privacy.security.title')}
+                {t('aboutus.vision.title')}
               </h2>
               <p className="text-white/80">
-                {t('privacy.security.content')}
+                {t('aboutus.vision.content')}
               </p>
             </section>
 
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('privacy.contact.title')}
+                {t('aboutus.contact.title')}
               </h2>
               <p className="text-white/80">
-                {t('privacy.contact.content')}
+                {t('aboutus.contact.content')}
               </p>
             </section>
           </div>
@@ -97,4 +78,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default AboutUs;

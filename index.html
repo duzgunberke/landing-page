@@ -4,27 +4,88 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/next-goat.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Discover and showcase football talent through challenges, get scouted, and join a global community of rising stars." />
-    <meta name="keywords" content="football talent, scouting platform, football challenges, football skills, football community, talent discovery" />
+    <meta name="description" content="NextGoat - The premier platform for discovering and showcasing football talent. Complete challenges, get scouted by professionals, and join our global community of rising football stars." />
+    <meta name="keywords" content="football talent, football scouting, soccer talent, professional football, football challenges, football skills, football community, talent discovery, sports talent, soccer scouting, football academy" />
     <meta name="author" content="NextGoat" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:title" content="NextGoat - Football Talent Discovery Platform" />
     <meta property="og:description" content="Discover and showcase football talent through challenges, get scouted, and join a global community of rising stars." />
-    <meta property="og:image" content="/img/logo.png" />
+    <meta property="og:image" content="https://nextgoat.com/img/logo.png" />
     <meta property="og:url" content="https://nextgoat.com" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="NextGoat" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="NextGoat - Football Talent Discovery Platform" />
     <meta name="twitter:description" content="Discover and showcase football talent through challenges, get scouted, and join a global community of rising stars." />
-    <meta name="twitter:image" content="/img/logo.png" />
+    <meta name="twitter:image" content="https://nextgoat.com/img/logo.png" />
+    <meta name="twitter:site" content="@NextGoat" />
+    
+    <!-- Mobile App Meta -->
+    <meta name="apple-itunes-app" content="app-id=myAppStoreID">
+    <meta name="google-play-app" content="app-id=com.nextgoat.app">
+    
+    <!-- Languages -->
+    <link rel="alternate" hreflang="en" href="https://nextgoat.com/" />
+    <link rel="alternate" hreflang="es" href="https://nextgoat.com/es/" />
+    <link rel="alternate" hreflang="fr" href="https://nextgoat.com/fr/" />
+    <link rel="alternate" hreflang="x-default" href="https://nextgoat.com/" />
     <link rel="canonical" href="https://nextgoat.com" />
     
     <!-- Preload critical assets -->
     <link rel="preload" as="image" href="/img/poster-1.jpg" fetchpriority="high" />
     <link rel="preload" as="fetch" href="/videos/hero-1.mp4" fetchpriority="high" crossorigin="anonymous" />
+    <link rel="preload" as="fetch" href="/videos/hero-2.mp4" fetchpriority="high" crossorigin="anonymous" />
     <link rel="prefetch" as="image" href="/img/logo.png" />
     
-    <title>NextGoat - Football Talent Discovery Platform</title>
+    <!-- Preconnect to important third-party origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+    
+    <title>NextGoat - Football Talent Discovery Platform | Showcase Your Skills</title>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsOrganization",
+      "name": "NextGoat",
+      "url": "https://nextgoat.com",
+      "logo": "https://nextgoat.com/img/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/nextgoat",
+        "https://www.instagram.com/nextgoat",
+        "https://twitter.com/nextgoat"
+      ],
+      "description": "NextGoat is a platform for discovering and showcasing football talent through challenges, getting scouted, and joining a global community of rising stars.",
+      "potentialAction": {
+        "@type": "JoinAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nextgoat.com/signup"
+        },
+        "name": "Join NextGoat"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NextGoat",
+      "url": "https://nextgoat.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://nextgoat.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
