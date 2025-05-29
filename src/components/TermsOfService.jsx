@@ -1,8 +1,9 @@
 import { useLanguage } from '../context/LanguageContext';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const TermsOfService = () => {
   const { t, language } = useLanguage();
+  const [showFullText, setShowFullText] = useState(false);
   
   // Set page title based on language
   useEffect(() => {
@@ -31,14 +32,36 @@ const TermsOfService = () => {
               </div>
             </section>
             
-            {/* Full Legal Text Section */}
+            {/* Full Legal Text Toggle Button */}
+            <section className="text-center">
+              <button 
+                onClick={() => setShowFullText(!showFullText)}
+                className="px-6 py-2 bg-[#176B87] rounded-md hover:bg-[#176B87]/80 transition-colors"
+              >
+                {showFullText ? t('terms.fullText.hideButton') : t('terms.fullText.showButton')}
+              </button>
+              
+              {/* Full Legal Text Section (collapsible) */}
+              {showFullText && (
+                <div className="mt-4">
+                  <h2 className="mb-3 text-2xl font-medium text-[#64CCC5] text-left">
+                    {t('terms.fullText.title')}
+                  </h2>
+                  <div className="mt-4 p-6 bg-[#176B87]/10 rounded-md border border-[#64CCC5]/30 whitespace-pre-wrap text-white/80 text-sm leading-relaxed text-left max-h-[500px] overflow-y-auto">
+                    {t('terms.fullText.content')}
+                  </div>
+                </div>
+              )}
+            </section>
+            
+            {/* Key Sections */}
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('terms.fullText.title')}
+                {t('terms.keySections.title')}
               </h2>
-              <div className="mt-4 p-6 bg-[#176B87]/10 rounded-md border border-[#64CCC5]/30 whitespace-pre-wrap text-white/80 text-sm leading-relaxed">
-                {t('terms.fullText.content')}
-              </div>
+              <p className="text-white/80 italic mb-4">
+                {t('terms.keySections.note')}
+              </p>
             </section>
             
             {/* Definitions Section */}
@@ -66,7 +89,7 @@ const TermsOfService = () => {
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
                 {t('terms.registration.title')}
               </h2>
-              <ul className="list-decimal pl-5 space-y-2 text-white/80">
+              <ul className="list-disc pl-5 space-y-2 text-white/80">
                 <li>{t('terms.registration.process')}</li>
                 <li>{t('terms.registration.age')}</li>
                 <li>{t('terms.registration.accuracy')}</li>

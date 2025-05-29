@@ -181,6 +181,8 @@ export default {
     },
     fullText: {
       title: "Tam Yasal Sözleşme",
+      showButton: "Tam Yasal Metni Göster",
+      hideButton: "Tam Yasal Metni Gizle",
       content: `KULLANICI SÖZLEŞMESİ
 
 Bu Kullanıcı Sözleşmesi ("Sözleşme"), web sitesi veya uygulamanın ("Platform") sahibi olan, ... adresinde faaliyet gösteren ("Şirket") ile Platformun Kullanıcısı olan Kullanıcı ("Kullanıcı") arasında elektronik olarak akdedilmiştir. Şirket ve Kullanıcı bundan böyle birlikte "Taraflar" olarak anılacaktır.
@@ -309,6 +311,10 @@ E-posta: [•]
 Merkezi Sicil Numarası: [•]
 
 Platform Üzerinden Yapılan İşlemler: Platform üzerinden yapılan ve irade beyanı niteliğindeki işlemler, Türk Borçlar Kanunu, tüketici mevzuatı ve yürürlükteki diğer mevzuata uygun olarak Tarafları bağlayıcı irade beyanları olarak kabul edilir.`
+    },
+    keySections: {
+      title: "Önemli Şartların Özeti",
+      note: "Aşağıdaki bölümler, anlaşmanın önemli kısımlarını vurgulamaktadır. Tam yasal ayrıntılar için lütfen yukarıdaki tam metne bakın."
     },
   },
   cookies: {

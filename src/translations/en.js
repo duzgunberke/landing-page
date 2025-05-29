@@ -181,6 +181,8 @@ export default {
     },
     fullText: {
       title: "Complete Legal Agreement",
+      showButton: "Show Full Legal Text",
+      hideButton: "Hide Full Legal Text",
       content: `USER AGREEMENT
 
 This UserAgreement ("Agreement") is between the owner of the website or application ("Platform"), operating at the address of ... ("Company") and the User who is a User of the Platform ("User") have been concluded electronically. The Company and the User will hereinafter be referred to together as the "Parties".
@@ -309,6 +311,10 @@ Email: [•]
 Central Registry Number: [•]
 
 Transactions Made Through the Platform: Transactions made through the Platform that qualify as declarations of intent are considered as declarations of intent binding on the Parties in accordance with the Turkish Code of Obligations, consumer legislation and other legislation in force.`
+    },
+    keySections: {
+      title: "Key Terms Summary",
+      note: "The following sections highlight important parts of the agreement. For complete legal details, please refer to the full text above."
     },
   },
   cookies: {
