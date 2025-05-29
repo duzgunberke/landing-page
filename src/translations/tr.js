@@ -73,6 +73,293 @@ export default {
       title: "Giriş",
       content: "Bu Gizlilik Politikası, platformumuzu kullandığınızda NextGoat'un kişisel bilgilerinizi nasıl topladığını, kullandığını ve koruduğunu açıklar. Gizliliğinizin korunmasını sağlamayı taahhüt ediyoruz."
     },
+    fullText: {
+      title: "Tam Gizlilik Politikası Belgesi",
+      showButton: "Tam Yasal Metni Göster",
+      hideButton: "Tam Yasal Metni Gizle",
+      content: `KİŞİSEL VERİLERİN KORUNMASINA İLİŞKİN
+BİLGİLENDİRME METNİ
+
+
+I. VERİ SORUMLUSUNUN KİMLİĞİ:
+
+NextGoat ("Şirket") olarak, kişisel verilerinizin güvenliğine verdiğimiz önem doğrultusunda, bünyemizde bulundurduğumuz tüm kişisel veriler 6698 sayılı Kişisel Verilerin Korunması Kanunu ("Kanun") kapsamında işlenmekte, saklanmakta ve aktarılmaktadır. Bu bilgilendirme, "Veri Sorumlusu" sıfatıyla toplanan, saklanan ve işlenen kişisel verilerinize ilişkin olarak Kanun'un 10. maddesi "Veri Sorumlusunun Aydınlatma Yükümlülüğü" başlığı altında hazırlanmıştır. Veri sorumlusu kayıtları üzerinden isteyen herkes bu bildirimleri görüntüleyebilir.
+
+Şirket, kişisel verilerinizin hukuka aykırı olarak kullanılmasının önlenmesi ve kişisel verilerinizin işlendiği süre boyunca muhafazasının sağlanması amacıyla mevzuat uyarınca uygun güvenlik düzeyini sağlamak için gerekli tedbirleri almaktadır.
+
+II. KİŞİSEL VERİLERİNİZİN TOPLANMA YÖNTEMİ:
+
+Kişisel verileriniz, web sitemiz, mobil uygulamamız, iş ortaklarımız, idari ve adli makamlardan gelen bildirimler, sosyal medya platformları ve çerezler aracılığıyla sözlü, yazılı veya elektronik ortamda toplanmaktadır.
+
+III. İŞLENEN KİŞİSEL VERİLER:
+
+Aşağıda listelenen kişisel verileriniz, Kişisel Verilerin Korunmasına İlişkin Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ ve diğer ikincil mevzuat çerçevesinde işlenmektedir.
+
+Kimlik Verileriniz: İsim, soyisim, TC kimlik numarası, doğum tarihi
+
+İletişim Verileriniz: Adres, e-posta, cep telefonu numarası
+
+Konum Verileriniz: Konum bilgisi
+	
+Pazarlama Verileriniz: Çerez kayıtları, kullanıcıların geçmiş işlemleri, hedefleme, alışkanlık ve beğeni kayıtları, diğer sosyal medya hesaplarındaki kullanıcı bilgileri.
+
+Hukuki İşlem Verileriniz: Talep ve şikayet kayıtları, ticari elektronik ileti izni, hukuki işlem dosya kayıtları, ihbarlar, adli ve idari makamlar ile yazışmalardaki bilgiler.
+
+İşlem Güvenliği Verileriniz: IP Adresi, şifre bilgileri, trafik verileri, website/mobil uygulama giriş çıkış bilgileri, kullanıcı adı bilgileri, diğer sosyal medya hesaplarındaki kullanıcı bilgileri
+
+Risk Yönetimi Verileriniz: IP adresi, şifre ve kullanıcı adı bilgileri
+
+IV. KİŞİSEL VERİLERİNİZİN İŞLENME AMAÇLARI VE HUKUKİ SEBEPLERİ:
+
+Kişisel verileriniz, website/mobil uygulama üzerinden işlem yapan kullanıcılarımızın kimlik bilgilerinin teyidi, kullanıcılarımızın website ve/veya mobil uygulamalar üzerinden hizmet alabilmelerini sağlamak ve kullanıcılarımız ile alacakları hizmetler ve talepleri/şikayetlerine ilişkin iletişime geçilmesi, kullanıcılarımız ile akdetmiş olduğumuz sözleşmelerin koşulları ve mevcut durumlarına ilişkin iletişime geçilmesi, gerekli bilgilendirmelerin yapılması, akdetmiş olduğumuz sözleşmeler uyarınca üstlenilen yükümlülüklerin ve hizmetlerin ifa edilmesi ve hakların kullanılması, üyelik işlemlerinin gerçekleştirilmesi ve kullanıcılarımızın akdetmiş olduğumuz sözleşmelerin koşullarından haberdar edilmesi amaçlarıyla işlenmektedir. Üyelik haklarından faydalanılması, işlemin dayanağını oluşturacak tüm kayıt ve belgelerin elektronik (internet/mobil vb.) ortamda veya kağıt ortamında düzenlenmesi, kullanıcılarımıza sunduğumuz hizmetlerin iyileştirilmesi ve geliştirilmesi, iş geliştirme süreçlerinin yürütülmesi, yetkili makamlardan gelen bilgi taleplerinin yanıtlanması, kullanıcılarımızın ilgi alanları dikkate alınarak ilgilenebilecekleri hizmetler hakkında bilgi verilmesi ve kampanyaların aktarılması, pazar analizi, hedefleme, profilleme ve analiz çalışmaları yürütülerek kullanıcılarımızın özel tercihleri, profilleri ve ilgi alanlarına göre reklam, pazarlama ve tanıtım faaliyetlerinin yürütülmesi, website ve/veya mobil uygulamayı kullanan kullanıcılarımızın deneyiminin iyileştirilmesi, hizmetlere bağlılık süreçlerinin yürütülmesi, kullanıcı memnuniyetinin sağlanmasına yönelik aktivitelerin yürütülmesi ve anlaşmalı kuruluşlar aracılığıyla elektronik ortamda ve/veya fiziki ortamda anketler düzenlenmesi, kullanıcılarımıza tanıtım, pazarlama, reklam, kampanya ve kutlama amaçları ile ticari elektronik ileti gönderilmesi, kullanıcılarımızın talep, öneri ve şikayetlerinin değerlendirilmesi, hizmetlerimizin kullanımı sırasında bilgi ve işlem güvenliğinin sağlanması, hukuki işlerin takibi ve yürütülmesi, iş faaliyetlerimizin yürütülmesi ve denetimi, hizmetlerimizin iyileştirilmesi ve geliştirilmesi, yasal yükümlülüklerimizin yerine getirilmesi ve mevzuattan doğan haklarımızın kullanılması amaçlarıyla işlenmektedir.
+
+V. KİŞİSEL VERİLERİNİZİN İŞLENMESİNİN HUKUKİ SEBEPLERİ:
+
+Kişisel verilerinizi hangi amaçlarla ve hangi hukuki sebeplere dayanarak işlediğimize ilişkin olarak aşağıda bilgi verilmektedir:
+
+Kullanıcıların kişisel verilerinin işlenme amaçları:
+
+Website/mobil uygulama üzerinden işlem yapan kullanıcılarımızın kimlik bilgilerinin teyidi
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, İşlem Güvenliği Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Kullanıcılarımızın website ve/veya mobil uygulamalar üzerinden hizmet alabilmelerini sağlamak ve kullanıcılarımız ile alacakları hizmetler ve talepleri/şikayetlerine ilişkin iletişime geçilmesi.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem Verileri
+	
+Hukuki Sebepler: i) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, ii) iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması. Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Kullanıcılarımız ile akdetmiş olduğumuz sözleşmelerin koşulları ve mevcut durumlarına ilişkin iletişime geçilmesi ve gerekli bilgilendirmelerin yapılması.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem Verileri
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması.
+
+Akdetmiş olduğumuz sözleşmeler uyarınca üstlenilen yükümlülüklerin ve hizmetlerin ifa edilmesi ve hakların kullanılması.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Konum, Hukuki İşlem Verileri
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Üyelik işlemlerinin gerçekleştirilmesi ve kullanıcılarımızın üyelik haklarından faydalanması
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem, İşlem Güvenliği Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: i) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, ii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iii) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve i) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+İşlemin dayanağını oluşturacak tüm kayıt ve belgelerin elektronik (internet/mobil vb.) ortamda veya kağıt ortamında düzenlenmesi.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Kullanıcılarımıza sunduğumuz hizmetlerin iyileştirilmesi ve geliştirilmesi ve iş geliştirme süreçlerinin yürütülmesi.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Pazarlama Verileri
+
+Hukuki Sebepler: İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Yetkili makamlardan gelen bilgi taleplerinin yanıtlanması
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem, İşlem Güvenliği Verileri, Pazarlama Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iii) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve i) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Kullanıcılarımızın ilgi alanları dikkate alınarak ilgilenebilecekleri hizmetler hakkında bilgi verilmesi ve kampanyaların aktarılması.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Pazarlama Verileri
+
+	Hukuki Sebepler: Açık rıza
+
+Pazar analizi, hedefleme, profilleme ve analiz çalışmaları yürütülerek kullanıcılarımızın özel tercihleri, profilleri ve ilgi alanlarına göre reklam, pazarlama ve tanıtım faaliyetlerinin yürütülmesi.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Pazarlama Verileri, İşlem Güvenliği Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: Açık rıza
+
+Website ve/veya mobil uygulamayı kullanan kullanıcılarımızın deneyiminin iyileştirilmesi, hizmetlere bağlılık süreçlerinin yürütülmesi, kullanıcı memnuniyetinin sağlanmasına yönelik aktivitelerin yürütülmesi ve anlaşmalı kuruluşlar aracılığıyla elektronik ortamda ve/veya fiziki ortamda anketler düzenlenmesi.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, İşlem Güvenliği Verileri, Pazarlama Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: Açık rıza
+
+Kullanıcılarımıza tanıtım, pazarlama, reklam, kampanya ve kutlama amaçları ile ticari elektronik ileti gönderilmesi.
+
+Kişisel Veriler: Kimlik, İletişim, Pazarlama Verileri
+
+Hukuki Sebepler: Açık Rıza
+
+Kullanıcılarımızın talep, öneri ve şikayetlerinin değerlendirilmesi
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem, İşlem Güvenliği Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: i) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması ii) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve iii) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Hizmetlerimizin kullanımı sırasında bilgi ve işlem güvenliğinin sağlanması
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem, İşlem Güvenliği Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Hukuki işlerin takibi ve yürütülmesi
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem, İşlem Güvenliği Verileri, Pazarlama Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+İş faaliyetlerimizin yürütülmesi ve denetimi, hizmetlerimizin iyileştirilmesi ve geliştirilmesi
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem, İşlem Güvenliği Verileri, Pazarlama Verileri, Risk Yönetimi Verileri)
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+Yasal yükümlülüklerimizin yerine getirilmesi ve mevzuattan doğan haklarımızın kullanılması.
+
+İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem, İşlem Güvenliği Verileri, Pazarlama Verileri, Risk Yönetimi Verileri
+
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması ve v) İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
+
+
+VI. KİŞİSEL VERİLERİNİZİN AKTARILDIĞI TARAFLAR VE AKTARIM AMAÇLARI
+
+Kişisel verileriniz, aşağıda belirtilen amaçları gerçekleştirmek için Kanun'a uygun olarak yurtiçi ve yurtdışındaki aşağıdaki alıcılara aktarılabilir:
+
+Kullanıcılarımıza hizmet sağlamak, reklam vermek ve kampanyalar düzenlemek amacıyla şirketlere, reklam verenlere, diğer kullanıcılara ve tedarikçilere.
+
+Kullanıcılarımızın onayına dayalı olarak ticari elektronik ileti gönderebilmemiz ve bu kapsamda reklam, kampanya ve tanıtım faaliyetlerini yürütebilmemiz için anlaşma yaptığımız iş ortaklarımıza.
+
+Kullanıcı deneyimini iyileştirmek ve kullanıcı memnuniyetini sağlamak amacıyla, pazarlama faaliyetleri kapsamında Türkiye'de ve yurtdışında bulunan çeşitli ajanslar, reklam şirketleri, pazar araştırma şirketleri ve anket şirketleri ile çalışmaktayız.
+
+İstatistiksel ve teknik hizmetler sağlamak amacıyla hizmet sağlayıcı şirketlere
+
+Kullanıcı ilişkilerini yönetmek ve talep ve şikayet süreçlerini yürütmek için çağrı merkezi hizmeti aldığımız şirkete.
+
+Yönetim süreçlerini yürütmek ve istatistiksel çalışma ve raporlama süreçlerini yürütmek amacıyla Şirket'in ortaklarına.
+
+Faaliyetlerimizi ve iş geliştirme süreçlerimizi yürütmek amacıyla yurt içi ve yurt dışındaki program ortağı kuruluşlar ve sosyal ağ siteleri ile işbirliği yapmaktayız.
+
+Kişisel veriler için bulut depolama hizmeti aldığımız yurt içi ve yurt dışındaki iş ortaklarımıza.
+
+Web sitemiz/mobil uygulamamız için teknolojik altyapı, sunucu hizmeti, e-posta hizmeti ve çerez hizmeti aldığımız Türkiye'de ve yurt dışında bulunan hizmet sağlayıcı şirketlere.
+
+Yasal yükümlülüklerimizi yerine getirmek amacıyla, denetim şirketlerine, avukatlara, yetkili kurum ve kuruluşlara danışmanlık hizmeti sağlamak amacıyla.
+
+     
+VII. İLGİLİ KİŞİNİN HAKLARI
+
+Kişisel veri sahibi, Kanun'un 11. maddesi uyarınca Şirket'e başvurarak;
+
+Kişisel verilerinizin işlenip işlenmediğini öğrenme,
+Kişisel verilerin işlenmesi hakkında bilgi talep etme,
+Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,
+Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme,
+Kişisel veriler eksik veya yanlış işlenmişse bunların düzeltilmesini isteme, veya KVKK'nın 7. maddesinde öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme,
+(d) ve (e) bentleri uyarınca yapılan işlemlerin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,
+Münhasıran otomatik sistemler vasıtasıyla kişisel verilerinizin analiz edilmesiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme,
+Kişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme haklarına sahipsiniz.
+Bu kapsamda iletilen talepler Şirket tarafından en geç otuz gün içinde ücretsiz olarak sonuçlandırılacaktır. Ancak, Kişisel Verileri Koruma Kurulu tarafından bir ücret öngörülmesi halinde, Şirketimiz tarafından belirlenen tarifedeki ücret alınacaktır.
+
+Talepleriniz İçin Bizimle İletişime Geçmek İsterseniz 6698 sayılı Kanun kapsamında bizimle iletişime geçmek, geri bildirimde bulunmak ya da sorularınızı yöneltmek isterseniz, kimliğinizi tevsik edici belgeler ve talebinizi içeren dilekçenizi İletişim bölümünde belirtilen adreslere bizzat elden iletebilir, noter kanalıyla gönderebilir veya belirtilen e-postaya güvenli elektronik imzanız ile iletebilirsiniz. Bu kapsamda konuyla ilgili yapılacak olan yazılı başvurular tarafımızdan yapılacak olan kimlik doğrulamasını takiben kabul edilecek olup, ilgililere yasal süreler içerisinde geri dönüşte bulunulacaktır.
+
+VIII. KİŞİSEL VERİLERİNİZİN KORUNMASINA İLİŞKİN BİLGİLENDİRME METNİNDE YAPILABİLECEK DEĞİŞİKLİKLER:
+
+Şirket, bu Bilgilendirme Metnini istediği zaman güncelleyebilme hakkını saklı tutar. Şirket'in Bilgilendirme Metni'nde Web sitesinde yapacağı değişiklikler yayınlandığı anda yürürlüğe girer.`
+    },
+    dataController: {
+      title: "Veri Sorumlusunun Kimliği",
+      content: "NextGoat (\"Şirket\") olarak, bünyemizde bulundurduğumuz tüm kişisel verileri Kişisel Verilerin Korunması Kanunu kapsamında işlemekte, saklamakta ve aktarmaktayız. Kişisel verilerinizin hukuka aykırı olarak kullanılmasını önlemek ve muhafazasını sağlamak için uygun güvenlik düzeyini sağlamak üzere gerekli tedbirleri almaktayız."
+    },
+    collectionMethod: {
+      title: "Kişisel Verilerinizin Toplanma Yöntemi",
+      content: "Kişisel verileriniz, web sitemiz, mobil uygulamamız, iş ortaklarımız, idari ve adli makamlardan gelen bildirimler, sosyal medya platformları ve çerezler aracılığıyla sözlü, yazılı veya elektronik ortamda toplanmaktadır."
+    },
+    dataProcessed: {
+      title: "İşlenen Kişisel Veriler",
+      intro: "Aşağıda listelenen kişisel verileriniz ilgili mevzuat çerçevesinde işlenmektedir:",
+      identity: {
+        title: "Kimlik Verileri",
+        content: "İsim, soyisim, TC kimlik numarası, doğum tarihi"
+      },
+      contact: {
+        title: "İletişim Verileri",
+        content: "Adres, e-posta, cep telefonu numarası"
+      },
+      location: {
+        title: "Konum Verileri",
+        content: "Konum bilgisi"
+      },
+      marketing: {
+        title: "Pazarlama Verileri",
+        content: "Çerez kayıtları, geçmiş işlemler, hedefleme, alışkanlık ve beğeni kayıtları, sosyal medya hesap bilgileri"
+      },
+      legal: {
+        title: "Hukuki İşlem Verileri",
+        content: "Talep ve şikayet kayıtları, ticari elektronik ileti izni, hukuki işlem dosya kayıtları, ihbarlar, makamlarla yazışmalar"
+      },
+      security: {
+        title: "İşlem Güvenliği Verileri",
+        content: "IP Adresi, şifre bilgileri, trafik verileri, giriş/çıkış bilgileri, kullanıcı adı bilgileri"
+      },
+      risk: {
+        title: "Risk Yönetimi Verileri",
+        content: "IP adresi, şifre ve kullanıcı adı bilgileri"
+      }
+    },
+    purposes: {
+      title: "Kişisel Verilerinizin İşlenme Amaçları",
+      content: "Kişisel verileriniz, kimlik bilgilerinin teyidi, hizmet alımının sağlanması, hizmet ve talepler hakkında iletişim, sözleşmesel yükümlülüklerin yerine getirilmesi, üyelik işlemlerinin gerçekleştirilmesi, hizmetlerin iyileştirilmesi, yetkili makam taleplerinin yanıtlanması, ilgilenebileceğiniz hizmetler hakkında bilgi verilmesi, pazarlama faaliyetlerinin yürütülmesi, kullanıcı deneyiminin iyileştirilmesi, ticari elektronik ileti gönderilmesi, talep ve şikayetlerin değerlendirilmesi, güvenliğin sağlanması, hukuki işlerin takibi ve yasal yükümlülüklerin yerine getirilmesi amaçlarıyla işlenmektedir."
+    },
+    legalReasons: {
+      title: "Kişisel Verilerinizin İşlenmesinin Hukuki Sebepleri",
+      intro: "Kişisel verilerinizi amaca bağlı olarak çeşitli hukuki sebeplere dayanarak işlemekteyiz:",
+      identity: {
+        title: "Kimlik Doğrulama",
+        data: "İşlenen Kişisel Veriler: Kimlik, İletişim, İşlem Güvenliği Verileri, Risk Yönetimi Verileri",
+        reasons: "Hukuki Sebepler: Kanuni gereklilikler, sözleşmesel zorunluluk, hukuki yükümlülükler, hak tesisi/korunması, meşru menfaatler"
+      },
+      services: {
+        title: "Hizmet Sunumu ve İletişim",
+        data: "İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem Verileri",
+        reasons: "Hukuki Sebepler: Sözleşmesel zorunluluk, hukuki yükümlülükler, hak tesisi/korunması, meşru menfaatler"
+      },
+      marketing: {
+        title: "Pazarlama ve Kullanıcı Deneyimi",
+        data: "İşlenen Kişisel Veriler: Kimlik, İletişim, Pazarlama Verileri, İşlem Güvenliği Verileri",
+        reasons: "Hukuki Sebepler: Açık rıza"
+      }
+    },
+    dataTransfer: {
+      title: "Kişisel Verilerinizin Aktarıldığı Taraflar",
+      intro: "Kişisel verileriniz, Kanun'a uygun olarak aşağıdaki alıcılara aktarılabilir:",
+      item1: "Hizmet sağlamak, reklam vermek ve kampanyalar düzenlemek amacıyla şirketler, reklam verenler, diğer kullanıcılar ve tedarikçiler",
+      item2: "Ticari elektronik ileti ve tanıtım faaliyetleri için anlaşmalı iş ortakları",
+      item3: "Kullanıcı deneyimi iyileştirmesi için pazarlama ajansları, reklam şirketleri ve anket şirketleri",
+      item4: "İstatistiksel ve teknik hizmetler için hizmet sağlayıcı şirketler",
+      item5: "Kullanıcı ilişkilerini yönetmek için çağrı merkezi hizmeti sağlayıcıları",
+      item6: "Yönetim süreçleri ve raporlama için şirket ortakları",
+      item7: "İş geliştirme için program ortağı kuruluşlar ve sosyal ağ siteleri",
+      item8: "Bulut depolama ve teknolojik altyapı sağlayıcıları"
+    },
+    userRights: {
+      title: "Veri Sahibi Olarak Haklarınız",
+      intro: "Kişisel veri sahibi olarak, Şirket'e başvurarak:",
+      item1: "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+      item2: "Verilerinizin işlenmesi hakkında bilgi talep etme",
+      item3: "İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme",
+      item4: "Verilerinizin aktarıldığı üçüncü kişileri bilme",
+      item5: "Eksik veya yanlış işlenmiş verilerin düzeltilmesini isteme",
+      item6: "Bu işlemlerin üçüncü kişilere bildirilmesini isteme",
+      item7: "Otomatik sistemlerle analiz sonucu aleyhte çıkan sonuçlara itiraz etme",
+      item8: "Hukuka aykırı işleme nedeniyle zarara uğrama durumunda tazminat talep etme",
+      conclusion: "Talepleriniz en geç otuz gün içinde ücretsiz olarak sonuçlandırılacaktır. Ancak, Kişisel Verileri Koruma Kurulu tarafından bir ücret öngörülmesi halinde, belirlenmiş tarifeye göre ücret alınabilir.",
+      contact: "Veri koruma haklarınızla ilgili bizimle iletişime geçmek isterseniz, kimliğinizi tevsik edici belgelerle birlikte İletişim bölümünde belirtilen yöntemlerle başvurabilirsiniz."
+    },
+    changes: {
+      title: "Bu Gizlilik Politikasındaki Değişiklikler",
+      content: "NextGoat, bu Bilgilendirme Metnini istediği zaman güncelleme hakkını saklı tutar. Web sitesinde yapılan değişiklikler yayınlandığı anda yürürlüğe girer."
+    },
     collection: {
       title: "Topladığımız Bilgiler",
       content: "Size hizmet sunmak ve hizmetimizi geliştirmek için çeşitli türde bilgiler topluyoruz. Bunlar şunları içerebilir:",
@@ -97,7 +384,7 @@ export default {
     },
     security: {
       title: "Veri Güvenliği",
-      content: "Kişisel bilgilerinizi yetkisiz erişime, değiştirilmeye, açıklanmaya veya imha edilmeye karşı korumak için uygun güvenlik önlemleri uyguluyoruz. Ancak, internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir."
+      content: "Kişisel bilgilerinizi yetkisiz erişime, değiştirilmeye, açıklanmaya veya imha edilmeye karşı korumak için uygun güvenlik önlemleri uygulıyoruz. Ancak, internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir."
     },
     contact: {
       title: "Bize Ulaşın",
