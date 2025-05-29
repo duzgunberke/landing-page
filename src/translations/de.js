@@ -73,6 +73,293 @@ export default {
       title: "Einleitung",
       content: "Diese Datenschutzrichtlinie erklärt, wie NextGoat Ihre persönlichen Daten sammelt, verwendet und schützt, wenn Sie unsere Plattform nutzen. Wir verpflichten uns, Ihre Privatsphäre zu schützen."
     },
+    fullText: {
+      title: "Vollständiges Datenschutzdokument",
+      showButton: "Vollständigen Rechtstext Anzeigen",
+      hideButton: "Vollständigen Rechtstext Ausblenden",
+      content: `BEZÜGLICH DES SCHUTZES PERSONENBEZOGENER DATEN
+INFORMATIONSTEXT
+
+
+I. IDENTITÄT DES DATENVERANTWORTLICHEN:
+
+Als NextGoat ("Unternehmen") werden alle personenbezogenen Daten, die wir in unserer Organisation halten, entsprechend der Wichtigkeit, die wir der Sicherheit Ihrer personenbezogenen Daten beimessen, gemäß dem Gesetz zum Schutz personenbezogener Daten Nr. 6698 ("Gesetz") verarbeitet, gespeichert und übertragen. Diese Information wurde gemäß Artikel 10 des Gesetzes mit dem Titel "Informationspflicht des Datenverantwortlichen" bezüglich Ihrer personenbezogenen Daten erstellt, die als "Datenverantwortlicher" gesammelt, gespeichert und verarbeitet werden. Jeder, der möchte, kann diese Benachrichtigungen über die Aufzeichnungen des Datenverantwortlichen einsehen.
+
+Das Unternehmen ergreift die notwendigen Maßnahmen, um gemäß der Gesetzgebung ein angemessenes Sicherheitsniveau zu gewährleisten, um die unrechtmäßige Nutzung Ihrer personenbezogenen Daten zu verhindern und ihre Aufbewahrung während der Verarbeitung Ihrer personenbezogenen Daten sicherzustellen.
+
+II. METHODE DER SAMMLUNG IHRER PERSONENBEZOGENEN DATEN:
+
+Ihre personenbezogenen Daten werden mündlich, schriftlich oder elektronisch über unsere Website, mobile Anwendung, Geschäftspartner, Benachrichtigungen von Verwaltungs- und Justizbehörden, Social-Media-Plattformen und Cookies gesammelt.
+
+III. VERARBEITETE PERSONENBEZOGENE DATEN:
+
+Ihre unten aufgeführten personenbezogenen Daten werden im Rahmen der Mitteilung über die Verfahren und Grundsätze, die bei der Erfüllung der Informationspflicht zum Schutz personenbezogener Daten anzuwenden sind, und anderer sekundärer Gesetzgebung verarbeitet.
+
+Ihre Identitätsdaten: Name, Nachname, TR ID-Nummer, Geburtsdatum
+
+Ihre Kontaktdaten: Adresse, E-Mail, Mobiltelefonnummer
+
+Ihre Standortdaten: Standortinformationen
+	
+Ihre Marketingdaten: Cookie-Aufzeichnungen, frühere Transaktionen von Benutzern, Targeting, Aufzeichnungen von Gewohnheiten und Vorlieben, Benutzerinformationen in anderen Social-Media-Konten.
+
+Ihre rechtlichen Transaktionsdaten: Anfrage- und Beschwerdeaufzeichnungen, Genehmigung für kommerzielle elektronische Nachrichten, rechtliche Transaktionsdateiaufzeichnungen, Mitteilungen, Informationen in der Korrespondenz mit Justiz- und Verwaltungsbehörden.
+
+Ihre Transaktionssicherheitsdaten: IP-Adresse, Passwortinformationen, Verkehrsdaten, Website/Mobile App-Ein- und Auslogginformationen, Benutzernameninformationen, Benutzerinformationen in anderen Social-Media-Konten
+
+Risikomanagementdaten: IP-Adresse, Passwort- und Benutzernameninformationen
+
+IV. ZWECKE UND RECHTLICHE GRÜNDE FÜR DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN:
+
+Ihre personenbezogenen Daten werden verwendet, um die Identitätsinformationen unserer Benutzer zu bestätigen, die Transaktionen über die Website/mobile Anwendung durchführen, um unseren Benutzern zu ermöglichen, Dienstleistungen über die Website und/oder mobile Anwendungen zu erhalten und mit unseren Benutzern bezüglich der Dienstleistungen, die sie erhalten werden, und ihren Anfragen/Beschwerden zu kommunizieren, um mit unseren Benutzern bezüglich der Bedingungen und des aktuellen Status der von uns abgeschlossenen Verträge zu kommunizieren, um die notwendigen Informationen bereitzustellen, um die Verpflichtungen und Dienstleistungen gemäß den von uns abgeschlossenen Verträgen zu erfüllen und die Rechte auszuüben, um Mitgliedschaftstransaktionen durchzuführen und sicherzustellen, dass unsere Benutzer über die Bedingungen der von uns abgeschlossenen Verträge informiert werden. Es wird verarbeitet für die Zwecke der Nutzung von Mitgliedschaftsrechten, der Organisation aller Aufzeichnungen und Dokumente, die die Grundlage für die Transaktion in elektronischer (Internet/Mobil usw.) oder Papierumgebung bilden werden, der Verbesserung und Entwicklung der Dienstleistungen, die unseren Benutzern angeboten werden, der Durchführung von Geschäftsentwicklungsprozessen, der Beantwortung von Informationsanfragen von autorisierten Behörden, der Bereitstellung von Informationen über Dienstleistungen, die für unsere Benutzer von Interesse sein könnten, unter Berücksichtigung ihrer Interessengebiete und der Übertragung von Kampagnen, der Durchführung von Werbe-, Marketing- und Werbemaßnahmen nach den speziellen Präferenzen, Profilen und Interessengebieten unserer Benutzer durch Durchführung von Marktanalyse-, Targeting-, Profiling- und Analysestudien, der Verbesserung der Erfahrung unserer Benutzer, die die Website und/oder mobile Anwendung nutzen, der Durchführung von Loyalitätsprozessen der Dienstleistungen, der Durchführung von Aktivitäten zur Sicherstellung der Benutzerzufriedenheit und der Organisation von Umfragen in elektronischer und/oder physischer Umgebung durch vertraglich gebundene Organisationen, dem Senden von kommerziellen elektronischen Nachrichten an unsere Benutzer für Werbe-, Marketing-, Werbe-, Kampagnen- und Feierzwecke, der Bewertung der Anforderungen, Vorschläge und Beschwerden unserer Benutzer, der Sicherstellung von Informations- und Transaktionssicherheit bei der Nutzung unserer Dienstleistungen, der Verfolgung und Durchführung rechtlicher Angelegenheiten, der Durchführung und Prüfung unserer Geschäftsaktivitäten, der Verbesserung und Entwicklung unserer Dienstleistungen, der Erfüllung unserer gesetzlichen Verpflichtungen und der Ausübung unserer Rechte, die sich aus der aktuellen Gesetzgebung ergeben.
+
+V. RECHTLICHE GRÜNDE FÜR DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN:
+
+Wir stellen Ihnen nachfolgend Informationen zu den Zwecken, für die wir Ihre personenbezogenen Daten verarbeiten, und auf welcher Rechtsgrundlage zur Verfügung:
+
+Zwecke der Verarbeitung personenbezogener Daten von Benutzern:
+
+Bestätigung der Identitätsinformationen unserer Benutzer, die über die Website/mobile Anwendung Transaktionen durchführen
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Transaktionssicherheitsdaten, Risikomanagementdaten
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iv) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und v) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Um unseren Benutzern zu ermöglichen, Dienstleistungen über die Website und/oder mobile Anwendungen zu erhalten und mit unseren Benutzern bezüglich der Dienstleistungen, die sie erhalten werden, und ihren Anfragen/Beschwerden zu kommunizieren.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtliche Transaktionsdaten
+	
+Rechtliche Gründe: i) Die Verarbeitung personenbezogener Daten der Vertragsparteien ist notwendig, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Durchführung eines Vertrags, ii) iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen. Die Datenverarbeitung ist notwendig für die Einrichtung, Ausübung oder den Schutz eines Rechts und v) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Kommunikation mit unseren Benutzern bezüglich der Bedingungen und des aktuellen Status der von uns abgeschlossenen Verträge und Bereitstellung der notwendigen Informationen.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtliche Transaktionsdaten
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iv) Die Datenverarbeitung ist notwendig für die Einrichtung, Ausübung oder den Schutz eines Rechts.
+
+Um die übernommenen Verpflichtungen und Dienstleistungen zu erfüllen und die Rechte aus den von uns abgeschlossenen Verträgen auszuüben.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Standort, Rechtliche Transaktionsdaten
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iv) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und v) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Durchführung von Mitgliedschaftstransaktionen und Nutzung von Mitgliedschaftsrechten durch unsere Benutzer
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtliche Verfahren, Transaktionssicherheitsdaten, Risikomanagementdaten
+
+Rechtliche Gründe: i) Die Verarbeitung personenbezogener Daten der Vertragsparteien ist notwendig, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, ii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iii) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und i) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Vorbereitung aller Aufzeichnungen und Dokumente, die die Grundlage der Transaktion in elektronischem (Internet/Mobil usw.) oder Papierformat bilden werden.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtliche Verfahren
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iv) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und v) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Verbesserung und Entwicklung der Dienstleistungen, die wir unseren Benutzern anbieten, und Durchführung von Geschäftsentwicklungsprozessen.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Marketingdaten
+
+Rechtliche Gründe: Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Beantwortung von Informationsanfragen von zuständigen Behörden
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtlicher Prozess, Transaktionssicherheitsdaten, Marketingdaten, Risikomanagementdaten
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iii) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und i) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Bereitstellung von Informationen über Dienstleistungen, die für unsere Benutzer von Interesse sein könnten, und Übermittlung von Kampagnen unter Berücksichtigung der Interessen unserer Benutzer.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Marketingdaten
+
+Rechtliche Gründe: Ausdrückliche Zustimmung
+
+Durchführung von Werbe-, Marketing- und Werbemaßnahmen basierend auf den spezifischen Präferenzen, Profilen und Interessengebieten unserer Benutzer durch Durchführung von Marktanalyse-, Targeting-, Profiling- und Analysestudien.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Marketingdaten, Transaktionssicherheitsdaten, Risikomanagementdaten
+
+Rechtliche Gründe: Ausdrückliche Zustimmung
+
+Verbesserung der Erfahrung unserer Benutzer, die die Website und/oder mobile Anwendung nutzen, Durchführung von Dienstleistungsloyalitätsprozessen, Durchführung von Aktivitäten zur Sicherstellung der Benutzerzufriedenheit und Organisation von Umfragen elektronisch und/oder physisch durch vertraglich gebundene Organisationen.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Transaktionssicherheitsdaten, Marketingdaten, Risikomanagementdaten
+
+Rechtliche Gründe: Ausdrückliche Zustimmung
+
+Um kommerzielle elektronische Nachrichten an unsere Benutzer für Werbe-, Marketing-, Werbe-, Kampagnen- und Feierzwecke zu senden.
+
+Personenbezogene Daten: Identität, Kontakt, Marketingdaten
+
+Rechtliche Gründe: Ausdrückliche Zustimmung
+
+Bewertung der Anfragen, Vorschläge und Beschwerden unserer Benutzer
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtlicher Prozess, Transaktionssicherheitsdaten, Risikomanagementdaten
+
+Rechtliche Gründe: i) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen ii) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und iii) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Gewährleistung der Informations- und Transaktionssicherheit bei der Nutzung unserer Dienste
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtlicher Prozess, Transaktionssicherheitsdaten, Risikomanagementdaten
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iv) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und v) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Überwachung und Durchführung rechtlicher Angelegenheiten
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtlicher Prozess, Transaktionssicherheitsdaten, Marketingdaten, Risikomanagementdaten
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iv) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und v) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Ausführung und Kontrolle unserer Geschäftsaktivitäten, Verbesserung und Entwicklung unserer Dienstleistungen
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtlicher Prozess, Transaktionssicherheitsdaten, Marketingdaten, Risikomanagementdaten)
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iv) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und v) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+Erfüllung unserer gesetzlichen Verpflichtungen und Ausübung unserer aus der aktuellen Gesetzgebung entstehenden Rechte.
+
+Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtlicher Prozess, Transaktionssicherheitsdaten, Marketingdaten, Risikomanagementdaten
+
+Rechtliche Gründe: i) Es ist in den Gesetzen klar vorgesehen, ii) Es ist notwendig, personenbezogene Daten der Vertragsparteien zu verarbeiten, vorausgesetzt, es steht in direktem Zusammenhang mit der Einrichtung oder Ausführung eines Vertrags, iii) Es ist für den Datenverantwortlichen obligatorisch, seine rechtlichen Verpflichtungen zu erfüllen, iv) Die Datenverarbeitung ist obligatorisch für die Einrichtung, Ausübung oder den Schutz eines Rechts und v) Die Datenverarbeitung ist obligatorisch für die berechtigten Interessen des Datenverantwortlichen, vorausgesetzt, es schadet nicht den Grundrechten und Freiheiten der betreffenden Person.
+
+
+VI. PARTEIEN, AN DIE IHRE PERSONENBEZOGENEN DATEN ÜBERMITTELT WERDEN, UND ZWECKE DER ÜBERMITTLUNG
+
+Ihre personenbezogenen Daten können an die folgenden inländischen und ausländischen Empfänger gemäß dem Gesetz übermittelt werden, um die unten angegebenen Zwecke zu erreichen:
+
+An Unternehmen, Werbetreibende, andere Benutzer und Lieferanten zum Zwecke der Bereitstellung von Diensten für unsere Benutzer, der Werbung und der Organisation von Kampagnen.
+
+An unsere Geschäftspartner, mit denen wir Vereinbarungen haben, damit wir auf der Grundlage der Zustimmung unserer Benutzer kommerzielle elektronische Nachrichten senden und in diesem Rahmen Werbe-, Kampagnen- und Werbeaktivitäten durchführen können.
+
+Um die Benutzererfahrung zu verbessern und die Benutzerzufriedenheit zu gewährleisten, arbeiten wir im Rahmen von Marketingaktivitäten mit verschiedenen Agenturen, Werbeunternehmen, Marktforschungsunternehmen und Umfrageunternehmen in der Türkei und im Ausland zusammen.
+
+Zur Bereitstellung statistischer und technischer Dienste an Dienstleistungsunternehmen
+
+Das Unternehmen, von dem wir Call-Center-Dienste erhalten, um Benutzerbeziehungen zu verwalten und Anfrage- und Beschwerdeprozesse durchzuführen.
+
+Die Partner des Unternehmens, um Managementprozesse und statistische Arbeiten und Berichterstattungsprozesse durchzuführen.
+
+Wir kooperieren mit in- und ausländischen Programmpartnerorganisationen und Social-Networking-Sites, um unsere Aktivitäten und Geschäftsentwicklungsprozesse durchzuführen.
+
+Unsere Geschäftspartner im In- und Ausland, von denen wir Cloud-Speicherdienste für personenbezogene Daten erhalten.
+
+An Dienstleistungsunternehmen in der Türkei und im Ausland, von denen wir technologische Infrastruktur, Serverdienst, E-Mail-Dienst und Cookie-Dienst für unsere Website/mobile Anwendung erhalten.
+
+Um unsere gesetzlichen Verpflichtungen zu erfüllen, bieten wir Prüfungsunternehmen, Anwälten, autorisierten Institutionen und Organisationen Beratungsdienste an.
+
+     
+VII. RECHTE DER BETROFFENEN PERSON
+
+Der Inhaber der personenbezogenen Daten kann gemäß Artikel 11 des Gesetzes beim Unternehmen beantragen;
+
+Zu erfahren, ob Ihre personenbezogenen Daten verarbeitet werden,
+Informationen über die Verarbeitung personenbezogener Daten anzufordern,
+Den Zweck der Verarbeitung Ihrer personenbezogenen Daten zu erfahren und ob sie gemäß ihrem Zweck verwendet werden,
+Die Kenntnis der Dritten, an die personenbezogene Daten im In- oder Ausland übermittelt werden,
+Personenbezogene Daten werden unvollständig oder falsch verarbeitet, die Berichtigung solcher Daten zu verlangen oder die Löschung oder Vernichtung solcher Daten im Rahmen der in Artikel 7 des KVKK dargelegten Bedingungen zu verlangen,
+Die Benachrichtigung über die gemäß den Buchstaben (d) und (e) oben durchgeführten Transaktionen an Dritte, an die personenbezogene Daten übermittelt wurden, zu verlangen,
+Gegen ein Ergebnis zu widersprechen, das für Sie nachteilig ist, aufgrund der Analyse Ihrer personenbezogenen Daten ausschließlich durch automatisierte Systeme,
+Wenn Sie aufgrund der unrechtmäßigen Verarbeitung Ihrer personenbezogenen Daten einen Schaden erleiden, haben Sie das Recht, Entschädigung für den Schaden zu verlangen.
+ Anträge, die in diesem Rahmen eingereicht werden, werden vom Unternehmen spätestens innerhalb von dreißig Tagen kostenlos abgeschlossen. Wenn jedoch vom Personaldatenschutzausschuss eine Gebühr vorgesehen ist, wird die Gebühr im vom Unternehmen festgelegten Tarif erhoben.
+
+Wenn Sie uns wegen Ihrer Anfragen kontaktieren möchten Wenn Sie uns kontaktieren, Feedback geben oder Ihre Fragen im Rahmen des Gesetzes Nr. 6698 stellen möchten, können Sie Ihre Petition mit Ihren identitätsunterstützenden Dokumenten und Ihrer Anfrage persönlich an die im Kontaktabschnitt angegebenen Adressen übergeben, per Notar senden oder mit einer sicheren elektronischen Signatur an die angegebene E-Mail senden. In diesem Zusammenhang werden schriftliche Anträge zu diesem Thema nach der von uns durchzuführenden Identitätsüberprüfung akzeptiert und die betreffenden Parteien werden innerhalb der gesetzlichen Fristen kontaktiert.
+
+VIII. ÄNDERUNGEN, DIE IM INFORMATIONSTEXT ZUM SCHUTZ IHRER PERSONENBEZOGENEN DATEN VORGENOMMEN WERDEN KÖNNEN:
+
+Das Unternehmen behält sich das Recht vor, diesen Informationstext jederzeit zu aktualisieren. Vom Unternehmen am Informationstext auf der Website vorzunehmende Änderungen werden sofort mit der Veröffentlichung wirksam.`
+    },
+    dataController: {
+      title: "Identität des Datenverantwortlichen",
+      content: "Als NextGoat (\"Unternehmen\") verarbeiten, speichern und übertragen wir alle personenbezogenen Daten, die wir in unserer Organisation halten, gemäß dem Gesetz zum Schutz personenbezogener Daten. Wir ergreifen die notwendigen Maßnahmen, um ein angemessenes Sicherheitsniveau zu gewährleisten, um die unrechtmäßige Nutzung Ihrer personenbezogenen Daten zu verhindern und ihre Aufbewahrung sicherzustellen."
+    },
+    collectionMethod: {
+      title: "Methode der Sammlung Ihrer personenbezogenen Daten",
+      content: "Ihre personenbezogenen Daten werden mündlich, schriftlich oder elektronisch über unsere Website, mobile Anwendung, Geschäftspartner, Benachrichtigungen von Verwaltungs- und Justizbehörden, Social-Media-Plattformen und Cookies gesammelt."
+    },
+    dataProcessed: {
+      title: "Verarbeitete personenbezogene Daten",
+      intro: "Ihre unten aufgeführten personenbezogenen Daten werden im Rahmen der geltenden Gesetzgebung verarbeitet:",
+      identity: {
+        title: "Identitätsdaten",
+        content: "Name, Nachname, ID-Nummer, Geburtsdatum"
+      },
+      contact: {
+        title: "Kontaktdaten",
+        content: "Adresse, E-Mail, Mobiltelefonnummer"
+      },
+      location: {
+        title: "Standortdaten",
+        content: "Standortinformationen"
+      },
+      marketing: {
+        title: "Marketingdaten",
+        content: "Cookie-Aufzeichnungen, frühere Transaktionen, Targeting, Aufzeichnungen von Gewohnheiten und Vorlieben, Social-Media-Kontoinformationen"
+      },
+      legal: {
+        title: "Rechtliche Transaktionsdaten",
+        content: "Anfrage- und Beschwerdeaufzeichnungen, Genehmigung für kommerzielle elektronische Nachrichten, rechtliche Transaktionsdateiaufzeichnungen, Mitteilungen, Korrespondenz mit Behörden"
+      },
+      security: {
+        title: "Transaktionssicherheitsdaten",
+        content: "IP-Adresse, Passwortinformationen, Verkehrsdaten, Ein-/Auslogginformationen, Benutzernameninformationen"
+      },
+      risk: {
+        title: "Risikomanagementdaten",
+        content: "IP-Adresse, Passwort- und Benutzernameninformationen"
+      }
+    },
+    purposes: {
+      title: "Zwecke der Verarbeitung Ihrer personenbezogenen Daten",
+      content: "Ihre personenbezogenen Daten werden verarbeitet, um Identitätsinformationen zu bestätigen, die Dienstleistungserbringung zu ermöglichen, über Dienstleistungen und Anfragen zu kommunizieren, vertragliche Verpflichtungen zu erfüllen, Mitgliedschaftstransaktionen durchzuführen, unsere Dienstleistungen zu verbessern, auf Behörden zu reagieren, Informationen über Dienstleistungen von Interesse bereitzustellen, Marketingaktivitäten durchzuführen, die Benutzerzufriedenheit zu gewährleisten, kommerzielle Nachrichten zu senden, Benutzerfeedback zu bewerten, Sicherheit zu gewährleisten, rechtliche Angelegenheiten zu bearbeiten und gesetzliche Verpflichtungen zu erfüllen."
+    },
+    legalReasons: {
+      title: "Rechtliche Gründe für die Verarbeitung Ihrer personenbezogenen Daten",
+      intro: "Wir verarbeiten Ihre personenbezogenen Daten auf verschiedenen Rechtsgrundlagen, je nach Zweck:",
+      identity: {
+        title: "Identitätsbestätigung",
+        data: "Verarbeitete personenbezogene Daten: Identität, Kontakt, Transaktionssicherheitsdaten, Risikomanagementdaten",
+        reasons: "Rechtliche Gründe: Gesetzliche Anforderungen, vertragliche Notwendigkeit, gesetzliche Verpflichtungen, Rechtsetablierung/Schutz, berechtigte Interessen"
+      },
+      services: {
+        title: "Dienstleistungserbringung und Kommunikation",
+        data: "Verarbeitete personenbezogene Daten: Identität, Kontakt, Rechtliche Transaktionsdaten",
+        reasons: "Rechtliche Gründe: Vertragliche Notwendigkeit, gesetzliche Verpflichtungen, Rechtsetablierung/Schutz, berechtigte Interessen"
+      },
+      marketing: {
+        title: "Marketing und Benutzererfahrung",
+        data: "Verarbeitete personenbezogene Daten: Identität, Kontakt, Marketingdaten, Transaktionssicherheitsdaten",
+        reasons: "Rechtliche Gründe: Ausdrückliche Zustimmung"
+      }
+    },
+    dataTransfer: {
+      title: "Parteien, an die Ihre personenbezogenen Daten übermittelt werden",
+      intro: "Ihre personenbezogenen Daten können gemäß dem Gesetz an die folgenden Empfänger übermittelt werden:",
+      item1: "Unternehmen, Werbetreibende, andere Benutzer und Lieferanten für Dienstleistungserbringung, Werbung und Kampagnen",
+      item2: "Geschäftspartner für kommerzielle elektronische Nachrichten und Werbeaktivitäten",
+      item3: "Marketingagenturen, Werbeunternehmen und Umfrageunternehmen zur Verbesserung der Benutzererfahrung",
+      item4: "Dienstleistungsunternehmen für statistische und technische Dienste",
+      item5: "Call-Center-Dienstleister für die Verwaltung von Benutzerbeziehungen",
+      item6: "Unternehmenspartner für Managementprozesse und Berichterstattung",
+      item7: "Programmpartnerorganisationen und Social-Networking-Sites für Geschäftsentwicklung",
+      item8: "Cloud-Speicherdienstanbieter und Unternehmen für technologische Infrastruktur"
+    },
+    userRights: {
+      title: "Ihre Rechte als betroffene Person",
+      intro: "Als Inhaber personenbezogener Daten können Sie beim Unternehmen beantragen:",
+      item1: "Zu erfahren, ob Ihre personenbezogenen Daten verarbeitet werden",
+      item2: "Informationen über die Verarbeitung Ihrer Daten anzufordern",
+      item3: "Den Zweck der Verarbeitung und ob er entsprechend verwendet wird, zu erfahren",
+      item4: "Die Dritten zu kennen, an die Ihre Daten übermittelt werden",
+      item5: "Die Berichtigung unvollständiger oder falscher Daten zu verlangen",
+      item6: "Die Benachrichtigung über diese Transaktionen an Dritte zu verlangen",
+      item7: "Gegen Ergebnisse zu widersprechen, die aus der automatisierten Analyse Ihrer Daten abgeleitet werden",
+      item8: "Entschädigung für Schäden aufgrund unrechtmäßiger Verarbeitung zu verlangen",
+      conclusion: "Anfragen werden innerhalb von dreißig Tagen kostenlos abgeschlossen. Wenn jedoch vom Personaldatenschutzausschuss eine Gebühr vorgesehen ist, können wir gemäß dem festgelegten Tarif berechnen.",
+      contact: "Wenn Sie uns bezüglich Ihrer Datenschutzrechte kontaktieren möchten, können Sie Ihre Petition mit unterstützenden Identitätsdokumenten über die im Kontaktabschnitt angegebenen Kontaktmethoden einreichen."
+    },
+    changes: {
+      title: "Änderungen dieser Datenschutzrichtlinie",
+      content: "NextGoat behält sich das Recht vor, diesen Informationstext jederzeit zu aktualisieren. Änderungen am Informationstext auf der Website werden sofort mit der Veröffentlichung wirksam."
+    },
     collection: {
       title: "Informationen, die wir sammeln",
       content: "Wir sammeln verschiedene Arten von Informationen, um Ihnen unsere Dienste anzubieten und zu verbessern. Dies kann Folgendes umfassen:",
