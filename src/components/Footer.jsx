@@ -41,7 +41,6 @@ const Footer = () => {
         <div className="flex flex-wrap gap-4 justify-center md:justify-end">
           <Link to={getLocalizedPath("/privacy-policy")} className="text-sm hover:underline">{t('footer.privacyPolicy')}</Link>
           <Link to={getLocalizedPath("/terms-of-service")} className="text-sm hover:underline">{t('footer.terms')}</Link>
-          <Link to={getLocalizedPath("/data-protection")} className="text-sm hover:underline">{t('footer.dataProtection')}</Link>
           <Link to={getLocalizedPath("/cookies")} className="text-sm hover:underline">{t('footer.cookies')}</Link>
           <Link to={getLocalizedPath("/about-us")} className="text-sm hover:underline">{t('footer.aboutUs')}</Link>
           <a href="mailto:info@nextgoat.io" className="text-sm hover:underline">info@nextgoat.io</a>

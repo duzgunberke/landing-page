@@ -12,7 +12,6 @@ import TermsOfService from "./components/TermsOfService";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import Cookies from "./components/Cookies";
 import AboutUs from "./components/AboutUs";
-import DataProtection from "./components/DataProtection";
 
 function App() {
   const { language } = useLanguage();
@@ -40,7 +39,6 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/cookies" element={<Cookies />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/data-protection" element={<DataProtection />} />
         
         {/* German routes */}
         <Route path="/de" element={<MainLayout />} />
@@ -49,7 +47,6 @@ function App() {
         <Route path="/de/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/de/cookies" element={<Cookies />} />
         <Route path="/de/about-us" element={<AboutUs />} />
-        <Route path="/de/data-protection" element={<DataProtection />} />
         
         {/* Turkish routes */}
         <Route path="/tr" element={<MainLayout />} />
@@ -58,7 +55,6 @@ function App() {
         <Route path="/tr/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/tr/cookies" element={<Cookies />} />
         <Route path="/tr/about-us" element={<AboutUs />} />
-        <Route path="/tr/data-protection" element={<DataProtection />} />
         
         {/* Fallback route */}
         <Route path="*" element={<Navigate to="/" replace />} />
