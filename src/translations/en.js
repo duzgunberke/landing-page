@@ -73,6 +73,293 @@ export default {
       title: "Introduction",
       content: "This Privacy Policy explains how NextGoat collects, uses, and protects your personal information when you use our platform. We are committed to ensuring your privacy is protected."
     },
+    fullText: {
+      title: "Complete Privacy Policy Document",
+      showButton: "Show Full Legal Text",
+      hideButton: "Hide Full Legal Text",
+      content: `REGARDING THE PROTECTION OF PERSONAL DATA
+INFORMATION TEXT
+
+
+I. IDENTITY OF THE DATA CONTROLLER:
+
+As NextGoat ("Company"), in line with the importance we attach to the security of your personal data, all personal data we hold in our organization is processed, stored and transferred under the Personal Data Protection Law No. 6698 ("Law"). This information has been prepared under Article 10 of the Law titled "Data Controller's Obligation to Disclose" regarding your personal data collected, stored and processed as the "Data Controller". Anyone who wishes can view these notifications through the data controller records.
+
+The Company takes the necessary measures to ensure the appropriate level of security in accordance with the legislation in order to prevent the unlawful use of your personal data and to ensure its preservation during the processing of your personal data.
+
+II. COLLECTION METHOD OF YOUR PERSONAL DATA:
+
+Your personal data is collected verbally, in writing or electronically through our website, mobile application, business partners, notifications from administrative and judicial authorities, social media platforms and cookies.
+
+III. PERSONAL DATA PROCESSED:
+
+Your personal data listed below are processed within the framework of the Communiqué on the Procedures and Principles to be Applied in Fulfilling the Information Obligation for the Protection of Personal Data and other secondary legislation.
+
+Your Identity Data: Name, surname, TR ID number, date of birth
+
+Your Contact Data: Address, email, mobile phone number
+
+Your Location Data: Location information
+	
+Your Marketing Data : Cookie records, past transactions of users, targeting, records of habits and likes, user information on other social media accounts.
+
+Your Legal Transaction Data: Request and complaint records, commercial electronic message permission, legal transaction file records, notices, information in correspondence with judicial and administrative authorities.
+
+Your Transaction Security Data: IP Address, password information, traffic data, website/mobile application login and logout information, username information, user information on other social media accounts
+
+Risk Management Data: IP address, password and username information
+
+IV. PURPOSES AND LEGAL REASONS FOR PROCESSING YOUR PERSONAL DATA:
+
+Your personal data is used to confirm the identity information of our users who perform transactions through the website/mobile application, to enable our users to receive services through the website and/or mobile applications and to communicate with our users regarding the services they will receive and their requests/complaints, to communicate with our users regarding the terms and current status of the contracts we have concluded, to provide the necessary information, to fulfill the obligations and services undertaken pursuant to the contracts we have concluded and to exercise the rights, to carry out membership transactions and to ensure that our users are informed of the terms and conditions of the contracts we have concluded. It is processed for the purposes of benefiting from membership rights, organizing all records and documents that will form the basis of the transaction in electronic (internet/mobile etc.) or paper environment, improving and developing the services offered to our users, carrying out business development processes, responding to information requests from authorized authorities, providing information about services that may be of interest to our users by taking into account their areas of interest and transferring campaigns, carrying out advertising, marketing and promotional activities according to the special preferences, profiles and areas of interest of our users by conducting market analysis, targeting, profiling and analysis studies, improving the experience of our users using the website and/or mobile application, carrying out loyalty processes of the services, carrying out activities aimed at ensuring user satisfaction and organizing surveys in electronic and/or physical environment through contracted organizations, sending commercial electronic messages to our users for promotion, marketing, advertising, campaign and celebration purposes, evaluating the demands, suggestions and complaints of our users, ensuring information and transaction security while using our services, following up and conducting legal affairs, carrying out and auditing our business activities, improving and developing our services, fulfilling our legal obligations and exercising our rights arising from the current legislation.
+
+V. LEGAL REASONS FOR PROCESSING YOUR PERSONAL DATA:
+
+We provide you with information below regarding the purposes for which we process your personal data and on what legal grounds:
+
+Purposes of processing users' personal data:
+
+Confirmation of identity information of our users who transact via the website/mobile application 
+
+Personal Data Processed: Identity, Contact, Transaction Security Data, Risk Management Data
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, iii) It is mandatory for the data controller to fulfill its legal obligations, iv) Data processing is mandatory for the establishment, exercise or protection of a right and v) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+To enable our users to receive services through the website and/or mobile applications and to communicate with our users regarding the services they will receive and their requests/complaints.
+
+Personal Data Processed: Identity, Contact, Legal Transaction Data
+	
+Legal Reasons : i) The processing of personal data of the parties to a contract is necessary, provided that it is directly related to the establishment or performance of a contract, ii) iii) It is mandatory for the data controller to fulfill its legal obligations . Data processing is necessary for the establishment, exercise or protection of a right and v ) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Communicating with our users regarding the terms and current status of the contracts we have concluded and providing the necessary information.
+
+Personal Data Processed: Identity, Contact, Legal Transaction Data
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, iii) It is mandatory for the data controller to fulfill its legal obligations, iv) Data processing is necessary for the establishment, exercise or protection of a right.
+
+To perform the obligations and services undertaken and to exercise the rights under the contracts we have concluded. 
+
+Personal Data Processed: Identity, Contact, Location, Legal Transaction Data
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, iii) It is mandatory for the data controller to fulfill its legal obligations, iv) Data processing is mandatory for the establishment, exercise or protection of a right and v) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Carrying out membership transactions and our users benefit from membership rights
+
+Personal Data Processed: Identity, Contact, Legal Proceedings, Transaction Security Data, Risk Management Data
+
+Legal Reasons: i) The processing of personal data of the parties to a contract is necessary, provided that it is directly related to the establishment or execution of a contract, ii) It is mandatory for the data controller to fulfill its legal obligations, iii) Data processing is mandatory for the establishment, exercise or protection of a right and i ) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Preparation of all records and documents that will form the basis of the transaction in electronic (internet/mobile etc.) or paper format.
+
+Personal Data Processed: Identity, Contact, Legal Proceedings
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, iii) It is mandatory for the data controller to fulfill its legal obligations, iv) Data processing is mandatory for the establishment, exercise or protection of a right and v) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Improving and developing the services we offer to our users and carrying out business development processes.
+
+Personal Data Processed: Identity, Contact, Marketing Data
+
+Legal Reasons: Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Responding to requests for information from competent authorities
+
+Personal Data Processed: Identity, Contact, Legal Process, Transaction Security Data, Marketing Data, Risk Management Data
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is mandatory for the data controller to fulfill its legal obligations, iii) Data processing is mandatory for the establishment, exercise or protection of a right and i ) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Providing information about services that may be of interest to our users and conveying campaigns, taking into account the interests of our users.
+
+Personal Data Processed: Identity, Contact, Marketing Data
+
+	Legal Reasons: Explicit consent
+
+Carrying out advertising, marketing and promotional activities based on our users' specific preferences, profiles and areas of interest by conducting market analysis, targeting, profiling and analysis studies.
+
+Personal Data Processed: Identity, Contact, Marketing Data, Transaction Security Data, Risk Management Data
+
+Legal Reasons: Explicit consent
+
+Improving the experience of our users using the website and/or mobile application, carrying out service loyalty processes, carrying out activities to ensure user satisfaction and organizing surveys electronically and/or physically through contracted organizations.
+
+Personal Data Processed: Identity, Contact, Transaction Security Data, Marketing Data, Risk Management Data
+
+Legal Reasons: Explicit consent
+
+To send commercial electronic messages to our users for promotional, marketing, advertising, campaign and celebration purposes.
+
+Personal Data : Identity, Contact, Marketing Data
+
+Legal Reasons: Explicit Consent
+
+Evaluating our users' requests, suggestions and complaints
+
+Personal Data Processed: Identity, Contact, Legal Process, Transaction Security Data, Risk Management Data
+
+Legal Reasons: i) It is mandatory for the data controller to fulfill its legal obligations ii) Data processing is mandatory for the establishment, exercise or protection of a right and iii) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Ensuring information and transaction security while using our services
+
+Personal Data Processed: Identity, Contact, Legal Process, Transaction Security Data, Risk Management Data
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, iii) It is mandatory for the data controller to fulfill its legal obligations, iv) Data processing is mandatory for the establishment, exercise or protection of a right and v) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Monitoring and execution of legal affairs
+
+Personal Data Processed: Identity, Contact, Legal Process, Transaction Security Data, Marketing Data, Risk Management Data
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, iii) It is mandatory for the data controller to fulfill its legal obligations, iv) Data processing is mandatory for the establishment, exercise or protection of a right and v) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Execution and control of our business activities, improvement and development of our services
+
+Personal Data Processed: Identity, Contact, Legal Process, Transaction Security Data, Marketing Data, Risk Management Data)
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, iii) It is mandatory for the data controller to fulfill its legal obligations, iv) Data processing is mandatory for the establishment, exercise or protection of a right and v) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+Fulfilling our legal obligations and exercising our rights arising from current legislation.
+
+Personal Data Processed: Identity, Contact, Legal Process, Transaction Security Data, Marketing Data, Risk Management Data
+
+Legal Reasons: i) It is clearly stated in the laws, ii) It is necessary to process personal data of the parties to the contract, provided that it is directly related to the establishment or execution of a contract, iii) It is mandatory for the data controller to fulfill its legal obligations, iv) Data processing is necessary for the establishment, exercise or protection of a right and v) Data processing is mandatory for the legitimate interests of the data controller, provided that it does not harm the fundamental rights and freedoms of the relevant person.
+
+
+VI. PARTIES TO WHICH YOUR PERSONAL DATA IS TRANSFERRED AND THE PURPOSES OF TRANSFER
+
+Your personal data may be transferred to the following domestic and foreign recipients in accordance with the Law in order to achieve the purposes specified below:
+
+To companies, advertisers, other users and suppliers for the purpose of providing services to our users, advertising and organizing campaigns.
+
+To our business partners with whom we have agreements so that we can send commercial electronic messages based on the approval of our users and carry out advertising, campaign and promotional activities within this scope.
+
+In order to improve user experience and ensure user satisfaction, we work with various agencies, advertising companies, market research companies and survey companies located in Turkey and abroad within the scope of marketing activities.
+
+To provide statistical and technical services to service provider companies
+
+The company from which we receive call center services in order to manage user relations and carry out request and complaint processes.
+
+the Company's partners in order to carry out management processes and statistical work and reporting processes.
+
+We cooperate with domestic and international program partner organizations and social networking sites to carry out our activities and business development processes.
+
+Our business partners, both domestic and abroad, from whom we receive cloud storage services for personal data.
+
+To service provider companies located in Turkey and abroad from which we receive technological infrastructure, server service, e-mail service and cookie service for our website/mobile application.
+
+In order to fulfill our legal obligations, we provide consultancy services to auditing companies, lawyers, authorized institutions and organizations.
+
+     
+VII. RIGHTS OF THE RELATED PERSON
+
+The personal data owner may apply to the Company in accordance with Article 11 of the Law;
+
+To learn whether your personal data is being processed,
+To request information about the processing of personal data,
+To learn the purpose of processing your personal data and whether it is used under its purpose,
+Knowing the third parties to whom personal data is transferred domestically or abroad,
+personal data is processed incompletely or incorrectly, request correction of such data, or request deletion or destruction of such data within the framework of the conditions outlined in Article 7 of the KVKK,
+To request notification of the transactions made under clauses (d) and (e) above to third parties to whom personal data has been transferred,
+To object to a result that is detrimental to you due to the analysis of your personal data exclusively by automated systems,
+If you suffer damage due to the unlawful processing of your personal data, you have the right to demand compensation for the damage.
+ Requests submitted within this scope will be finalized by the Company free of charge within thirty days at the latest. However, if a fee is foreseen by the Personal Data Protection Board, the fee in the tariff determined by our Company will be charged.
+
+If You Want to Contact Us for Your Requests If you want to contact us, give feedback or ask your questions within the scope of Law No. 6698, you can personally deliver your petition including your identity supporting documents and your request to the addresses specified in the Contact section, send it via notary or send it to the specified email with a secure electronic signature. In this context, written applications to be made on the subject will be accepted following the identity verification to be made by us and the relevant parties will be contacted within the legal periods.
+
+VIII. CHANGES THAT MAY BE MADE IN THE INFORMATION TEXT ON THE PROTECTION OF YOUR PERSONAL DATA:
+
+Company reserves the right to update this Information Text at any time. Company Changes to be made by the Information Text on the website It becomes effective immediately upon publication.`
+    },
+    dataController: {
+      title: "Identity of the Data Controller",
+      content: "As NextGoat (\"Company\"), we process, store and transfer all personal data we hold in our organization under the Personal Data Protection Law. We take the necessary measures to ensure the appropriate level of security to prevent unlawful use of your personal data and ensure its preservation."
+    },
+    collectionMethod: {
+      title: "Collection Method of Your Personal Data",
+      content: "Your personal data is collected verbally, in writing or electronically through our website, mobile application, business partners, notifications from administrative and judicial authorities, social media platforms and cookies."
+    },
+    dataProcessed: {
+      title: "Personal Data Processed",
+      intro: "Your personal data listed below are processed within the framework of applicable legislation:",
+      identity: {
+        title: "Identity Data",
+        content: "Name, surname, ID number, date of birth"
+      },
+      contact: {
+        title: "Contact Data",
+        content: "Address, email, mobile phone number"
+      },
+      location: {
+        title: "Location Data",
+        content: "Location information"
+      },
+      marketing: {
+        title: "Marketing Data",
+        content: "Cookie records, past transactions, targeting, records of habits and likes, social media account information"
+      },
+      legal: {
+        title: "Legal Transaction Data",
+        content: "Request and complaint records, commercial electronic message permission, legal transaction file records, notices, correspondence with authorities"
+      },
+      security: {
+        title: "Transaction Security Data",
+        content: "IP Address, password information, traffic data, login/logout information, username information"
+      },
+      risk: {
+        title: "Risk Management Data",
+        content: "IP address, password and username information"
+      }
+    },
+    purposes: {
+      title: "Purposes of Processing Your Personal Data",
+      content: "Your personal data is processed to confirm identity information, enable service delivery, communicate about services and requests, fulfill contractual obligations, carry out membership transactions, improve our services, respond to authorities, provide information about services of interest, conduct marketing activities, ensure user satisfaction, send commercial messages, evaluate user feedback, ensure security, handle legal affairs, and fulfill legal obligations."
+    },
+    legalReasons: {
+      title: "Legal Reasons for Processing Your Personal Data",
+      intro: "We process your personal data on various legal grounds depending on the purpose:",
+      identity: {
+        title: "Identity Confirmation",
+        data: "Personal Data Processed: Identity, Contact, Transaction Security Data, Risk Management Data",
+        reasons: "Legal Reasons: Legal requirements, contractual necessity, legal obligations, right establishment/protection, legitimate interests"
+      },
+      services: {
+        title: "Service Delivery and Communication",
+        data: "Personal Data Processed: Identity, Contact, Legal Transaction Data",
+        reasons: "Legal Reasons: Contractual necessity, legal obligations, right establishment/protection, legitimate interests"
+      },
+      marketing: {
+        title: "Marketing and User Experience",
+        data: "Personal Data Processed: Identity, Contact, Marketing Data, Transaction Security Data",
+        reasons: "Legal Reasons: Explicit consent"
+      }
+    },
+    dataTransfer: {
+      title: "Parties to Which Your Personal Data is Transferred",
+      intro: "Your personal data may be transferred to the following recipients in accordance with the Law:",
+      item1: "Companies, advertisers, other users and suppliers for service provision, advertising and campaigns",
+      item2: "Business partners for commercial electronic messages and promotional activities",
+      item3: "Marketing agencies, advertising companies, and survey companies for user experience improvement",
+      item4: "Service provider companies for statistical and technical services",
+      item5: "Call center service providers for user relations management",
+      item6: "Company partners for management processes and reporting",
+      item7: "Program partner organizations and social networking sites for business development",
+      item8: "Cloud storage service providers and technological infrastructure companies"
+    },
+    userRights: {
+      title: "Your Rights as a Data Subject",
+      intro: "As a personal data owner, you may apply to the Company to:",
+      item1: "Learn whether your personal data is being processed",
+      item2: "Request information about the processing of your data",
+      item3: "Learn the purpose of processing and whether it's used accordingly",
+      item4: "Know the third parties to whom your data is transferred",
+      item5: "Request correction of incomplete or incorrect data",
+      item6: "Request notification of these transactions to third parties",
+      item7: "Object to results derived from automated analysis of your data",
+      item8: "Demand compensation for damages due to unlawful processing",
+      conclusion: "Requests will be finalized free of charge within thirty days. However, if a fee is determined by the Personal Data Protection Board, we may charge according to the determined tariff.",
+      contact: "If you want to contact us regarding your data protection rights, you can submit your petition with supporting identity documents through the contact methods specified in the Contact section."
+    },
+    changes: {
+      title: "Changes to this Privacy Policy",
+      content: "NextGoat reserves the right to update this Information Text at any time. Changes made to the Information Text on the website become effective immediately upon publication."
+    },
     collection: {
       title: "Information We Collect",
       content: "We collect several types of information to provide and improve our service to you. This may include:",
