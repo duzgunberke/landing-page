@@ -18,6 +18,7 @@ const TermsOfService = () => {
           </h1>
           
           <div className="space-y-6 font-circular-web">
+            {/* Introduction Section */}
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
                 {t('terms.intro.title')}
@@ -25,41 +26,108 @@ const TermsOfService = () => {
               <p className="text-white/80">
                 {t('terms.intro.content')}
               </p>
+              <div className="mt-4 p-4 bg-[#176B87]/20 rounded-md border border-[#64CCC5]/30">
+                <p className="text-white/90 font-medium">{t('terms.intro.agreement')}</p>
+              </div>
             </section>
             
+            {/* Full Legal Text Section */}
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('terms.accounts.title')}
+                {t('terms.fullText.title')}
+              </h2>
+              <div className="mt-4 p-6 bg-[#176B87]/10 rounded-md border border-[#64CCC5]/30 whitespace-pre-wrap text-white/80 text-sm leading-relaxed">
+                {t('terms.fullText.content')}
+              </div>
+            </section>
+            
+            {/* Definitions Section */}
+            <section>
+              <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
+                {t('terms.definitions.title')}
               </h2>
               <p className="text-white/80">
-                {t('terms.accounts.content')}
+                {t('terms.definitions.content')}
               </p>
+              <div className="mt-3 space-y-2">
+                <div className="flex">
+                  <span className="font-semibold text-[#64CCC5] min-w-[120px]">{t('terms.definitions.service')}:</span>
+                  <span className="text-white/80">{t('terms.definitions.serviceDefinition')}</span>
+                </div>
+                <div className="flex">
+                  <span className="font-semibold text-[#64CCC5] min-w-[120px]">{t('terms.definitions.authority')}:</span>
+                  <span className="text-white/80">{t('terms.definitions.authorityDefinition')}</span>
+                </div>
+              </div>
             </section>
 
+            {/* User Registration Section */}
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('terms.conduct.title')}
+                {t('terms.registration.title')}
               </h2>
-              <p className="text-white/80">
-                {t('terms.conduct.content')}
-              </p>
-              <ul className="mt-2 list-disc pl-5 text-white/80">
-                <li>{t('terms.conduct.items.illegal')}</li>
-                <li>{t('terms.conduct.items.harassment')}</li>
-                <li>{t('terms.conduct.items.infringement')}</li>
-                <li>{t('terms.conduct.items.impersonation')}</li>
+              <ul className="list-decimal pl-5 space-y-2 text-white/80">
+                <li>{t('terms.registration.process')}</li>
+                <li>{t('terms.registration.age')}</li>
+                <li>{t('terms.registration.accuracy')}</li>
+                <li>{t('terms.registration.authorities')}</li>
+                <li>{t('terms.registration.data')}</li>
+                <li>{t('terms.registration.withdrawal')}</li>
               </ul>
             </section>
 
+            {/* User Responsibilities Section */}
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('terms.content.title')}
+                {t('terms.responsibilities.title')}
+              </h2>
+              <div className="space-y-3 text-white/80">
+                <p>{t('terms.responsibilities.accurate')}</p>
+                <p>{t('terms.responsibilities.password')}</p>
+                <p>{t('terms.responsibilities.legal')}</p>
+                <p>{t('terms.responsibilities.prohibited')}</p>
+                <p>{t('terms.responsibilities.security')}</p>
+              </div>
+            </section>
+
+            {/* Limitations Section */}
+            <section>
+              <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
+                {t('terms.limitations.title')}
+              </h2>
+              <div className="space-y-3 text-white/80">
+                <p>{t('terms.limitations.responsibility')}</p>
+                <p>{t('terms.limitations.thirdParty')}</p>
+                <p>{t('terms.limitations.personalData')}</p>
+              </div>
+            </section>
+
+            {/* Intellectual Property Section */}
+            <section>
+              <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
+                {t('terms.intellectual.title')}
               </h2>
               <p className="text-white/80">
-                {t('terms.content.content')}
+                {t('terms.intellectual.content')}
               </p>
             </section>
 
+            {/* Personal Data Section */}
+            <section>
+              <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
+                {t('terms.personalData.title')}
+              </h2>
+              <div className="space-y-3 text-white/80">
+                <p>{t('terms.personalData.controller')}</p>
+                <p>{t('terms.personalData.protection')}</p>
+                <p>{t('terms.personalData.processing')}</p>
+                <p>{t('terms.personalData.usage')}</p>
+                <p>{t('terms.personalData.thirdParty')}</p>
+                <p>{t('terms.personalData.rights')}</p>
+              </div>
+            </section>
+
+            {/* Termination Section */}
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
                 {t('terms.termination.title')}
@@ -69,24 +137,22 @@ const TermsOfService = () => {
               </p>
             </section>
 
+            {/* Final Provisions Section */}
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('terms.liability.title')}
+                {t('terms.final.title')}
               </h2>
-              <p className="text-white/80">
-                {t('terms.liability.content')}
-              </p>
+              <div className="space-y-3 text-white/80">
+                <p><span className="font-medium">{t('terms.final.law')}:</span> {t('terms.final.lawContent')}</p>
+                <p><span className="font-medium">{t('terms.final.jurisdiction')}:</span> {t('terms.final.jurisdictionContent')}</p>
+                <p><span className="font-medium">{t('terms.final.integrity')}:</span> {t('terms.final.integrityContent')}</p>
+                <p><span className="font-medium">{t('terms.final.evidence')}:</span> {t('terms.final.evidenceContent')}</p>
+                <p><span className="font-medium">{t('terms.final.contact')}:</span> {t('terms.final.contactContent')}</p>
+                <p><span className="font-medium">{t('terms.final.platform')}:</span> {t('terms.final.platformContent')}</p>
+              </div>
             </section>
 
-            <section>
-              <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
-                {t('terms.changes.title')}
-              </h2>
-              <p className="text-white/80">
-                {t('terms.changes.content')}
-              </p>
-            </section>
-
+            {/* Contact Section */}
             <section>
               <h2 className="mb-3 text-2xl font-medium text-[#64CCC5]">
                 {t('terms.contact.title')}

@@ -109,37 +109,71 @@ export default {
     title: "Nutzungsbedingungen",
     intro: {
       title: "Einleitung",
-      content: "Diese Nutzungsbedingungen regeln Ihre Nutzung der NextGoat-Plattform. Durch den Zugriff auf oder die Nutzung unseres Dienstes erklären Sie sich mit diesen Bedingungen einverstanden."
+      content: "Diese Benutzervereinbarung ('Vereinbarung') wird zwischen dem Eigentümer der Website oder Anwendung ('Plattform'), die unter der Adresse von NextGoat ('Unternehmen') betrieben wird, und dem Benutzer, der ein Benutzer der Plattform ('Benutzer') ist, elektronisch geschlossen. Das Unternehmen und der Benutzer werden im Folgenden zusammen als die 'Parteien' bezeichnet. Diese Vereinbarung dient dazu, die Bedingungen für die Nutzung und Inanspruchnahme der Dienste festzulegen, die der Benutzer über die vom Unternehmen betriebene Plattform erhält.",
+      agreement: "DURCH DIE NUTZUNG DIESER PLATTFORM BESTÄTIGEN SIE, DASS SIE ALLE BEDINGUNGEN DIESER VEREINBARUNG GELESEN UND VERSTANDEN HABEN UND DAMIT EINVERSTANDEN SIND, AN DIESE GEBUNDEN ZU SEIN."
     },
-    accounts: {
-      title: "Benutzerkonten",
-      content: "Wenn Sie ein Konto bei uns erstellen, müssen Sie genaue und vollständige Informationen angeben. Sie sind für die Aufrechterhaltung der Sicherheit Ihres Kontos und für alle Aktivitäten, die unter Ihrem Konto stattfinden, verantwortlich."
+    definitions: {
+      title: "Definitionen",
+      content: "Die folgenden Begriffe haben die ihnen unten zugewiesenen Bedeutungen:",
+      service: "Dienst",
+      serviceDefinition: "bezeichnet NextGoats Plattform zur Entdeckung und Präsentation von Fußballtalenten",
+      authority: "Öffentliche Behörde",
+      authorityDefinition: "bezeichnet jede Justiz- oder Verwaltungsbehörde, offizielle, halboffizielle oder autonome Institution, Organisation, Kommission und Gremium"
     },
-    conduct: {
-      title: "Benutzerverhalten",
-      content: "Sie stimmen zu, sich nicht an den folgenden verbotenen Aktivitäten zu beteiligen:",
-      items: {
-        illegal: "Nutzung unseres Dienstes für illegale Zwecke",
-        harassment: "Belästigung, Einschüchterung oder Einschüchterung anderer Benutzer",
-        infringement: "Verletzung der geistigen Eigentumsrechte anderer",
-        impersonation: "Nachahmung anderer Personen oder Organisationen"
-      }
+    registration: {
+      title: "Benutzerregistrierung",
+      process: "Die Benutzerregistrierung erfolgt durch Abschluss des Registrierungsprozesses auf der Plattform.",
+      age: "Benutzer müssen volljährig sein, andernfalls ist die Zustimmung der Eltern erforderlich.",
+      accuracy: "Benutzer müssen genaue, wahrheitsgemäße und aktuelle Informationen zu Benutzertransaktionen bereitstellen. Das Unternehmen bestimmt den Umfang dieser Informationen und kann sie bei Bedarf ändern oder erweitern.",
+      authorities: "Das Unternehmen kann die Informationen des Benutzers mit den relevanten offiziellen Behörden teilen, um gesetzliche Anforderungen zu erfüllen.",
+      data: "Das Unternehmen kann die von Benutzern bereitgestellten Informationen verwenden, um die Dienste der Plattform zu bewerten und zu verbessern.",
+      withdrawal: "Benutzer können sich jederzeit von der Plattform zurückziehen, indem sie die entsprechenden Verfahren befolgen."
     },
-    content: {
-      title: "Benutzerinhalte",
-      content: "Durch das Posten von Inhalten auf unserer Plattform gewähren Sie uns eine nicht-exklusive, weltweite, lizenzfreie Lizenz zur Nutzung, Änderung, Reproduktion und Verbreitung dieser Inhalte zum Zwecke der Bereitstellung unseres Dienstes."
+    responsibilities: {
+      title: "Benutzerverantwortlichkeiten",
+      accurate: "Der Benutzer erklärt, dass alle bereitgestellten persönlichen Informationen wahr und korrekt sind, und wird alle Änderungen unverzüglich aktualisieren.",
+      password: "Der Benutzer hat das ausschließliche Recht, sein Passwort zu verwenden, und ist dafür verantwortlich, es sicher zu halten. Alle Haftung für die Passwortnutzung liegt beim Benutzer.",
+      legal: "Der Benutzer verpflichtet sich, bei der Nutzung der Plattform alle gesetzlichen Vorschriften einzuhalten.",
+      prohibited: "Der Benutzer darf die Plattform nicht nutzen, um die öffentliche Ordnung zu stören, Belästigungen durchzuführen, Urheberrechte zu verletzen oder Aktivitäten durchzuführen, die die Sicherheit gefährden.",
+      security: "Obwohl das Unternehmen Sicherheitsmaßnahmen ergreift, ist es nicht für unbefugten Zugriff auf Benutzerinformationen verantwortlich."
+    },
+    limitations: {
+      title: "Haftungsbeschränkungen",
+      responsibility: "Das Unternehmen haftet nicht für direkte oder indirekte Schäden, die durch die Nutzung der Plattform entstehen können.",
+      thirdParty: "Das Unternehmen ist nicht für den Inhalt anderer Websites oder Anwendungen verantwortlich, die von der Plattform verlinkt sind.",
+      personalData: "Der Benutzer akzeptiert, dass der Informationstext zum Schutz personenbezogener Daten Teil dieser Vereinbarung ist."
+    },
+    intellectual: {
+      title: "Geistiges Eigentum",
+      content: "Alle Texte, visuellen Inhalte, Marken, Logos, Know-how und andere Elemente innerhalb der Plattform gehören dem Unternehmen oder werden unter Lizenz verwendet. Diese dürfen ohne schriftliche Genehmigung nicht verwendet, erworben, modifiziert, kopiert oder reproduziert werden."
+    },
+    personalData: {
+      title: "Schutz personenbezogener Daten",
+      controller: "Das Unternehmen fungiert als 'Datenverantwortlicher' für alle über die Plattform erhobenen personenbezogenen Daten.",
+      protection: "Wir haben technische und administrative Maßnahmen ergriffen, um die Vertraulichkeit personenbezogener Daten gemäß den geltenden Gesetzen zu gewährleisten.",
+      processing: "Die Verarbeitung personenbezogener Daten umfasst Vorgänge wie das Erfassen, Aufzeichnen, Speichern, Aufbewahren, Ändern, Neuordnen, Offenlegen, Übertragen oder Klassifizieren von Daten.",
+      usage: "Personenbezogene Daten können verwendet werden, um Benutzern einen besseren Service zu bieten, Dienstleistungen zu verbessern und, falls erlaubt, für Marketingaktivitäten.",
+      thirdParty: "Das Unternehmen wird personenbezogene Daten nicht an Dritte weitergeben, es sei denn, dies ist gesetzlich vorgeschrieben oder mit Zustimmung des Benutzers.",
+      rights: "Gemäß den Datenschutzgesetzen haben Benutzer Rechte in Bezug auf ihre personenbezogenen Daten, einschließlich des Rechts auf Zugang, Berichtigung, Löschung oder Widerspruch gegen die Verarbeitung."
     },
     termination: {
       title: "Kündigung",
-      content: "Wir können Ihr Konto und den Zugriff auf unseren Dienst sofort kündigen oder aussetzen, ohne vorherige Ankündigung, für Verhaltensweisen, von denen wir glauben, dass sie gegen diese Bedingungen verstoßen oder für andere Benutzer, uns oder Dritte schädlich sind."
+      content: "Sowohl der Benutzer als auch das Unternehmen können diese Vereinbarung jederzeit durch Benachrichtigung der anderen Partei kündigen. Der Benutzer kann die Kündigungsverfahren auf der Plattform befolgen. Die Kündigung hat keine Auswirkungen auf Rechte und Pflichten, die vor dem Kündigungsdatum entstanden sind."
     },
-    liability: {
-      title: "Haftungsbeschränkung",
-      content: "NextGoat und seine verbundenen Unternehmen haften nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich Verlust von Gewinnen, Daten oder Goodwill."
-    },
-    changes: {
-      title: "Änderungen der Bedingungen",
-      content: "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern oder zu ersetzen. Es liegt in Ihrer Verantwortung, unsere Bedingungen regelmäßig auf Änderungen zu überprüfen."
+    final: {
+      title: "Schlussbestimmungen",
+      law: "Anwendbares Recht",
+      lawContent: "Diese Vereinbarung unterliegt den Gesetzen der Republik Türkei und wird entsprechend ausgelegt.",
+      jurisdiction: "Gerichtsstand",
+      jurisdictionContent: "Die Gerichte und Vollstreckungsbehörden von Istanbul Zentral (Çağlayan) sind für die Beilegung aller Streitigkeiten aus dieser Vereinbarung zuständig.",
+      integrity: "Integrität der Vereinbarung",
+      integrityContent: "Anhänge zur Vereinbarung bilden einen integralen Bestandteil dieser Vereinbarung.",
+      evidence: "Exklusiver Beweis",
+      evidenceContent: "Die Parteien vereinbaren, dass bei Streitigkeiten die Dokumente und elektronischen Aufzeichnungen des Unternehmens als exklusiver Beweis dienen.",
+      contact: "Unternehmenskontakt",
+      contactContent: "Kontaktinformationen finden Sie auf unserer Website oder Kontaktseite.",
+      platform: "Plattformtransaktionen",
+      platformContent: "Über die Plattform getätigte Transaktionen gelten als verbindliche Willenserklärungen."
     },
     contact: {
       title: "Kontaktieren Sie uns",

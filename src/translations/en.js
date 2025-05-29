@@ -109,42 +109,207 @@ export default {
     title: "Terms of Service",
     intro: {
       title: "Introduction",
-      content: "These Terms of Service govern your use of the NextGoat platform. By accessing or using our service, you agree to be bound by these Terms."
+      content: "This User Agreement ('Agreement') is between the owner of the website or application ('Platform'), operating at the address of NextGoat ('Company') and the User who is a User of the Platform ('User'). The Company and the User will hereinafter be referred to together as the 'Parties'. This Agreement is designed to determine the conditions of use and utilization of the Services to be received by the User through the Platform owned by the Company.",
+      agreement: "BY USING THIS PLATFORM, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT."
     },
-    accounts: {
-      title: "User Accounts",
-      content: "When you create an account with us, you must provide accurate and complete information. You are responsible for maintaining the security of your account and for all activities that occur under your account."
+    definitions: {
+      title: "Definitions",
+      content: "The following terms shall have the meanings assigned to them below:",
+      service: "Service",
+      serviceDefinition: "expresses NextGoat's football talent discovery and showcase platform",
+      authority: "Public Authority",
+      authorityDefinition: "means any judicial or administrative authority, official, semi-official or autonomous institution, organization, commission and board"
     },
-    conduct: {
-      title: "User Conduct",
-      content: "You agree not to engage in any of the following prohibited activities:",
-      items: {
-        illegal: "Use our service for any illegal purpose",
-        harassment: "Harass, bully, or intimidate other users",
-        infringement: "Infringe on intellectual property rights of others",
-        impersonation: "Impersonate other individuals or entities"
-      }
+    registration: {
+      title: "User Registration",
+      process: "User is acquired by completing the registration process on the Platform.",
+      age: "Users must be of legal age, otherwise, parental consent is required.",
+      accuracy: "Users must provide accurate, true and up-to-date information regarding User transactions. The Company determines the scope of this information and may change or expand it if necessary.",
+      authorities: "The Company may share the User's information with the relevant Official Authorities in order to fulfill legal requirements.",
+      data: "The Company may use the information provided by Users to evaluate and improve the Platform's services.",
+      withdrawal: "Users may withdraw from the Platform at any time by following the proper procedures."
     },
-    content: {
-      title: "User Content",
-      content: "By posting content on our platform, you grant us a non-exclusive, worldwide, royalty-free license to use, modify, reproduce, and distribute that content for the purpose of providing our service."
+    responsibilities: {
+      title: "User Responsibilities",
+      accurate: "The User declares that all personal information provided is true and correct, and will immediately update any changes.",
+      password: "The User has the exclusive right to use their password and is responsible for keeping it secure. All liability for password use belongs to the User.",
+      legal: "The User agrees to comply with all legal legislation while using the Platform.",
+      prohibited: "The User may not use the Platform to disrupt public order, engage in harassment, infringe on copyrights, or perform activities that threaten security.",
+      security: "While the Company takes security measures, it is not responsible for unauthorized access to User information."
+    },
+    limitations: {
+      title: "Limitations of Liability",
+      responsibility: "The Company is not responsible for any direct or indirect damage that may occur due to the use of the Platform.",
+      thirdParty: "The Company is not responsible for the content of other websites or applications linked from the Platform.",
+      personalData: "The User accepts that the Information Text on the Protection of Personal Data is part of this Agreement."
+    },
+    intellectual: {
+      title: "Intellectual Property",
+      content: "All text, visual content, brands, logos, know-how and other elements within the Platform belong to the Company or are used under license. These cannot be used, acquired, modified, copied or reproduced without written permission."
+    },
+    personalData: {
+      title: "Personal Data Protection",
+      controller: "The Company acts as the 'Data Controller' for all personal data collected through the Platform.",
+      protection: "We have taken technical and administrative measures to ensure the confidentiality of personal data in accordance with applicable laws.",
+      processing: "Processing of personal data includes operations such as obtaining, recording, storing, preserving, changing, rearranging, disclosing, transferring, or classifying data.",
+      usage: "Personal data may be used to provide better service to Users, improve services, and for marketing activities if permitted.",
+      thirdParty: "The Company will not share personal data with third parties except as required by law or with User consent.",
+      rights: "According to data protection laws, Users have rights regarding their personal data, including the right to access, correct, delete, or object to processing."
     },
     termination: {
       title: "Termination",
-      content: "We may terminate or suspend your account and access to our service immediately, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties."
+      content: "Either the User or the Company may terminate this Agreement at any time by notifying the other party. The User can follow the termination procedures on the Platform. Termination will not affect rights and obligations arising before the termination date."
     },
-    liability: {
-      title: "Limitation of Liability",
-      content: "NextGoat and its affiliates will not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill."
-    },
-    changes: {
-      title: "Changes to Terms",
-      content: "We reserve the right to modify or replace these Terms at any time. It is your responsibility to check our Terms periodically for changes."
+    final: {
+      title: "Final Provisions",
+      law: "Applicable Law",
+      lawContent: "This Agreement is subject to the laws of the Republic of Turkey and will be interpreted accordingly.",
+      jurisdiction: "Jurisdiction",
+      jurisdictionContent: "Istanbul Central (Çağlayan) Courts and Enforcement Offices are authorized to resolve all disputes arising from this Agreement.",
+      integrity: "Integrity of the Agreement",
+      integrityContent: "Annexes to the Agreement constitute an integral part of this Agreement.",
+      evidence: "Exclusive Evidence",
+      evidenceContent: "The Parties agree that in disputes, the documents and electronic records belonging to the Company will be exclusive evidence.",
+      contact: "Company Contact",
+      contactContent: "For contact information, please refer to our website or contact page.",
+      platform: "Platform Transactions",
+      platformContent: "Transactions made through the Platform are considered binding declarations of intent."
     },
     contact: {
       title: "Contact Us",
       content: "If you have any questions about these Terms, please contact us at terms@nextgoat.com."
-    }
+    },
+    fullText: {
+      title: "Complete Legal Agreement",
+      content: `USER AGREEMENT
+
+This UserAgreement ("Agreement") is between the owner of the website or application ("Platform"), operating at the address of ... ("Company") and the User who is a User of the Platform ("User") have been concluded electronically. The Company and the User will hereinafter be referred to together as the "Parties".
+
+to determine the conditions of use and utilization of the Services to be received by the User through the Platform owned by the Company.
+  
+USER ACCEPT THAT HE HAS READ THE AGREEMENT, UNDERSTAND IT AND IS AWARE OF HIS RIGHTS AND OBLIGATIONS.
+
+THE PARTIES ACCEPT THAT THERE IS NO DISPROPORTION BETWEEN THE ACTIONS AGREED IN THE CONTRACT, THAT THE MUTUAL ACTIONS ARE SUITABLE FOR THE NATURE OF THE JOB, AND THAT THEY DO NOT HAVE ANY LACK OF EXPERIENCE WITH REGARDS TO THE TRANSACTIONS WITHIN THE SCOPE OF THE CONTRACT.
+
+USER ACCEPT THAT HE HAS FULLY CONSIDERED THAT THE TRANSACTIONS CONTAINED WITHIN THE SCOPE OF THE AGREEMENT ARE IN HIS OWN INTEREST AND THAT HE WILL COMPLY WITH ALL THE CONDITIONS WITH HIS OWN FREE WILL, WITHOUT ANY DIFFICULTY OR TROUBLE, CONSIDERINGLY, WILLINGLY AND KNOWINGLY.
+ 
+THE PARTIES AGREE THAT THE PROVISIONS OF THE AGREEMENT DO NOT CONSTITUTE AN UNFAIR TERMS AND THAT THERE IS NO INJUSTICE IN TERMS OF THE BALANCE OF INTERESTS.
+
+THE PROVISIONS OF THIS AGREEMENT DO NOT INCLUDE ANY UNFAIR TERMS IN ACCORDANCE WITH THE PROVISIONS OF THE REGULATION ON UNFAIR TERMS IN CONSUMER CONTRACTS. THE PROVISIONS DO NOT CONSTITUTE A CONTRARY TO THE RULE OF HONESTY AND GOOD FAITH AND HAVE BEEN PREPARED IN ACCORDANCE WITH THE CONSUMER PROTECTION LEGISLATION.
+
+THE PROVISIONS OF THIS AGREEMENT HAVE BEEN PREPARED TAKING INTO ACCOUNT THE PROVISIONS OF THE TURKISH CODE OF OBLIGATIONS. THE BINDING AND CONTENT CONTROL SET FORTH IN ARTICLE 21 OF THE TURKISH CODE OF OBLIGATIONS HAVE BEEN CARRIED OUT BY THE USER. NONE OF THE PROVISIONS OF THIS AGREEMENT HAVE ANY NATURE THAT IS FOREIGN (CONFUSING TERMS) TO THE NATURE OF THIS AGREEMENT AND THE SPECIFICATIONS OF THE JOB. THE PROVISIONS OF THIS AGREEMENT HAVE BEEN WRITTEN IN A CLEAR AND UNDERSTANDABLE MANNER AND DO NOT EXPRESS MULTIPLE MEANINGS.
+
+WITH THE ELECTRONIC APPROVAL OF THIS AGREEMENT, THE USER AGREES TO THE SENDING OF INFORMATION, ANNOUNCEMENT, PROMOTIONAL E-MAIL AND SHORT MESSAGES REGARDING INFORMATION OR PROMOTION TO HIS/HER MOBILE PHONE BY THE COMPANY TO HIS/HER REGISTERED ELECTRONIC MAIL ADDRESS AND TO THE PROCESSING, USE AND STORAGE OF HIS/HER PERSONAL INFORMATION BY THE COMPANY FOR THE PURPOSES SPECIFIED IN THIS AGREEMENT, INCLUDING THE COMPANY'S CURRENT AND FUTURE AFFILIATES, SUBSIDIARIES, PARTNERS, SUCCESSORS AND/OR THIRD PARTIES/OR ORGANIZATIONS TO BE DETERMINED BY THEM. IT GIVES APPROVAL TO THE PROCESSING, RECORDING, STORING, PRESERVATION, CLASSIFICATION, DISCLOSURE OR SENDING ABROAD FOR THESE PURPOSES TO THIRD PARTIES.
+
+"Service" expresses …..
+
+"Public Authority" means any judicial or administrative authority, official, semi-official or autonomous institution, organization, commission and board;
+
+5.1 User is acquired by completing the registration process on the Platform.
+
+5.2 Users must be of legal age, otherwise, parental consent is required.
+
+5.3 Users must provide accurate, true and up-to-date information regarding User transactions. The Company determines the scope of this information and may change or expanded it if necessary. A person who does not wish to provide this information cannot become a User of the Platform. For the User to continue, he/she must provide the information in the expanded information list and update his/her information if there are any changes.
+
+5.4 The Company may share the User's information with the relevant Official Authorities in order to fulfill the requirements of the Official Authorities' regulatory or executive procedures or judicial decisions and limited to the request. If there is no confidentiality decision of the relevant Official Authorities, the User will be informed of the said process.
+
+5.5 The Company may use the introductory and/or personal information provided by the Users within the scope of the Service, the preferences they make while using the Service, their agreements or disagreements, for the purpose of auditing the functioning of the system by the Company (and/or may process this information and send it to companies that have signed a confidentiality agreement with the Company); may conduct evaluations and statistical studies, and may announce these on the Platform in a general manner.
+
+5.6 Users may withdraw from User at any time. In this case, the User shall notify the Company of his/her withdrawal request via the Platform and ensure that the necessary procedures are carried out to delete the register. When these procedures are completed, the withdrawal from User is completed. The withdrawal from User shall not have any effect on the rights and obligations arising from the Agreement until the date of withdrawal from User and on the provisions that must remain in force due to their nature even if the Agreement is terminated (compensation due to non-compliance, final provisions, etc.).
+
+The User declares and undertakes that the personal and other information provided while becoming a User of the Platform is true and correct, and that he/she will immediately compensate the Company for any damages that may be incurred due to the untruthfulness of this information and/or failure to update the User's information despite changes. In addition, the User is fully responsible for the Services not being performed correctly due to incorrect information provided by the User.
+
+The User has the exclusive right to use the password he/she received as part of his/her User to use the Platform. The User cannot give this password to any third party. All legal and criminal liability regarding the use of the password and the system access tools (username, etc.) used to benefit from the Platform belongs to the User.
+
+The User accepts, declares and undertakes to comply with all legal legislation provisions and not to violate the said provisions while using the Platform. Otherwise, all legal and criminal liability that may arise will belong entirely and exclusively to the User.
+
+The User may not use the Platform in any way that disrupts public order, is against general morality, disturbs and harasses others, for an illegal purpose, or infringes on the ideas and copyrights of others. Furthermore, the User may not engage in any activities or processes that prevent or make it difficult for others to use the services (spam, virus, trojan horse, etc.), nor may the User engage in activities that threaten the security of the Platform or software or prevent its operation.
+ 
+Although the Company takes the necessary information security measures, it will not be held responsible for the unauthorized access of User information and data and any damage that may occur to User information and data.
+
+The Company is not responsible for any direct or indirect damage that may be incurred due to the use of the Platform by the User.
+
+The Platform may provide links to other websites or applications that are not under the control of the Company, not established, operated or edited by the Company, and may contain references to these websites or applications. The Company is not responsible for the content of these other applications or websites or the other links and/or references they contain or the services they offer. These links do not have the purpose of supporting the owner of the linked website or the person operating the site in question or any declaration or commitment regarding any information, expression or visual in their content. Similarly, the Company is not responsible for the products, services and other content promoted or promised by the advertisements, promotions or banners on the Platform or provided with links through the Platform.
+ 
+The User accepts, declares and undertakes that the Information Text on the Protection of Your Personal Data accessed through the Platform is a part of this Agreement and that he/she has read and approved the provisions contained herein.
+
+The User cannot transfer the User profile created by him/her to a third party or allow a third party to use it. Users cannot transfer their rights and obligations arising from this Agreement without the Company's approval. The Company may transfer its rights and obligations arising from the Agreement to third parties.
+
+If the User violates the provisions of this Agreement, the criminal and legal liability arising from the violations belongs to the User personally. The User shall hold the Company harmless from all damages, lawsuits, demands and claims that may arise due to the violations. In addition; the Company reserves the right to demand compensation from the User due to the violations in question.
+
+The Company has the right to unilaterally suspend or terminate the User's User and delete all information, data, documents and files belonging to the User at any time without assuming any liability and without having to pay compensation.
+
+of the platform and the text and visual content within the site and all other content, brands, logos, know-how and other elements belong to the Company or are used by the Company under license. These cannot be used, acquired, modified, copied or reproduced by the User in any way without the written permission of the Company. The use and accessibility of the Platform or its content by the User within the conditions to be provided by the Company does not grant the User any intellectual and industrial property rights and/or any right ownership or disposition authority.
+
+The Company may disclose the User's personal information to third parties (a) in cases where it is required to do so by applicable law or regulations or a court order or administrative order and/or (b) in cases where the User consents and/or (c) in accordance with the Information Text on the Protection of Your Personal Data, which can be accessed through the Platform. The Company may review the User's confidential information or mobile application records in order to access the information and documents requested for the investigation.
+
+Measures have been taken to ensure that the Platform is free from viruses and similar software within the available means. In addition, in order to ensure ultimate security, the User must provide their own virus protection system and provide the necessary protection. In this context, by becoming a User of the Platform, the User accepts that they are responsible for all errors that may occur in their software and operating systems (including, but not limited to, spam, viruses, trojans) and their direct or indirect consequences.
+ 
+The Company reserves the right to change the scope of the Services, the content, design and software of the Platform at any time, to change, suspend or terminate any service provided to Users and to delete user information and data registered on the Platform at any time.
+
+The Company may update, change or repeal the terms of this Agreement at any time without any prior notice and/or warning in any form. Each updated, changed or repealed provision will be effective for the User on the date of publication.
+
+The Company may send information and announcements to the User regarding service promotions, advertisements, campaigns, advantages, surveys and other customer satisfaction applications within the scope of the current and/or to be implemented practices. The personal information and/or consumer behavior information provided by the User while becoming a User of the Platform and/or through other means in the past and/or to be provided in the future may be collected for the above purposes, used and archived by the Company. Unless the User notifies otherwise, the User accepts and declares that he/she allows the collection, use and archive of data by the Company for the purposes set forth in this Agreement to the extent permitted by the relevant legislation, even when his/her User ends. The User accepts and declares that he/she will not make any claim for any damages due to the collection, sharing, use, archiving and access to the above-mentioned information and will not hold the Company responsible. If the User wishes to change his/her data sharing preferences, he/she shall submit this request to the Company in writing.
+
+To benefit from the Services for The User is responsible for providing the necessary network access. The User is aware that mobile network data may be used and messaging rates and fees may apply if the User accesses the Platform or uses the Services from a device with wireless internet access. It is the User's responsibility to provide updates with the appropriate software and devices required to benefit from the Services and to keep the Platform up to date. The Company does not guarantee that the Service or the Platform it offers will work with a specific device or software. The User accepts that the Service and/or the Platform may be subject to malfunctions and delays depending on the use of the Internet. The Company assumes no responsibility for the problems that the User may experience due to interruptions in Platform access due to technical problems.
+
+The liability exclusion records written for the Company within the scope of this Agreement are also applicable to the Company's employees and partners.
+
+Without the prior approval of the Company, the User is prohibited from providing a link to another website, the content of a website or any data on the network in any transaction made through the Platform.
+
+The User declares and accepts that he/she has read and is informed about the basic features and preliminary information regarding the Service specified on the website and that he/she has given the necessary confirmation regarding these matters electronically.
+
+The Company prioritizes the security of its Users who shop on the website. Credit card information is not stored in the Company's systems in any way.
+
+The reliability of payment/invoice information for orders placed online with a credit card is monitored by the Company against Credit Card Fraud. Therefore, it is necessary to confirm the accuracy of financial and address/phone information. If necessary, the User who owns the credit card or the relevant bank is contacted to check this information.
+
+Only the User can access and change all the information you provide while becoming a User. If the User secures their login information, others can't access and change information about the User. For this purpose, a minimum of 128-bit SSL security is used during User transactions. This system is an international encryption standard that cannot be broken.
+
+The User declares and undertakes that the corporate, personal, financial, and other information shared with the Company is true and correct before the law. The User shall immediately and in full compensate the Company for any damages that may be incurred due to the untruthfulness of this information.
+
+The User accepts in advance that he/she will not claim compensation from the Company for the commercial decisions made by the Company's customers or third parties, the data examined or any damages that may be incurred as a result of the use of the data on the website.
+
+The User declares and undertakes that he/she has obtained and shared his/her own or third party personal, financial and confidential information with the Company in accordance with the law. The Company cannot be held responsible for the personal, financial or confidential information of these third parties.
+
+Since the information in the reports or products includes financial information, banking information and corporate information as well as the User information, they also contain the secrets of the company. The User is obliged to keep the report and products confidential and not to share them with third parties. The User who acts contrary to this provision accepts and declares that he/she is personally responsible for all legal and criminal sanctions.
+
+In accordance with the current legal legislation and within the scope of the Personal Data Protection Law, information is provided within the scope of this article regarding the collection, processing and type, degree and purpose of use of data obtained in connection with the use of the Company domain website belonging to the Company as the "Data Controller".
+
+www…...com The website named is operated by the Company. The Company is the institution responsible for managing the personal data of the Users. The information within the scope of this article is provided within the scope of the "Personal Data Protection Law" numbered 6698.
+
+We have taken technical and administrative measures to ensure that the confidentiality of the Company's employees and service providers is strictly observed while performing their duties and that the personal data of the Users is used for the purposes notified to them in the Agreement, in accordance with the provisions of the Personal Data Protection Law and the relevant legislation.
+
+Processing of personal data is any operation performed on data, such as obtaining, recording, storing, preserving, changing, rearranging, disclosing, transferring, taking over, making available, classifying or preventing the use of personal data, either fully or partially by automatic means (cookies) or non-automatic means, provided that it is part of any data recording system.
+
+The information obtained during the User's use to the website and shopping may be recorded, stored in printed/magnetic archives, updated, shared, transferred, used and processed in other ways indefinitely or for a period of time to be determined by the Company, its current and future affiliates, subsidiaries, partners, successors and/or third parties/organizations to be determined by them for the provision of various services and all kinds of information, advertising-promotion, promotion, sales, marketing, credit card and User applications for electronic and other commercial-social communications. These data may also be forwarded to the relevant Authorities and Courts when required by law.
+
+The personal data of the Users may be used with the consent of the Users so that the Company can provide better service to the Users on the website, improve its services, and also, if you have given permission in this regard, in marketing activities, service offers, all kinds of information, advertising-promotion, promotion, sales, marketing, credit card and User applications, modeling, reporting, scoring, facilitating the use of the Platform, and in development studies to be carried out by the Company or its affiliates regarding the interests and preferences of its users. The Company reserves the right to keep a record of the User's movements on the Platform with cookies and similar methods. Personal information shared by the Company and the User will not be used for any purpose other than this and will not be shared with third parties. However, personal data will be shared with the authorized authorities under the decisions taken by the authorized authorities under the legal legislation in force. By approving this Agreement, the Users accept that their personal information will be used, stored, processed, transferred to third parties and abroad and shared with the authorized authorities under the legal legislation by the Company under these conditions.
+
+If the Company's website contains links to other websites, depending on the nature of the situation, the Company has no influence on whether the operators of these websites comply with the data protection provisions. The Company is not responsible for the content of the sites to which it provides links (and the content of other sites to which those sites provide links) and does not adopt the content of the sites to which it provides links.
+
+According to Article 11 of the Law on the Protection of Personal Data No. 6698, the User has the right to apply to the Company and learn whether his/her personal data has been processed, to request information about the processing of his/her personal data if it has been processed, to learn the purpose of the processing of his/her personal data and whether it is used in accordance with its purpose, to know the third parties to whom his/her personal data has been transferred domestically or abroad, to request correction of his/her personal data if it is processed incompletely or incorrectly, to request deletion or destruction of his/her personal data, to request notification of these transactions to third parties to whom his/her personal data has been transferred in the event of correction, deletion or destruction of his/her personal data, to object to the emergence of a result against him/her by exclusively analyzing the processed data through automatic systems, and to request compensation for the damages incurred due to the unlawful processing of his/her personal data. Users are required to submit their applications for correction, blocking or deletion of their personal data or any questions regarding the protection of data directly to the Company in writing.
+
+Either the User or the Company may terminate this Agreement at any time by notifying the other party.
+
+However; the termination process of the User is carried out by following the termination procedures on the Platform. Termination will not have any effect on the rights and obligations arising from the Agreement until the termination date and on the provisions that must remain in force due to their nature even if the Agreement is terminated (compensation due to non-compliance, final provisions, etc.).
+
+Applicable Law: This Agreement is subject to the laws of the Republic of Turkey and will be interpreted accordingly.
+
+Jurisdiction: Istanbul Central (Çağlayan) Courts and Enforcement Offices are authorized to resolve all disputes arising from or in connection with this Agreement.
+
+Integrity of the Agreement and its Annexes: Annexes to the Agreement shall constitute an integral part of this Agreement and cannot be interpreted separately from each other.
+
+Exclusive Evidence: The Parties agree that in disputes that may arise within the scope of this Agreement, the documents and electronic records belonging to the Company will be exclusive evidence in respect of the dispute in question.
+
+Company Contact Information: The Company's contact information is as follows:
+
+Company Name: [•]
+Telephone: [•]  
+Email: [•]  
+Central Registry Number: [•]
+
+Transactions Made Through the Platform: Transactions made through the Platform that qualify as declarations of intent are considered as declarations of intent binding on the Parties in accordance with the Turkish Code of Obligations, consumer legislation and other legislation in force.`
+    },
   },
   cookies: {
     pageTitle: "Cookie Policy",
