@@ -45,10 +45,6 @@ const Footer = () => {
           <a 
             href="mailto:info@nextgoat.io" 
             className="text-sm hover:underline"
-            onClick={(e) => {
-              e.stopPropagation();
-              window.location.href = "mailto:info@nextgoat.io";
-            }}
           >
             info@nextgoat.io
           </a>

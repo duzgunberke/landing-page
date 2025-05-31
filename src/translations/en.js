@@ -388,7 +388,7 @@ Company reserves the right to update this Information Text at any time. Company 
     },
     contact: {
       title: "Contact Us",
-      content: "If you have any questions about this Privacy Policy, please contact us at privacy@nextgoat.com."
+      content: "If you have any questions about this Privacy Policy, please contact us at info@nextgoat.io."
     }
   },
   terms: {
@@ -464,7 +464,7 @@ Company reserves the right to update this Information Text at any time. Company 
     },
     contact: {
       title: "Contact Us",
-      content: "If you have any questions about these Terms, please contact us at terms@nextgoat.com."
+      content: "If you have any questions about these Terms, please contact us at info@nextgoat.io."
     },
     fullText: {
       title: "Complete Legal Agreement",
@@ -635,7 +635,7 @@ Transactions Made Through the Platform: Transactions made through the Platform t
     },
     contact: {
       title: "Contact Us",
-      content: "If you have any questions about our use of cookies, please contact us at cookies@nextgoat.com."
+      content: "If you have any questions about our use of cookies, please contact us at info@nextgoat.io."
     }
   },
   aboutus: {
@@ -659,7 +659,7 @@ Transactions Made Through the Platform: Transactions made through the Platform t
     },
     contact: {
       title: "Get In Touch",
-      content: "We'd love to hear from you! Whether you're an aspiring footballer, a scout, or someone who shares our passion, reach out to us at info@nextgoat.com."
+      content: "We'd love to hear from you! Whether you're an aspiring footballer, a scout, or someone who shares our passion, reach out to us at info@nextgoat.io."
     }
   }
 };

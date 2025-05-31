@@ -135,7 +135,7 @@ Kullanıcılarımız ile akdetmiş olduğumuz sözleşmelerin koşulları ve mev
 
 İşlenen Kişisel Veriler: Kimlik, İletişim, Hukuki İşlem Verileri
 
-Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getirebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması.
+Hukuki Sebepler: i) Kanunlarda açıkça öngörülmesi, ii) Bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması kaydıyla, sözleşmenin taraflarına ait kişisel verilerin işlenmesinin gerekli olması, iii) Veri sorumlusunun hukuki yükümlülüğünü yerine getebilmesi için zorunlu olması, iv) Veri işlemenin bir hakkın tesisi, kullanılması veya korunması için zorunlu olması.
 
 Akdetmiş olduğumuz sözleşmeler uyarınca üstlenilen yükümlülüklerin ve hizmetlerin ifa edilmesi ve hakların kullanılması.
 
@@ -384,11 +384,11 @@ VIII. KİŞİSEL VERİLERİNİZİN KORUNMASINA İLİŞKİN BİLGİLENDİRME METN
     },
     security: {
       title: "Veri Güvenliği",
-      content: "Kişisel bilgilerinizi yetkisiz erişime, değiştirilmeye, açıklanmaya veya imha edilmeye karşı korumak için uygun güvenlik önlemleri uygulıyoruz. Ancak, internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir."
+      content: "Kişisel bilgilerinizi yetkisiz erişime, değiştirilmeye, açıklanmaya veya imha edilmeye karşı korumak için uygun güvenlik önlemleri uyguluyoruz. Ancak, internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir."
     },
     contact: {
       title: "Bize Ulaşın",
-      content: "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen privacy@nextgoat.com adresinden bize ulaşın."
+      content: "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen info@nextgoat.io adresinden bize ulaşın."
     }
   },
   terms: {
@@ -464,7 +464,7 @@ VIII. KİŞİSEL VERİLERİNİZİN KORUNMASINA İLİŞKİN BİLGİLENDİRME METN
     },
     contact: {
       title: "Bize Ulaşın",
-      content: "Bu Şartlar hakkında herhangi bir sorunuz varsa, lütfen terms@nextgoat.com adresinden bize ulaşın."
+      content: "Bu Şartlar hakkında herhangi bir sorunuz varsa, lütfen info@nextgoat.io adresinden bize ulaşın."
     },
     fullText: {
       title: "Tam Yasal Sözleşme",
@@ -625,7 +625,7 @@ Platform Üzerinden Yapılan İşlemler: Platform üzerinden yapılan ve irade b
         targeting: "Hedefleme çerezleri: Bunlar, size ve ilgi alanlarınıza daha uygun reklamlar sunmak için kullanılır"
       }
     },
-    manage: {
+       manage: {
       title: "Çerezleri Nasıl Yönetebilirsiniz",
       content: "Çoğu web tarayıcısı, ayarlar tercihleri aracılığıyla çerezleri kontrol etmenize olanak tanır. Ancak, web sitelerinin çerez ayarlama yeteneğini sınırlarsanız, genel kullanıcı deneyiminizi kötüleştirebilirsiniz."
     },
@@ -635,7 +635,7 @@ Platform Üzerinden Yapılan İşlemler: Platform üzerinden yapılan ve irade b
     },
     contact: {
       title: "Bize Ulaşın",
-      content: "Çerez kullanımımız hakkında herhangi bir sorunuz varsa, lütfen cookies@nextgoat.com adresinden bize ulaşın."
+      content: "Çerez kullanımımız hakkında herhangi bir sorunuz varsa, lütfen info@nextgoat.io adresinden bize ulaşın."
     }
   },
   aboutus: {
@@ -659,7 +659,7 @@ Platform Üzerinden Yapılan İşlemler: Platform üzerinden yapılan ve irade b
     },
     contact: {
       title: "İletişime Geçin",
-      content: "Sizden haber almak isteriz! İster gelecek vadeden bir futbolcu, ister bir scout, ister tutkumuzu paylaşan biri olun, info@nextgoat.com adresinden bize ulaşın."
+      content: "Sizden haber almak isteriz! İster gelecek vadeden bir futbolcu, ister bir scout, ister tutkumuzu paylaşan biri olun, info@nextgoat.io adresinden bize ulaşın."
     }
   }
 };

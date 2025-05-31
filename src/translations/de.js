@@ -388,7 +388,7 @@ Das Unternehmen behält sich das Recht vor, diesen Informationstext jederzeit zu
     },
     contact: {
       title: "Kontaktieren Sie uns",
-      content: "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter privacy@nextgoat.com."
+      content: "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter info@nextgoat.io."
     }
   },
   terms: {
@@ -464,7 +464,7 @@ Das Unternehmen behält sich das Recht vor, diesen Informationstext jederzeit zu
     },
     contact: {
       title: "Kontaktieren Sie uns",
-      content: "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter terms@nextgoat.com."
+      content: "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter info@nextgoat.io."
     },
     fullText: {
       title: "Vollständige Rechtliche Vereinbarung",
@@ -634,7 +634,7 @@ Zentrale Registrierungsnummer: [•]
       },
       contact: {
         title: "Kontaktieren Sie uns",
-        content: "Wenn Sie Fragen zu unserer Verwendung von Cookies haben, kontaktieren Sie uns bitte unter cookies@nextgoat.com."
+        content: "Wenn Sie Fragen zu unserer Verwendung von Cookies haben, kontaktieren Sie uns bitte unter info@nextgoat.io."
       }
     },
     aboutus: {
@@ -658,7 +658,7 @@ Zentrale Registrierungsnummer: [•]
       },
       contact: {
         title: "Kontaktieren Sie uns",
-        content: "Wir würden gerne von Ihnen hören! Ob Sie ein aufstrebender Fußballer, ein Scout oder jemand sind, der unsere Leidenschaft teilt, kontaktieren Sie uns unter info@nextgoat.com."
+        content: "Wir würden gerne von Ihnen hören! Ob Sie ein aufstrebender Fußballer, ein Scout oder jemand sind, der unsere Leidenschaft teilt, kontaktieren Sie uns unter info@nextgoat.io."
       }
     }
   }
