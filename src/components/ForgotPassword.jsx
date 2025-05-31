@@ -62,7 +62,13 @@ const ForgotPassword = () => {
 
       setSuccess(true);
     } catch (err) {
-      setError(err.message);
+      console.error("Reset password error:", err);
+      
+      if (err.name === 'TypeError' && err.message === 'Failed to fetch') {
+        setError(t('forgotPassword.error.network') || 'Network error. Please check your internet connection or the server might be down.');
+      } else {
+        setError(err.message || t('forgotPassword.error.unknown') || 'An unknown error occurred');
+      }
     }
   };
 
