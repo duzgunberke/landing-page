@@ -45,7 +45,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      const response = await fetch("https://3.75.130.24:8080/users/reset-password", {
+      const response = await fetch("https://api-dev.nextgoat.io/user/reset-password", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
