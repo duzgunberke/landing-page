@@ -180,11 +180,13 @@ const Features = () => {
                   Next<b>GOAT</b>
                 </h3>
 
-                <div className="flex justify-between items-end w-full">
-                  <div className="bg-black/60 px-3 py-1 rounded-full text-blue-50 text-xs font-bold">
+                <div className="flex justify-between items-end w-full mt-auto">
+                  <div className="bg-black/80 px-4 py-2 rounded-full text-blue-50 text-sm font-bold shadow-lg">
                     #ForTheLoveOfFootball
                   </div>
-                  <TiLocationArrow className="scale-[5] text-blue-50" aria-hidden="true" />
+                  <div className="bg-black/50 p-3 rounded-full shadow-lg">
+                    <TiLocationArrow className="scale-[3] text-blue-50" aria-hidden="true" />
+                  </div>
                 </div>
               </div>
             </div>
