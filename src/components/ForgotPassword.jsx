@@ -45,7 +45,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      const response = await fetch("http://api-dev.nextgoat.io/user/reset-password", {
+      const response = await fetch("https://api-dev.nextgoat.io/user/reset-password", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -64,9 +64,37 @@ const ForgotPassword = () => {
     } catch (err) {
       console.error("Reset password error:", err);
       
+      // If HTTPS fails, try HTTP as a fallback
       if (err.name === 'TypeError' && err.message === 'Failed to fetch') {
-        setError((t('forgotPassword.error.network') || 'Network error. Please check your internet connection or the server might be down.') + 
-          ' (Mixed content error: Try accessing this page via HTTP instead of HTTPS or ensure the API supports HTTPS)');
+        try {
+          // Only attempt HTTP fallback if we're on HTTP ourselves
+          if (window.location.protocol === 'http:') {
+            const httpResponse = await fetch("http://api-dev.nextgoat.io/user/reset-password", {
+              method: "PUT",
+              headers: {
+                "Content-Type": "application/json",
+                "next-goat-token": key
+              },
+              body: JSON.stringify({
+                password: password
+              }),
+            });
+            
+            if (!httpResponse.ok) {
+              throw new Error(t('forgotPassword.error.failed'));
+            }
+            
+            setSuccess(true);
+            return;
+          }
+          
+          setError(t('forgotPassword.error.secureConnection') || 
+                  'This page is loaded over HTTPS but the API requires HTTP. Try accessing this page via HTTP instead.');
+        } catch (httpErr) {
+          console.error("HTTP fallback failed:", httpErr);
+          setError(t('forgotPassword.error.allConnectionsFailed') || 
+                  'Failed to connect to the server through secure and insecure connections. Please try again later.');
+        }
       } else {
         setError(err.message || t('forgotPassword.error.unknown') || 'An unknown error occurred');
       }
