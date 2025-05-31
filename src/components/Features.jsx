@@ -128,8 +128,8 @@ const Features = () => {
           />
         </BentoTilt>
 
-        <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
-          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+        <div className="grid h-auto md:h-[135vh] w-full grid-cols-1 md:grid-cols-2 grid-rows-auto md:grid-rows-3 gap-7">
+          <BentoTilt className="bento-tilt_1 h-96 md:h-auto row-span-1 md:col-span-1 md:row-span-2">
             <BentoCard
               src="videos/feature-2.mp4"
               title={t('features.featureCards.scout.title')}
@@ -138,7 +138,7 @@ const Features = () => {
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+          <BentoTilt className="bento-tilt_1 h-96 md:h-auto row-span-1 md:col-span-1 md:ms-0">
             <BentoCard
               src="videos/feature-3.mp4"
               title={t('features.featureCards.leaderboards.title')}
@@ -147,7 +147,7 @@ const Features = () => {
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 h-96 md:h-auto row-span-1 md:col-span-1 md:me-0">
             <BentoCard
               src="videos/feature-4.mp4"
               title={t('features.featureCards.community.title')}
@@ -156,10 +156,10 @@ const Features = () => {
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2 row-span-2 md:row-span-1">
+          <BentoTilt className="bento-tilt_2 h-[500px] md:h-auto col-span-1 row-span-1 md:row-span-1">
             <div className="relative size-full bg-violet-900">
               {/* Phone frame wrapper - vertical orientation */}
-              <div className="absolute left-[60%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[35%] h-[90%] bg-black rounded-3xl border-4 border-gray-800 overflow-hidden shadow-2xl md:w-[25%] md:h-[85%]">
+              <div className="absolute left-1/2 md:left-[60%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[45%] h-[85%] bg-black rounded-3xl border-4 border-gray-800 overflow-hidden shadow-2xl md:w-[25%] md:h-[85%]">
                 {/* Phone notch */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-12 h-4 bg-black rounded-b-xl z-20"></div>
                 {/* Home indicator */}
