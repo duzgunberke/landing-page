@@ -9,27 +9,50 @@ const ForgotPassword = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(false);
+  const [passwordMatch, setPasswordMatch] = useState(true);
 
   const key = searchParams.get("key");
+
+  const validatePasswordMatch = (pass, confirmPass) => {
+    if (confirmPass && pass !== confirmPass) {
+      setPasswordMatch(false);
+      return false;
+    } else {
+      setPasswordMatch(true);
+      return true;
+    }
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+    if (confirmPassword) {
+      validatePasswordMatch(e.target.value, confirmPassword);
+    }
+  };
+
+  const handleConfirmPasswordChange = (e) => {
+    setConfirmPassword(e.target.value);
+    validatePasswordMatch(password, e.target.value);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
 
-    if (password !== confirmPassword) {
+    if (!validatePasswordMatch(password, confirmPassword)) {
       setError(t('forgotPassword.error.mismatch'));
       return;
     }
 
     try {
-      const response = await fetch("/api/reset-password", {
-        method: "POST",
+      const response = await fetch("http://3.75.130.24:8080/users/reset-password", {
+        method: "PUT",
         headers: {
           "Content-Type": "application/json",
+          "next-goat-token": key
         },
         body: JSON.stringify({
-          key,
-          newPassword: password,
+          password: password
         }),
       });
 
@@ -76,7 +99,7 @@ const ForgotPassword = () => {
               <input
                 type="password"
                 value={password}
-                onChange={(e) => setPassword(e.target.value)}
+                onChange={handlePasswordChange}
                 className="mt-1 w-full rounded-md border border-blue-50/20 bg-transparent p-2 text-blue-50 focus:border-violet-300 focus:ring-1 focus:ring-violet-300"
                 required
               />
@@ -89,10 +112,13 @@ const ForgotPassword = () => {
               <input
                 type="password"
                 value={confirmPassword}
-                onChange={(e) => setConfirmPassword(e.target.value)}
-                className="mt-1 w-full rounded-md border border-blue-50/20 bg-transparent p-2 text-blue-50 focus:border-violet-300 focus:ring-1 focus:ring-violet-300"
+                onChange={handleConfirmPasswordChange}
+                className={`mt-1 w-full rounded-md border ${!passwordMatch ? 'border-red-500' : 'border-blue-50/20'} bg-transparent p-2 text-blue-50 focus:border-violet-300 focus:ring-1 focus:ring-violet-300`}
                 required
               />
+              {!passwordMatch && (
+                <p className="text-red-500 text-sm mt-1">{t('forgotPassword.error.mismatch')}</p>
+              )}
             </div>
 
             {error && (
