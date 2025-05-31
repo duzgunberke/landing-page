@@ -156,10 +156,10 @@ const Features = () => {
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2">
+          <BentoTilt className="bento-tilt_2 row-span-2 md:row-span-1">
             <div className="relative size-full bg-violet-900">
               {/* Phone frame wrapper - vertical orientation */}
-              <div className="absolute left-[60%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[35%] h-[80%] bg-black rounded-3xl border-4 border-gray-800 overflow-hidden shadow-2xl md:w-[25%] md:h-[75%]">
+              <div className="absolute left-[60%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[35%] h-[90%] bg-black rounded-3xl border-4 border-gray-800 overflow-hidden shadow-2xl md:w-[25%] md:h-[85%]">
                 {/* Phone notch */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-12 h-4 bg-black rounded-b-xl z-20"></div>
                 {/* Home indicator */}
