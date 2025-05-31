@@ -190,7 +190,7 @@ const Features = () => {
             </div>
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2 h-96 md:h-auto col-span-1 row-span-1 md:row-span-1">
+          {/* <BentoTilt className="bento-tilt_2 h-96 md:h-auto col-span-1 row-span-1 md:row-span-1">
             <video
               src="videos/feature-5.mp4"
               loop
@@ -199,7 +199,7 @@ const Features = () => {
               className="size-full object-cover object-center"
               aria-label="NextGoat feature preview"
             />
-          </BentoTilt>
+          </BentoTilt> */}
         </div>
       </div>
     </section>
