@@ -156,7 +156,7 @@ const Features = () => {
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2 h-[500px] md:h-auto col-span-1 row-span-1 md:row-span-1">
+          <BentoTilt className="bento-tilt_2 h-[500px] md:h-auto overflow-visible md:overflow-hidden col-span-1 row-span-1 md:row-span-1">
             <div className="relative size-full bg-violet-900">
               {/* Phone frame wrapper - vertical orientation */}
               <div className="absolute left-1/2 md:left-[60%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[45%] h-[85%] bg-black rounded-3xl border-4 border-gray-800 overflow-hidden shadow-2xl md:w-[25%] md:h-[85%]">
@@ -190,7 +190,7 @@ const Features = () => {
             </div>
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2">
+          <BentoTilt className="bento-tilt_2 h-96 md:h-auto col-span-1 row-span-1 md:row-span-1">
             <video
               src="videos/feature-5.mp4"
               loop
