@@ -158,15 +158,21 @@ const Features = () => {
 
           <BentoTilt className="bento-tilt_2">
             <div className="relative size-full bg-violet-900">
-              <video
-                src="videos/hero-2.mp4"
-                loop
-                muted
-                autoPlay
-                className="absolute left-0 top-0 size-full object-cover"
-                style={{ objectPosition: "50% 50%" }}
-                aria-hidden="true"
-              />
+              {/* Phone frame wrapper */}
+              <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] h-[80%] bg-black rounded-3xl border-4 border-gray-800 overflow-hidden shadow-2xl">
+                {/* Phone notch */}
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-5 bg-black rounded-b-xl z-20"></div>
+                {/* Video inside phone screen */}
+                <video
+                  src="videos/hero-2.mp4"
+                  loop
+                  muted
+                  autoPlay
+                  className="absolute inset-0 h-full w-full object-cover"
+                  aria-hidden="true"
+                />
+              </div>
+              
               <div className="relative z-10 flex size-full flex-col justify-between p-5">
                 <h3 className="bento-title special-font max-w-64 text-blue-50">
                   Next<b>GOAT</b>
