@@ -139,12 +139,34 @@ const Features = () => {
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_1 h-96 md:h-auto row-span-1 md:col-span-1 md:ms-0">
-            <BentoCard
-              src="videos/feature-3.mp4"
-              title={t('features.featureCards.leaderboards.title')}
-              description={t('features.featureCards.leaderboards.description')}
-              isComingSoon
-            />
+            <article className="relative size-full">
+              <div className="absolute left-0 top-0 size-full overflow-hidden">
+                <video
+                  src="videos/feature-3.mp4"
+                  loop
+                  muted
+                  autoPlay
+                  className="absolute left-0 top-0 w-full scale-125 object-cover"
+                  style={{ objectPosition: "center 25%" }}
+                  aria-hidden="true"
+                />
+              </div>
+              <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
+                <div>
+                  <h3 className="bento-title special-font" dangerouslySetInnerHTML={{ __html: t('features.featureCards.leaderboards.title') }}></h3>
+                  <p className="mt-3 max-w-64 text-xs md:text-base">{t('features.featureCards.leaderboards.description')}</p>
+                </div>
+
+                <div
+                  className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-black px-5 py-2 text-xs uppercase text-white/20"
+                  role="button"
+                  aria-label="Coming soon feature"
+                >
+                  <TiLocationArrow className="relative z-20" />
+                  <p className="relative z-20">coming soon</p>
+                </div>
+              </div>
+            </article>
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_1 h-96 md:h-auto row-span-1 md:col-span-1 md:me-0">
