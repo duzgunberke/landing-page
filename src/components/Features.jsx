@@ -163,8 +163,8 @@ const Features = () => {
                 loop
                 muted
                 autoPlay
-                className="absolute left-0 top-0 size-full object-cover object-center"
-                style={{ objectPosition: "center" }}
+                className="absolute left-0 top-0 size-full object-cover"
+                style={{ objectPosition: "50% 50%" }}
                 aria-hidden="true"
               />
               <div className="relative z-10 flex size-full flex-col justify-between p-5">
@@ -172,7 +172,12 @@ const Features = () => {
                   Next<b>GOAT</b>
                 </h3>
 
-                <TiLocationArrow className="m-5 scale-[5] self-end text-blue-50" aria-hidden="true" />
+                <div className="flex justify-between items-end w-full">
+                  <div className="bg-black/60 px-3 py-1 rounded-full text-blue-50 text-xs font-bold">
+                    #ForTheLoveOfFootball
+                  </div>
+                  <TiLocationArrow className="scale-[5] text-blue-50" aria-hidden="true" />
+                </div>
               </div>
             </div>
           </BentoTilt>
