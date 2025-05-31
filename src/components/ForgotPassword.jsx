@@ -45,7 +45,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      const response = await fetch("http://3.75.130.24:8080/users/reset-password", {
+      const response = await fetch("https://3.75.130.24:8080/users/reset-password", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -65,7 +65,8 @@ const ForgotPassword = () => {
       console.error("Reset password error:", err);
       
       if (err.name === 'TypeError' && err.message === 'Failed to fetch') {
-        setError(t('forgotPassword.error.network') || 'Network error. Please check your internet connection or the server might be down.');
+        setError((t('forgotPassword.error.network') || 'Network error. Please check your internet connection or the server might be down.') + 
+          ' (Mixed content error: Try accessing this page via HTTP instead of HTTPS or ensure the API supports HTTPS)');
       } else {
         setError(err.message || t('forgotPassword.error.unknown') || 'An unknown error occurred');
       }
