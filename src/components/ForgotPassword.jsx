@@ -45,7 +45,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      const response = await fetch("http://api-dev.nextgoat.io/user/reset-password", {
+      const response = await fetch("http://api-dev.nextgoat.io/users/reset-password", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -69,7 +69,7 @@ const ForgotPassword = () => {
         try {
           // Only attempt HTTP fallback if we're on HTTP ourselves
           if (window.location.protocol === 'http:') {
-            const httpResponse = await fetch("http://api-dev.nextgoat.io/user/reset-password", {
+            const httpResponse = await fetch("http://api-dev.nextgoat.io/users/reset-password", {
               method: "PUT",
               headers: {
                 "Content-Type": "application/json",
