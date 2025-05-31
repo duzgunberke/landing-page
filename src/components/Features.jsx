@@ -157,21 +157,22 @@ const Features = () => {
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_2">
-            <div className="relative size-full">
+            <div className="relative size-full bg-violet-900">
               <video
                 src="videos/hero-2.mp4"
                 loop
                 muted
                 autoPlay
                 className="absolute left-0 top-0 size-full object-cover object-center"
+                style={{ objectPosition: "center" }}
                 aria-hidden="true"
               />
               <div className="relative z-10 flex size-full flex-col justify-between p-5">
-                <h3 className="bento-title special-font max-w-64 text-black">
+                <h3 className="bento-title special-font max-w-64 text-blue-50">
                   Next<b>G</b>oat
                 </h3>
 
-                <TiLocationArrow className="m-5 scale-[5] self-end" aria-hidden="true" />
+                <TiLocationArrow className="m-5 scale-[5] self-end text-blue-50" aria-hidden="true" />
               </div>
             </div>
           </BentoTilt>
