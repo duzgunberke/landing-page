@@ -146,8 +146,8 @@ const Features = () => {
                   loop
                   muted
                   autoPlay
-                  className="absolute left-0 top-0 w-full scale-125 object-cover"
-                  style={{ objectPosition: "center 25%" }}
+                  className="absolute left-0 top-0 w-full md:scale-100 scale-125 object-cover"
+                  style={{ objectPosition: "center 25%", "@media (min-width: 768px)": { objectPosition: "center center" } }}
                   aria-hidden="true"
                 />
               </div>
@@ -195,20 +195,35 @@ const Features = () => {
                   className="absolute inset-0 h-full w-full object-cover"
                   aria-hidden="true"
                 />
-              </div>
-              
-              <div className="relative z-10 flex size-full flex-col justify-between p-5">
-                <h3 className="bento-title special-font max-w-64 text-blue-50">
-                  Next<b>GOAT</b>
-                </h3>
-
-                <div className="flex justify-between items-end w-full mt-auto">
-                  <div className="bg-black/80 px-4 py-2 rounded-full text-blue-50 text-sm font-bold shadow-lg">
-                    #ForTheLoveOfFootball
-                  </div>
-                  <div className="bg-black/50 p-3 rounded-full shadow-lg">
-                    <TiLocationArrow className="scale-[3] text-blue-50" aria-hidden="true" />
-                  </div>
+                
+                {/* Hand overlay */}
+                <div className="absolute -bottom-5 -right-5 w-20 h-32 z-30 rotate-[30deg]">
+                  <svg viewBox="0 0 100 160" className="w-full h-full">
+                    <path 
+                      d="M70,30 C85,45 90,75 90,100 C90,120 85,140 70,150 C60,156 45,160 30,155 C15,150 5,135 10,120 C15,105 30,100 35,85 C40,70 35,55 25,45 C15,35 5,30 10,15 C15,0 30,0 40,10 C50,20 55,15 70,30 Z" 
+                      fill="#F5D7C3" 
+                      stroke="#8B5A2B" 
+                      strokeWidth="1.5"
+                    />
+                    <path 
+                      d="M35,85 C40,80 45,80 45,85 C45,90 40,100 35,105 C30,110 20,110 20,105 C20,100 30,90 35,85 Z" 
+                      fill="#F5D7C3" 
+                      stroke="#8B5A2B" 
+                      strokeWidth="1" 
+                    />
+                    <path 
+                      d="M45,70 C50,65 55,65 55,70 C55,75 50,85 45,90 C40,95 30,95 30,90 C30,85 40,75 45,70 Z" 
+                      fill="#F5D7C3" 
+                      stroke="#8B5A2B" 
+                      strokeWidth="1" 
+                    />
+                    <path 
+                      d="M50,55 C55,50 60,50 60,55 C60,60 55,70 50,75 C45,80 35,80 35,75 C35,70 45,60 50,55 Z" 
+                      fill="#F5D7C3" 
+                      stroke="#8B5A2B" 
+                      strokeWidth="1"
+                    />
+                  </svg>
                 </div>
               </div>
             </div>
