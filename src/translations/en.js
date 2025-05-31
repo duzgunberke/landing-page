@@ -22,10 +22,10 @@ export default {
     subtitle: "The Future of Football",
   },
   about: {
-    welcome: "Welcome to Next Goat",
-    title: "DISCOVER THE NEXT GOAT",
+    welcome: "Welcome to NextGOAT",
+    title: "DISCOVER THE NEXTGOAT",
     subtitle: "Join the future of football talent discovery",
-    description: "Share your skills, take on challenges, and become the next GOAT"
+    description: "Share your skills, take on challenges, and become the NextGOAT"
   },
   features: {
     title: "DISCOVER YOUR POTENTIAL",
@@ -51,12 +51,12 @@ export default {
     }
   },
   story: {
-    title: "THE STORY OF NEXT GOAT",
+    title: "THE STORY OF NEXTGOAT",
     description: "Join a global community of aspiring football talents. Showcase your skills through weekly challenges, get discovered by scouts, and take your game to the next level."
   },
   contact: {
     joinCommunity: "JOIN THE COMMUNITY",
-    title: "BECOME THE NEXT GOAT",
+    title: "BECOME THE NEXTGOAT",
     getInTouch: "Get in Touch"
   },
   footer: {

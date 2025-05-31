@@ -22,7 +22,7 @@ export default {
     subtitle: "Die Zukunft des Fußballs",
   },
   about: {
-    welcome: "Willkommen bei Next Goat",
+    welcome: "Willkommen bei NextGOAT",
     title: "ENTDECKE DIE NÄCHSTEN FUßBALLSTARS",
     subtitle: "Sei Teil der Zukunft der Fußballtalententdeckung",
     description: "Zeige deine Fähigkeiten, nimm an Challenges teil und werde der nächste nextGOAT"
@@ -51,7 +51,7 @@ export default {
     }
   },
   story: {
-    title: "DIE GESCHICHTE VON NEXT GOAT",
+    title: "DIE GESCHICHTE VON NEXTGOAT",
     description: "Werde Teil einer globalen Community aufstrebender Fußballtalente. Zeige deine Fähigkeiten in wöchentlichen Challenges, werde von Scouts entdeckt und bringe dein Spiel auf das nächste Level."
   },
   contact: {
