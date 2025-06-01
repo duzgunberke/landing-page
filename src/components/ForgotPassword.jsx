@@ -45,7 +45,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      const response = await fetch("http://api-dev.nextgoat.io/users/reset-password", {
+      const response = await fetch("https://api-dev.nextgoat.io/users/reset-password", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -57,7 +57,8 @@ const ForgotPassword = () => {
       });
 
       if (!response.ok) {
-        throw new Error(t('forgotPassword.error.failed'));
+        const errorData = await response.json().catch(() => null);
+        throw new Error(errorData?.message || t('forgotPassword.error.failed'));
       }
 
       setSuccess(true);

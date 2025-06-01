@@ -28,7 +28,7 @@ export default defineConfig({
     // Add proxy configuration for API requests
     proxy: {
       '/api': {
-        target: 'http://api-dev.nextgoat.io',
+        target: 'https://api-dev.nextgoat.io',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
         secure: false, // Accept invalid SSL certificates in development
