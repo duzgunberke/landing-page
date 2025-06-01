@@ -9,7 +9,11 @@ export default {
     success: "Passwort wurde erfolgreich zurückgesetzt!",
     error: {
       mismatch: "Passwörter stimmen nicht überein",
-      failed: "Passwort zurücksetzen fehlgeschlagen"
+      failed: "Passwort zurücksetzen fehlgeschlagen",
+      connectionFailed: "Verbindung zum Server fehlgeschlagen. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.",
+      secureConnection: "Diese Seite wurde über HTTPS geladen, aber die API erfordert HTTP. Versuchen Sie, auf diese Seite über HTTP zuzugreifen.",
+      allConnectionsFailed: "Verbindung zum Server über sichere und unsichere Verbindungen fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+      unknown: "Ein unbekannter Fehler ist aufgetreten"
     }
   },
   nav: {

@@ -9,7 +9,11 @@ export default {
     success: "Password has been successfully reset!",
     error: {
       mismatch: "Passwords do not match",
-      failed: "Password reset failed"
+      failed: "Password reset failed",
+      connectionFailed: "Failed to connect to the server. Please check your internet connection and try again.",
+      secureConnection: "This page is loaded over HTTPS but the API requires HTTP. Try accessing this page via HTTP instead.",
+      allConnectionsFailed: "Failed to connect to the server through secure and insecure connections. Please try again later.",
+      unknown: "An unknown error occurred"
     }
   },
   nav: {
